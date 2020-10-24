@@ -1,9 +1,8 @@
-<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>我的观影 | 代教程</title>
+<title>python 最佳实践 | 代教程</title>
 <meta name="description" content="学会的，掌握的，给出去，因为它本不属我。" />
 <link rel="shortcut icon" href="https://taidai.github.io/favicon.ico">
 <link rel="stylesheet" href="https://taidai.github.io/styles/main.css">
@@ -16,13 +15,29 @@
 <script src="https://taidai.github.io/media/js/jquery.magnific-popup.min.js"></script>
 <script src="https://taidai.github.io/media/js/functions.js"></script>
     <meta name="referrer" content="never">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iMuFeng/bmdb@1.8.0/dist/Bmdb.min.css">
-    <script type='text/javascript' src='https://cdn.jsdelivr.net/gh/iMuFeng/bmdb@1.8.0/dist/Bmdb.min.js'></script>
+    <meta name="description" content="1、32位python换成64位
+
+
+电脑搜索python-3.8.1.exe
+
+
+卸载
+
+
+https://www.python.org/downloads/windows/
+
+
+下载64位，安装
+
+
+配置系统变量
+
+C:\Users\a..." />
+    <meta name="keywords" content="" />
+    <script src="https://taidai.github.io/media/js/waterfall.min.js"></script>
+    <script src="https://taidai.github.io/media/js/prism.min.js"></script>
   </head>
   <body>
-    <!-- start: #wrapper -->
-    <div class="wrapper">
-      
             <header id="header" class="grid-container">
         <!-- start: .menu-wrapper -->
         <div class="menu-mobile"> 
@@ -89,14 +104,141 @@
         </div>
       </div>
 
-      <main id="friends" class="main fullcover no-sidebar content">
-        <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
+
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2020-10-24"><i class="fa fa-calendar"></i><span class="lately">1 分钟前</span></time>
+              
+            </div>
+            <div class="info">
+              <div class="tags ">
+                
+              </div>
+              <h1 class="title ularge white bold">python 最佳实践</h1>
+            </div>
+          </div>
+        </div>  
+
         <div class="epcl-page-wrapper">
-          <div class="section-content" style="margin-top:3em;"></div>
-        </div>
-        </div>
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <h3 id="1-32位python换成64位">1、32位python换成64位</h3>
+<ol>
+<li>
+<p>电脑搜索python-3.8.1.exe</p>
+</li>
+<li>
+<p>卸载</p>
+</li>
+<li>
+<p>https://www.python.org/downloads/windows/</p>
+</li>
+<li>
+<p>下载64位，安装</p>
+</li>
+<li>
+<p>配置系统变量</p>
+<ol>
+<li>C:\Users\archmage\AppData\Local\Programs\Python\Python38</li>
+<li>C:\Users\archmage\AppData\Local\Programs\Python\Python38\Scripts</li>
+</ol>
+</li>
+</ol>
+<p>4、解决错误：Failed to connect to raw.githubusercontent.com port 443: Connection refused</p>
+<ol>
+<li>
+<p>https://www.ipaddress.com 查询 githubusercontent.com 的真实IP</p>
+</li>
+<li>
+<p>打开终端 然后 <code>sudo vim /etc/hosts</code></p>
+</li>
+<li>
+<p>然后把下面这段ip-域名映射信息复制进去：</p>
+</li>
+</ol>
+<h3 id="2-python批量安装依赖">2、python批量安装依赖</h3>
+<pre><code> python -m pip install -r requirements.txt
+</code></pre>
+<pre><code class="language-python">#requirements.txt
+amqp==1.4.9
+anyjson==0.3.3
+billiard==3.3.0.23
+celery==3.1.26.post2
+certifi==2019.6.16
+chardet==3.0.4
+Django==2.1.11
+django-celery==3.3.0
+django-celery-beat==1.5.0
+django-timezone-field==3.0
+framework==0.1.0
+get==2019.4.13
+idna==2.8
+kombu==3.0.37
+post==2019.4.13
+public==2019.4.13
+PyMySQL==0.9.3
+python-crontab==2.3.7
+python-dateutil==2.8.0
+pytz==2019.1
+query-string==2019.4.13
+request==2019.4.13
+requests==2.22.0
+selenium==3.141.0
+six==1.12.0
+sqlparse==0.3.0
+urllib3==1.25.3
+vine==1.3.0
+</code></pre>
+<h3 id=""></h3>
+<h3 id="3-python启动虚拟环境">3、python启动虚拟环境</h3>
+<pre><code class="language-bash">$ python3 -m venv Venv/
+$ cd Venv
+$ source bin/activate
+(Venv) $   这样表示激活成功，退出虚拟环境deactivate
+</code></pre>
+<h3 id="4-pip使用时出现超时问题">4、pip使用时出现超时问题</h3>
+<p>可以手动换源（推荐，注意要有/simple/）</p>
+<pre><code>pip install numpy -i https://pypi.doubanio.com/simple/  --或者
+pip install -i https://pypi.doubanio.com/simple/ 包名　　--这样下载速度会有很明显的改善。
+</code></pre>
+<h3 id="5-docker-win7-不能正常启动">5、docker win7 不能正常启动</h3>
+<p><code>Docker Quickstart Terminal</code>启动后会复制<code>C:\Users\Administrator\.docker\machine\cache</code>下的镜像<code>boot2docker.iso</code>到<code>C:\Users\Administrator\.docker\machine\machines\default</code>下面。</p>
+<p>检测到默认的镜像不是最新版本的，需要到https://github.com/boot2docker/boot2docker/releases下载最新的，并复制到<code>C:\Users\Administrator\.docker\machine\cache</code>目录下。</p>
+<h3 id="6-pip-安装指定版本的包">6、pip 安装指定版本的包</h3>
+<pre><code class="language-text">pip install robotframework==2.8.7
+</code></pre>
+
+                </div>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
+
+            <section class="related section">
+              
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+              
+            
+              <div id="comments" class="bg-white hosted ">
+                <p>请到客户端“主题--自定义配置--valine”中填入ID和KEY</p>
+              </div>
+              <div class="clear"></div>
+            
+
+            </div>
+          </div>
       </main>
-        <footer id="footer" class="grid-container">
+
+          <footer id="footer" class="grid-container">
         <div class="widgets row gradient-effect">
             <div class="default-sidebar border-effect">
               <div class="grid-33 tablet-grid-50 mobile-grid-100">
@@ -181,15 +323,9 @@
 
         
 
-    <script>
-    new Bmdb({
-      type: 'movies',
-      selector: '.section-content',
-      secret: '',
-      noMoreText: '没有更多数据了',
-      limit: 30
-    })
-    </script>
+      
+    <script src="https://taidai.github.io/media/js/functions-post.js"></script>
+
     </div>
     <!-- end: #wrapper -->
   </body>
