@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taidai.github.io</id>
-    <title>代教程</title>
-    <updated>2020-10-24T03:49:26.610Z</updated>
+    <title>代编程</title>
+    <updated>2020-10-24T05:33:26.529Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taidai.github.io"/>
     <link rel="self" href="https://taidai.github.io/atom.xml"/>
-    <subtitle>学会的，给出去，因为它本不属我。</subtitle>
+    <subtitle>学会了，给出去，因为它本不属我。</subtitle>
     <logo>https://taidai.github.io/images/avatar.png</logo>
     <icon>https://taidai.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 代教程</rights>
+    <rights>All rights reserved 2020, 代编程</rights>
     <entry>
-        <title type="html"><![CDATA[python 小知识 | 日常开发必备]]></title>
+        <title type="html"><![CDATA[【代编程】python 日常开发小知识 ]]></title>
         <id>https://taidai.github.io/post/pythonxzj/</id>
         <link href="https://taidai.github.io/post/pythonxzj/">
         </link>
