@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taidai.github.io</id>
     <title>代教程</title>
-    <updated>2020-10-24T02:13:37.939Z</updated>
+    <updated>2020-10-24T02:17:23.372Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taidai.github.io"/>
     <link rel="self" href="https://taidai.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://taidai.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 代教程</rights>
     <entry>
-        <title type="html"><![CDATA[python 最佳实践]]></title>
+        <title type="html"><![CDATA[python 小知识 | 日常开发必备]]></title>
         <id>https://taidai.github.io/post/python-zui-jia-shi-jian/</id>
         <link href="https://taidai.github.io/post/python-zui-jia-shi-jian/">
         </link>
