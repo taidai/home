@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="DEMO" hostname="demo" timestamp="2020-08-04T21:02:28.789695" tests="3" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="90.480994" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="3.087148"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="5.175226"/>
+		<testcase name="编辑" classname="CQ_001" priority="M" time="79.624554">
+			<failure type="Failure" message="step-7|CLICK|通用-btn审核-确定: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.105)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 6.1.7601 SP1 x86_64)
+"/>
+		</testcase>
+	</testsuite>
+</testsuites>

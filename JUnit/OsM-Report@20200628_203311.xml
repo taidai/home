@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="OsM" hostname="osm" timestamp="2020-06-28T20:33:30.211675" tests="4" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="96.412308" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="17.107933"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="5.306234"/>
+		<testcase name="新增委外工单" classname="CreateOs_001" priority="M" time="38.378191"/>
+		<testcase name="新增发料单" classname="CreateIssue_001" priority="M" time="33.05389">
+			<failure type="Failure" message="step-7|INPUT|通用-val日期#2021年6月28日: Locating the element:通用-val日期#2021年6月28日 is Failure: Timeout"/>
+		</testcase>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+2020-08-20 07:13:38,666 [ERROR]: #  *** From Excel import testsuite failure ***
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\xlrd\book.py", line 474, in sheet_by_name
+    sheetx = self._sheet_names.index(sheet_name)
+ValueError: 'SalesO' is not in list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\autotest.py", line 93, in run
+    data = self.testcase_workbook.read(sheet_name)
+  File "D:\daitest\daitest2\daitest\utility.py", line 54, in read
+    sheet = self.workbook.sheet_by_name(sheet_name)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\xlrd\book.py", line 476, in sheet_by_name
+    raise XLRDError('No sheet named <%r>' % sheet_name)
+xlrd.biffh.XLRDError: No sheet named <'SalesO'>

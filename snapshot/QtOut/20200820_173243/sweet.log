@@ -1,0 +1,1154 @@
+2020-08-20 17:32:43,487 [INFO]: #  From Excel import testsuite success
+2020-08-20 17:32:46,215 [INFO]: #  --------------------------------------------------
+2020-08-20 17:32:46,215 [INFO]: #  >>> Run the TestCase: HOME_001|打开云塑ERP
+2020-08-20 17:32:46,215 [INFO]: #  Run the Step: 1|通用|OPEN|通用-首页链接
+2020-08-20 17:32:48,847 [INFO]: #  --- success ---
+2020-08-20 17:32:49,053 [INFO]: #  Run the Step: 2|通用|CHECK|通用-页面title
+2020-08-20 17:32:49,053 [INFO]: #  DATA:'云塑 企业资源计划管理系统'
+2020-08-20 17:32:49,053 [INFO]: #  REAL:'云塑 企业资源计划管理系统'
+2020-08-20 17:32:49,064 [INFO]: #  --- success ---
+2020-08-20 17:32:49,266 [INFO]: #  --------------------------------------------------
+2020-08-20 17:32:49,276 [INFO]: #  >>> Run the TestCase: Login_001|登录
+2020-08-20 17:32:49,276 [INFO]: #  Run the Step: 1|登录页面|INPUT|登录页面-账号输入框
+2020-08-20 17:32:50,045 [INFO]: #  --- success ---
+2020-08-20 17:32:50,256 [INFO]: #  Run the Step: 2|登录页面|INPUT|登录页面-密码输入框
+2020-08-20 17:32:51,103 [INFO]: #  --- success ---
+2020-08-20 17:32:51,320 [INFO]: #  Run the Step: 3|登录页面|CLICK|登录页面-确定按钮
+2020-08-20 17:32:52,002 [INFO]: #  --- success ---
+2020-08-20 17:32:52,204 [INFO]: #  Run the Step: 4|登录页面|CHECK|通用-页面加载校验
+2020-08-20 17:32:53,816 [INFO]: #  DATA:'欢迎进入 云塑企业资源计划管理系统'
+2020-08-20 17:32:53,816 [INFO]: #  REAL:'欢迎进入 云塑企业资源计划管理系统'
+2020-08-20 17:32:53,826 [INFO]: #  DATA:"{'domain':'.baidu.com'"
+2020-08-20 17:32:53,831 [INFO]: #  REAL:None
+2020-08-20 17:32:54,278 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\keywords\web.py", line 115, in check
+    compare(expected, real)
+  File "D:\daitest\daitest2\daitest\utility.py", line 459, in compare
+    assert isinstance(real, str)
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\testcase.py", line 137, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "D:\daitest\daitest2\daitest\keywords\web.py", line 117, in check
+    raise Exception(f'Check Failure, DATA:{repr(expected)}, REAL:{repr(real)}')
+Exception: Check Failure, DATA:"{'domain':'.baidu.com'", REAL:None
+2020-08-20 17:32:54,282 [WARNING]: #  Run the testcase: Login_001|登录 Failure, BASE is not success. Break the AutoTest
+2020-08-20 17:32:56,561 [INFO]: #  --- Quit th Driver: Chrome
+2020-08-20 17:32:56,601 [INFO]: #  From Excel import testsuite success
+2020-08-20 17:32:59,805 [INFO]: #  --------------------------------------------------
+2020-08-20 17:32:59,805 [INFO]: #  >>> Run the TestCase: HOME_001|打开云塑ERP
+2020-08-20 17:32:59,805 [INFO]: #  Run the Step: 1|通用|OPEN|通用-首页链接
+2020-08-20 17:33:02,384 [INFO]: #  --- success ---
+2020-08-20 17:33:02,600 [INFO]: #  Run the Step: 2|通用|CHECK|通用-页面title
+2020-08-20 17:33:02,601 [INFO]: #  DATA:'云塑 企业资源计划管理系统'
+2020-08-20 17:33:02,608 [INFO]: #  REAL:'云塑 企业资源计划管理系统'
+2020-08-20 17:33:02,624 [INFO]: #  --- success ---
+2020-08-20 17:33:02,824 [INFO]: #  --------------------------------------------------
+2020-08-20 17:33:02,824 [INFO]: #  >>> Run the TestCase: Login_001|登录
+2020-08-20 17:33:02,825 [INFO]: #  Run the Step: 1|登录页面|INPUT|登录页面-账号输入框
+2020-08-20 17:33:03,583 [INFO]: #  --- success ---
+2020-08-20 17:33:03,784 [INFO]: #  Run the Step: 2|登录页面|INPUT|登录页面-密码输入框
+2020-08-20 17:33:04,596 [INFO]: #  --- success ---
+2020-08-20 17:33:04,803 [INFO]: #  Run the Step: 3|登录页面|CLICK|登录页面-确定按钮
+2020-08-20 17:33:05,442 [INFO]: #  --- success ---
+2020-08-20 17:33:05,643 [INFO]: #  Run the Step: 4|登录页面|CHECK|通用-页面加载校验
+2020-08-20 17:33:07,254 [INFO]: #  DATA:'欢迎进入 云塑企业资源计划管理系统'
+2020-08-20 17:33:07,255 [INFO]: #  REAL:'欢迎进入 云塑企业资源计划管理系统'
+2020-08-20 17:33:07,256 [INFO]: #  --- success ---
+2020-08-20 17:33:07,456 [INFO]: #  ==================================================
+2020-08-20 17:33:07,456 [INFO]: #  ...No SETUP testcase need to run...
+2020-08-20 17:33:07,456 [INFO]: #  --------------------------------------------------
+2020-08-20 17:33:07,457 [INFO]: #  >>> Run the TestCase: AEQ_001|审核编辑
+2020-08-20 17:33:07,457 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-08-20 17:33:07,458 [INFO]: #  >>> Run the TestCase: CQ_001|新增其他出库
+2020-08-20 17:33:07,458 [INFO]: #  Run the Step: 1|登录页面|CLICK|通用-左侧栏一级菜单#仓库管理
+2020-08-20 17:33:08,200 [INFO]: #  --- success ---
+2020-08-20 17:33:08,401 [INFO]: #  Run the Step: 2|登录页面|CLICK|通用-左侧栏二级菜单#出库管理
+2020-08-20 17:33:09,574 [INFO]: #  --- success ---
+2020-08-20 17:33:09,775 [INFO]: #  Run the Step: 3|登录页面|CLICK|通用-左侧栏一级菜单#仓库管理
+2020-08-20 17:33:10,489 [INFO]: #  --- success ---
+2020-08-20 17:33:10,693 [INFO]: #  Run the Step: 4|其他出库|CLICK|其他出库-tab其他出库
+2020-08-20 17:33:11,543 [INFO]: #  --- success ---
+2020-08-20 17:33:11,746 [INFO]: #  Run the Step: 5|其他出库|CLICK|其他出库-btn新增
+2020-08-20 17:33:12,820 [INFO]: #  --- success ---
+2020-08-20 17:33:13,020 [INFO]: #  Run the Step: 6|其他出库|CHECK|其他出库-lab出库状态#未定义
+2020-08-20 17:33:13,118 [INFO]: #  DATA:'未定义'
+2020-08-20 17:33:13,118 [INFO]: #  REAL:'未定义'
+2020-08-20 17:33:13,119 [INFO]: #  --- success ---
+2020-08-20 17:33:13,319 [INFO]: #  Run the Step: 7|其他出库|CLICK|其他出库-sel出库类型
+2020-08-20 17:33:13,978 [INFO]: #  --- success ---
+2020-08-20 17:33:14,180 [INFO]: #  Run the Step: 8|其他出库|CLICK|其他出库-val出库类型-送货
+2020-08-20 17:33:28,840 [ERROR]: #  *** save the screenshot is failure ***
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\locator.py", line 32, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 79, in request
+    return self.request_encode_body(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1347, in getresponse
+    response.begin()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000CE619D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\locator.py", line 37, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 79, in request
+    return self.request_encode_body(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=60294): Max retries exceeded with url: /session/2227cd63fb7a5ecb70d1ebc09243f61e/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000CE619D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\testcase.py", line 137, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "D:\daitest\daitest2\daitest\keywords\web.py", line 175, in click
+    element_location = locating_element(element, 'CLICK')
+  File "D:\daitest\daitest2\daitest\locator.py", line 40, in locating_element
+    raise Exception('Locating the element:%s is Failure: Timeout' % element)
+Exception: Locating the element:其他出库-val出库类型-送货 is Failure: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000CE61F70>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\testcase.py", line 227, in run
+    g.driver.get_screenshot_as_file(step['snapshot']['Failure'])
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 75, in request
+    return self.request_encode_url(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 97, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=60294): Max retries exceeded with url: /session/2227cd63fb7a5ecb70d1ebc09243f61e/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000CE61F70>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-08-20 17:33:28,860 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\locator.py", line 32, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 79, in request
+    return self.request_encode_body(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1347, in getresponse
+    response.begin()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000CE619D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\locator.py", line 37, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 79, in request
+    return self.request_encode_body(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=60294): Max retries exceeded with url: /session/2227cd63fb7a5ecb70d1ebc09243f61e/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000CE619D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\testcase.py", line 137, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "D:\daitest\daitest2\daitest\keywords\web.py", line 175, in click
+    element_location = locating_element(element, 'CLICK')
+  File "D:\daitest\daitest2\daitest\locator.py", line 40, in locating_element
+    raise Exception('Locating the element:%s is Failure: Timeout' % element)
+Exception: Locating the element:其他出库-val出库类型-送货 is Failure: Timeout
+2020-08-20 17:33:28,865 [INFO]: #  ==================================================
+2020-08-20 17:33:28,865 [INFO]: #  ...No SETUP testcase need to run...
+2020-08-20 17:33:28,866 [INFO]: #  --------------------------------------------------
+2020-08-20 17:33:28,866 [INFO]: #  >>> Run the TestCase: DQ_001|删除出库订单
+2020-08-20 17:33:28,866 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-08-20 17:33:28,868 [INFO]: #  >>> Run the TestCase: CQ_001|新增其他出库
+2020-08-20 17:33:28,869 [INFO]: #  Run the Step: 1|其他出库|CLICK|通用-左侧栏一级菜单#仓库管理
+2020-08-20 17:33:45,876 [ERROR]: #  *** save the screenshot is failure ***
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000CE76A90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\locator.py", line 32, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 79, in request
+    return self.request_encode_body(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=60294): Max retries exceeded with url: /session/2227cd63fb7a5ecb70d1ebc09243f61e/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000CE76A90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000CE61D00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\locator.py", line 37, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 79, in request
+    return self.request_encode_body(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=60294): Max retries exceeded with url: /session/2227cd63fb7a5ecb70d1ebc09243f61e/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000CE61D00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\testcase.py", line 137, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "D:\daitest\daitest2\daitest\keywords\web.py", line 175, in click
+    element_location = locating_element(element, 'CLICK')
+  File "D:\daitest\daitest2\daitest\locator.py", line 40, in locating_element
+    raise Exception('Locating the element:%s is Failure: Timeout' % element)
+Exception: Locating the element:通用-左侧栏一级菜单#仓库管理 is Failure: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000CE76FA0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\testcase.py", line 227, in run
+    g.driver.get_screenshot_as_file(step['snapshot']['Failure'])
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 75, in request
+    return self.request_encode_url(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 97, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=60294): Max retries exceeded with url: /session/2227cd63fb7a5ecb70d1ebc09243f61e/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000CE76FA0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-08-20 17:33:45,895 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000CE76A90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\locator.py", line 32, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 79, in request
+    return self.request_encode_body(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=60294): Max retries exceeded with url: /session/2227cd63fb7a5ecb70d1ebc09243f61e/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000CE76A90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000CE61D00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\locator.py", line 37, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 79, in request
+    return self.request_encode_body(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=60294): Max retries exceeded with url: /session/2227cd63fb7a5ecb70d1ebc09243f61e/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000CE61D00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\testcase.py", line 137, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "D:\daitest\daitest2\daitest\keywords\web.py", line 175, in click
+    element_location = locating_element(element, 'CLICK')
+  File "D:\daitest\daitest2\daitest\locator.py", line 40, in locating_element
+    raise Exception('Locating the element:%s is Failure: Timeout' % element)
+Exception: Locating the element:通用-左侧栏一级菜单#仓库管理 is Failure: Timeout
+2020-08-20 17:33:45,901 [INFO]: #  ==================================================
+2020-08-20 17:33:45,901 [INFO]: #  ...No SETUP testcase need to run...
+2020-08-20 17:33:45,902 [INFO]: #  --------------------------------------------------
+2020-08-20 17:33:45,902 [INFO]: #  >>> Run the TestCase: CH_001|查看需求订单
+2020-08-20 17:33:45,902 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-08-20 17:33:45,904 [INFO]: #  >>> Run the TestCase: CQ_001|新增其他出库
+2020-08-20 17:33:45,905 [INFO]: #  Run the Step: 1|其他出库|CLICK|通用-左侧栏一级菜单#仓库管理
+2020-08-20 17:34:02,963 [ERROR]: #  *** save the screenshot is failure ***
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000CF1E700>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\locator.py", line 32, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 79, in request
+    return self.request_encode_body(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=60294): Max retries exceeded with url: /session/2227cd63fb7a5ecb70d1ebc09243f61e/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000CF1E700>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000CE76FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\locator.py", line 37, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 79, in request
+    return self.request_encode_body(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=60294): Max retries exceeded with url: /session/2227cd63fb7a5ecb70d1ebc09243f61e/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000CE76FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\testcase.py", line 137, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "D:\daitest\daitest2\daitest\keywords\web.py", line 175, in click
+    element_location = locating_element(element, 'CLICK')
+  File "D:\daitest\daitest2\daitest\locator.py", line 40, in locating_element
+    raise Exception('Locating the element:%s is Failure: Timeout' % element)
+Exception: Locating the element:通用-左侧栏一级菜单#仓库管理 is Failure: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000CE61DF0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\testcase.py", line 227, in run
+    g.driver.get_screenshot_as_file(step['snapshot']['Failure'])
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 75, in request
+    return self.request_encode_url(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 97, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=60294): Max retries exceeded with url: /session/2227cd63fb7a5ecb70d1ebc09243f61e/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000CE61DF0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-08-20 17:34:02,973 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000CF1E700>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\locator.py", line 32, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 79, in request
+    return self.request_encode_body(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=60294): Max retries exceeded with url: /session/2227cd63fb7a5ecb70d1ebc09243f61e/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000CF1E700>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000CE76FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\locator.py", line 37, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 79, in request
+    return self.request_encode_body(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 754, in urlopen
+    return self.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=60294): Max retries exceeded with url: /session/2227cd63fb7a5ecb70d1ebc09243f61e/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000CE76FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\testcase.py", line 137, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "D:\daitest\daitest2\daitest\keywords\web.py", line 175, in click
+    element_location = locating_element(element, 'CLICK')
+  File "D:\daitest\daitest2\daitest\locator.py", line 40, in locating_element
+    raise Exception('Locating the element:%s is Failure: Timeout' % element)
+Exception: Locating the element:通用-左侧栏一级菜单#仓库管理 is Failure: Timeout
+2020-08-20 17:34:08,979 [INFO]: #  --- Quit th Driver: Chrome

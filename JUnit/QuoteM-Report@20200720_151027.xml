@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="QuoteM" hostname="quotem" timestamp="2020-07-20T15:10:27.653878" tests="5" failures="3" failures_detail="H:0 M:3 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="84.585838" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="7.734442"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="5.2523"/>
+		<testcase name="查看附件" classname="VQ_001" priority="M" time="27.485572">
+			<failure type="Failure" message="step-4|CHECK|lab报价状态: Locating the element:lab报价状态 is Failure, this element is not define"/>
+		</testcase>
+		<testcase name="审核编辑" classname="AEQ_001" priority="M" time="14.198813">
+			<failure type="Failure" message="step-4|CHECK|lab报价状态: Locating the element:lab报价状态 is Failure, this element is not define"/>
+		</testcase>
+		<testcase name="删除报价单" classname="DQ_001" priority="M" time="27.329563">
+			<failure type="Failure" message=""/>
+		</testcase>
+	</testsuite>
+</testsuites>

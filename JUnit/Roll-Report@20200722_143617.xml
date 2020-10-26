@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Roll" hostname="roll" timestamp="2020-07-22T14:36:18.018365" tests="5" failures="2" failures_detail="H:0 M:2 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="169.331686" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="7.88345"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="6.171353"/>
+		<testcase name="审核编辑" classname="AEQ_001" priority="M" time="74.880283"/>
+		<testcase name="删除需求订单" classname="DQ_001" priority="M" time="21.808248">
+			<failure type="Failure" message=""/>
+		</testcase>
+		<testcase name="查看需求订单" classname="CH_001" priority="M" time="55.927199">
+			<failure type="Failure" message=""/>
+		</testcase>
+	</testsuite>
+</testsuites>

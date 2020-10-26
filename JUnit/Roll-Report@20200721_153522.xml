@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Roll" hostname="roll" timestamp="2020-07-21T15:35:22.434177" tests="5" failures="3" failures_detail="H:0 M:3 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="114.427545" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="6.390365"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="4.933282"/>
+		<testcase name="审核编辑" classname="AEQ_001" priority="M" time="50.745903">
+			<failure type="Failure" message="step-4|CHECK|滚动需求订单-lab滚动单状态#已提交: Locating the element:滚动需求订单-lab滚动单状态#已提交 is Failure: Timeout"/>
+		</testcase>
+		<testcase name="删除需求订单" classname="DQ_001" priority="M" time="21.342221">
+			<failure type="Failure" message=""/>
+		</testcase>
+		<testcase name="查看需求订单" classname="CH_001" priority="M" time="28.288618">
+			<failure type="Failure" message=""/>
+		</testcase>
+	</testsuite>
+</testsuites>

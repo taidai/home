@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="OsM" hostname="osm" timestamp="2020-06-28T11:37:23.787017" tests="2" failures="2" failures_detail="H:1 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="29.383174" skipped="0" disabled="0">
+		<testcase name="搜索：自动化测试" classname="BAIDU_001" priority="H" time="17.70795">
+			<failure type="Failure" message="step-1|INPUT|搜索框: Locating the element:搜索框 is Failure, this element is not define"/>
+		</testcase>
+		<testcase name="登录" classname="LOGIN_001" priority="M" time="9.074163">
+			<failure type="Failure" message="step-3|CLICK|登录页面-确定按钮: Locating the element:登录页面-确定按钮 is Failure: Timeout"/>
+		</testcase>
+	</testsuite>
+</testsuites>

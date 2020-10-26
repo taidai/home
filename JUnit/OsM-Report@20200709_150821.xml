@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="OsM" hostname="osm" timestamp="2020-07-09T15:08:21.747132" tests="4" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="86.466816" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="17.335962"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="5.022242"/>
+		<testcase name="新增委外工单" classname="CreateOs_001" priority="M" time="39.830774"/>
+		<testcase name="新增发料单" classname="CreateIssue_001" priority="M" time="21.604733">
+			<failure type="Failure" message="step-17|INPUT|建议发料量-面板: Locating the element:建议发料量-面板 is Failure, this element is not define"/>
+		</testcase>
+	</testsuite>
+</testsuites>

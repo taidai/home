@@ -1,0 +1,138 @@
+2020-08-20 17:19:49,303 [INFO]: #  From Excel import testsuite success
+2020-08-20 17:19:51,917 [INFO]: #  --------------------------------------------------
+2020-08-20 17:19:51,918 [INFO]: #  >>> Run the TestCase: HOME_001|打开云塑ERP
+2020-08-20 17:19:51,919 [INFO]: #  Run the Step: 1|通用|OPEN|通用-首页链接
+2020-08-20 17:19:54,537 [INFO]: #  --- success ---
+2020-08-20 17:19:54,738 [INFO]: #  Run the Step: 2|通用|CHECK|通用-页面title
+2020-08-20 17:19:54,740 [INFO]: #  DATA:'云塑 企业资源计划管理系统'
+2020-08-20 17:19:54,755 [INFO]: #  REAL:'云塑 企业资源计划管理系统'
+2020-08-20 17:19:54,769 [INFO]: #  --- success ---
+2020-08-20 17:19:54,970 [INFO]: #  --------------------------------------------------
+2020-08-20 17:19:54,972 [INFO]: #  >>> Run the TestCase: Login_001|登录
+2020-08-20 17:19:54,974 [INFO]: #  Run the Step: 1|登录页面|INPUT|登录页面-账号输入框
+2020-08-20 17:19:55,752 [INFO]: #  --- success ---
+2020-08-20 17:19:55,952 [INFO]: #  Run the Step: 2|登录页面|INPUT|登录页面-密码输入框
+2020-08-20 17:19:56,803 [INFO]: #  --- success ---
+2020-08-20 17:19:57,004 [INFO]: #  Run the Step: 3|登录页面|CLICK|登录页面-确定按钮
+2020-08-20 17:19:57,645 [INFO]: #  --- success ---
+2020-08-20 17:19:57,846 [INFO]: #  Run the Step: 4|登录页面|CHECK|通用-页面加载校验
+2020-08-20 17:19:59,717 [INFO]: #  DATA:'欢迎进入 云塑企业资源计划管理系统'
+2020-08-20 17:19:59,718 [INFO]: #  REAL:'欢迎进入 云塑企业资源计划管理系统'
+2020-08-20 17:19:59,745 [INFO]: #  --- success ---
+2020-08-20 17:19:59,945 [INFO]: #  ==================================================
+2020-08-20 17:19:59,945 [INFO]: #  ...No SETUP testcase need to run...
+2020-08-20 17:19:59,946 [INFO]: #  --------------------------------------------------
+2020-08-20 17:19:59,947 [INFO]: #  >>> Run the TestCase: AEQ_001|审核编辑
+2020-08-20 17:19:59,949 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-08-20 17:19:59,952 [INFO]: #  >>> Run the TestCase: CQ_001|新增其他入库
+2020-08-20 17:19:59,955 [INFO]: #  Run the Step: 1|登录页面|CLICK|通用-左侧栏一级菜单#仓库管理
+2020-08-20 17:20:00,731 [INFO]: #  --- success ---
+2020-08-20 17:20:00,931 [INFO]: #  Run the Step: 2|登录页面|CLICK|通用-左侧栏二级菜单#入库管理
+2020-08-20 17:20:02,095 [INFO]: #  --- success ---
+2020-08-20 17:20:02,296 [INFO]: #  Run the Step: 3|登录页面|CLICK|通用-左侧栏一级菜单#仓库管理
+2020-08-20 17:20:02,980 [INFO]: #  --- success ---
+2020-08-20 17:20:03,180 [INFO]: #  Page:其他入库 element:tab其他入库
+2020-08-20 17:20:03,181 [INFO]: #  Run the Step: 4|其他入库|CLICK|tab其他入库
+2020-08-20 17:20:03,547 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "daitest\testcase.py", line 137, in run
+  File "daitest\keywords\web.py", line 175, in click
+  File "daitest\locator.py", line 23, in locating_element
+Exception: Locating the element:tab其他入库 is Failure, this element is not define
+2020-08-20 17:20:03,549 [INFO]: #  ==================================================
+2020-08-20 17:20:03,550 [INFO]: #  ...No SETUP testcase need to run...
+2020-08-20 17:20:03,551 [INFO]: #  --------------------------------------------------
+2020-08-20 17:20:03,552 [INFO]: #  >>> Run the TestCase: DQ_001|删除入库订单
+2020-08-20 17:20:03,554 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-08-20 17:20:03,556 [INFO]: #  >>> Run the TestCase: CQ_001|新增其他入库
+2020-08-20 17:20:03,557 [INFO]: #  Run the Step: 1|其他入库|CLICK|通用-左侧栏一级菜单#仓库管理
+2020-08-20 17:20:04,233 [INFO]: #  --- success ---
+2020-08-20 17:20:04,434 [INFO]: #  Run the Step: 2|其他入库|CLICK|通用-左侧栏二级菜单#入库管理
+2020-08-20 17:20:05,039 [INFO]: #  --- success ---
+2020-08-20 17:20:05,239 [INFO]: #  Run the Step: 3|其他入库|CLICK|通用-左侧栏一级菜单#仓库管理
+2020-08-20 17:20:05,927 [INFO]: #  --- success ---
+2020-08-20 17:20:06,127 [INFO]: #  Page:其他入库 element:tab其他入库
+2020-08-20 17:20:06,128 [INFO]: #  Run the Step: 4|其他入库|CLICK|tab其他入库
+2020-08-20 17:20:06,504 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "daitest\testcase.py", line 137, in run
+  File "daitest\keywords\web.py", line 175, in click
+  File "daitest\locator.py", line 23, in locating_element
+Exception: Locating the element:tab其他入库 is Failure, this element is not define
+2020-08-20 17:20:06,505 [INFO]: #  ==================================================
+2020-08-20 17:20:06,506 [INFO]: #  ...No SETUP testcase need to run...
+2020-08-20 17:20:06,507 [INFO]: #  --------------------------------------------------
+2020-08-20 17:20:06,508 [INFO]: #  >>> Run the TestCase: CH_001|查看需求订单
+2020-08-20 17:20:06,509 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-08-20 17:20:06,512 [INFO]: #  >>> Run the TestCase: CQ_001|新增其他入库
+2020-08-20 17:20:06,513 [INFO]: #  Run the Step: 1|其他入库|CLICK|通用-左侧栏一级菜单#仓库管理
+2020-08-20 17:20:07,175 [INFO]: #  --- success ---
+2020-08-20 17:20:07,376 [INFO]: #  Run the Step: 2|其他入库|CLICK|通用-左侧栏二级菜单#入库管理
+2020-08-20 17:20:07,979 [INFO]: #  --- success ---
+2020-08-20 17:20:08,179 [INFO]: #  Run the Step: 3|其他入库|CLICK|通用-左侧栏一级菜单#仓库管理
+2020-08-20 17:20:08,846 [INFO]: #  --- success ---
+2020-08-20 17:20:09,047 [INFO]: #  Page:其他入库 element:tab其他入库
+2020-08-20 17:20:09,048 [INFO]: #  Run the Step: 4|其他入库|CLICK|tab其他入库
+2020-08-20 17:20:09,419 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "daitest\testcase.py", line 137, in run
+  File "daitest\keywords\web.py", line 175, in click
+  File "daitest\locator.py", line 23, in locating_element
+Exception: Locating the element:tab其他入库 is Failure, this element is not define
+2020-08-20 17:20:11,609 [INFO]: #  --- Quit th Driver: Chrome
+2020-08-20 17:20:11,655 [INFO]: #  From Excel import testsuite success
+2020-08-20 17:20:14,711 [INFO]: #  --------------------------------------------------
+2020-08-20 17:20:14,712 [INFO]: #  >>> Run the TestCase: HOME_001|打开云塑ERP
+2020-08-20 17:20:14,714 [INFO]: #  Run the Step: 1|通用|OPEN|通用-首页链接
+2020-08-20 17:20:17,283 [INFO]: #  --- success ---
+2020-08-20 17:20:17,484 [INFO]: #  Run the Step: 2|通用|CHECK|通用-页面title
+2020-08-20 17:20:17,486 [INFO]: #  DATA:'云塑 企业资源计划管理系统'
+2020-08-20 17:20:17,498 [INFO]: #  REAL:'云塑 企业资源计划管理系统'
+2020-08-20 17:20:17,511 [INFO]: #  --- success ---
+2020-08-20 17:20:17,712 [INFO]: #  --------------------------------------------------
+2020-08-20 17:20:17,712 [INFO]: #  >>> Run the TestCase: Login_001|登录
+2020-08-20 17:20:17,714 [INFO]: #  Run the Step: 1|登录页面|INPUT|登录页面-账号输入框
+2020-08-20 17:20:18,473 [INFO]: #  --- success ---
+2020-08-20 17:20:18,705 [INFO]: #  Run the Step: 2|登录页面|INPUT|登录页面-密码输入框
+2020-08-20 17:20:19,530 [INFO]: #  --- success ---
+2020-08-20 17:20:19,731 [INFO]: #  Run the Step: 3|登录页面|CLICK|登录页面-确定按钮
+2020-08-20 17:20:20,388 [INFO]: #  --- success ---
+2020-08-20 17:20:20,589 [INFO]: #  Run the Step: 4|登录页面|CHECK|通用-页面加载校验
+2020-08-20 17:20:22,330 [INFO]: #  DATA:'欢迎进入 云塑企业资源计划管理系统'
+2020-08-20 17:20:22,332 [INFO]: #  REAL:'欢迎进入 云塑企业资源计划管理系统'
+2020-08-20 17:20:22,333 [INFO]: #  --- success ---
+2020-08-20 17:20:22,534 [INFO]: #  ==================================================
+2020-08-20 17:20:22,534 [INFO]: #  ...No SETUP testcase need to run...
+2020-08-20 17:20:22,535 [INFO]: #  --------------------------------------------------
+2020-08-20 17:20:22,536 [INFO]: #  >>> Run the TestCase: AEQ_001|审核编辑
+2020-08-20 17:20:22,538 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-08-20 17:20:22,541 [INFO]: #  >>> Run the TestCase: CQ_001|新增其他出库
+2020-08-20 17:20:22,542 [INFO]: #  Run the Step: 1|登录页面|CLICK|通用-左侧栏一级菜单#仓库管理
+2020-08-20 17:20:23,304 [INFO]: #  --- success ---
+2020-08-20 17:20:23,504 [INFO]: #  Run the Step: 2|登录页面|CLICK|通用-左侧栏二级菜单#出库管理
+2020-08-20 17:20:24,781 [INFO]: #  --- success ---
+2020-08-20 17:20:24,981 [INFO]: #  Run the Step: 3|登录页面|CLICK|通用-左侧栏一级菜单#仓库管理
+2020-08-20 17:20:25,672 [INFO]: #  --- success ---
+2020-08-20 17:20:25,872 [INFO]: #  Run the Step: 4|其他出库|CLICK|其他出库-tab其他出库
+2020-08-20 17:20:26,667 [INFO]: #  --- success ---
+2020-08-20 17:20:26,867 [INFO]: #  Run the Step: 5|其他出库|CLICK|其他出库-btn新增
+2020-08-20 17:20:27,732 [INFO]: #  --- success ---
+2020-08-20 17:20:27,933 [INFO]: #  Run the Step: 6|其他出库|CHECK|其他出库-lab出库状态#未定义
+2020-08-20 17:20:28,001 [INFO]: #  DATA:'未定义'
+2020-08-20 17:20:28,002 [INFO]: #  REAL:'未定义'
+2020-08-20 17:20:28,003 [INFO]: #  --- success ---
+2020-08-20 17:20:28,203 [INFO]: #  Run the Step: 7|其他出库|CLICK|其他出库-sel出库类型
+2020-08-20 17:20:28,868 [INFO]: #  --- success ---
+2020-08-20 17:20:29,069 [INFO]: #  Run the Step: 8|其他出库|CLICK|其他出库-val出库类型-送货
+2020-08-20 17:20:29,767 [INFO]: #  --- success ---
+2020-08-20 17:20:29,968 [INFO]: #  Run the Step: 9|其他出库|CLICK|其他出库-btn新 增
+2020-08-20 17:20:30,729 [INFO]: #  --- success ---
+2020-08-20 17:20:30,930 [INFO]: #  Run the Step: 10|其他出库|CLICK|其他出库-sel物料编码
+2020-08-20 17:20:31,615 [INFO]: #  --- success ---
+2020-08-20 17:20:31,815 [INFO]: #  Run the Step: 11|其他出库|CLICK|其他出库-val物料编码-1204142
+2020-08-20 17:20:32,562 [INFO]: #  --- success ---
+2020-08-20 17:20:32,763 [INFO]: #  Run the Step: 12|其他出库|INPUT|其他出库-inp出库数量
+2020-08-20 17:20:33,512 [INFO]: #  --- success ---
+2020-08-20 17:20:33,712 [INFO]: #  Run the Step: 13|其他出库|CLICK|其他出库-btn新 增
+2020-08-20 17:20:34,493 [INFO]: #  --- success ---
+2020-08-20 17:20:34,693 [INFO]: #  Run the Step: 14|其他出库|CLICK|其他出库-sel物料编码

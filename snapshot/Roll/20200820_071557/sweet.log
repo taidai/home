@@ -1,0 +1,19 @@
+2020-08-20 07:15:57,216 [INFO]: #  From Excel import testsuite success
+2020-08-20 07:16:00,839 [ERROR]: #  *** Init global object failure ***
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\autotest.py", line 105, in run
+    g.set_driver()
+  File "D:\daitest\daitest2\daitest\globals.py", line 98, in set_driver
+    self.driver = webdriver.Chrome(options=options)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 81
+

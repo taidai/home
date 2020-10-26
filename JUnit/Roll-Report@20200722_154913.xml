@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Roll" hostname="roll" timestamp="2020-07-22T15:49:13.437625" tests="5" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="585.141468" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="7.003401"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="4.866278"/>
+		<testcase name="审核编辑" classname="AEQ_001" priority="M" time="76.631383"/>
+		<testcase name="删除需求订单" classname="DQ_001" priority="M" time="254.015529">
+			<failure type="Failure" message="step-81|CHECK|通用-toast删除提醒#删除失败!: Locating the element:通用-toast删除提醒#删除失败! is Failure: Timeout"/>
+		</testcase>
+		<testcase name="查看需求订单" classname="CH_001" priority="M" time="240.037729"/>
+	</testsuite>
+</testsuites>

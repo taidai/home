@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="IntentionO" hostname="intentiono" timestamp="2020-07-27T15:59:59.234393" tests="5" failures="3" failures_detail="H:0 M:3 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="147.477371" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="11.626635"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="5.326276"/>
+		<testcase name="审核编辑" classname="AEQ_001" priority="M" time="69.824993">
+			<failure type="Failure" message="step-27|CLICK|btn关闭确定: Locating the element:btn关闭确定 is Failure, this element is not define"/>
+		</testcase>
+		<testcase name="删除需求订单" classname="DQ_001" priority="M" time="29.00766">
+			<failure type="Failure" message=""/>
+		</testcase>
+		<testcase name="查看需求订单" classname="CH_001" priority="M" time="29.055661">
+			<failure type="Failure" message=""/>
+		</testcase>
+	</testsuite>
+</testsuites>

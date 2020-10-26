@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="OsM" hostname="osm" timestamp="2020-06-28T20:16:46.649691" tests="2" failures="0" failures_detail="H:0 M:0 L:0" errors="2" errors_detail="H:0 M:0 L:0" time="5.564181" skipped="0" disabled="2">
+		<testcase name="新增委外工单" classname="CreateOs_001" priority="M" time="1.493055">
+			<blocked type="Blocked" message="SETUP is not success"/>
+		</testcase>
+		<testcase name="新增发料单" classname="CreateIssue_001" priority="M" time="1.301049">
+			<blocked type="Blocked" message="SETUP is not success"/>
+		</testcase>
+	</testsuite>
+</testsuites>

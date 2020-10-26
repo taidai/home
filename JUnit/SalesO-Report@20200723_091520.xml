@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="SalesO" hostname="saleso" timestamp="2020-07-23T09:15:20.603274" tests="2" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="104.349969" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="75.197301"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="26.467514">
+			<failure type="Failure" message="step-1|INPUT|登录页面-账号输入框: Locating the element:登录页面-账号输入框 is Failure: Timeout"/>
+		</testcase>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+2020-08-20 17:06:36,715 [ERROR]: #  *** From Excel import testsuite failure ***
+Traceback (most recent call last):
+  File "site-packages\xlrd\book.py", line 474, in sheet_by_name
+ValueError: "['qtout','qtout']" is not in list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "daitest\autotest.py", line 93, in run
+  File "daitest\utility.py", line 54, in read
+  File "site-packages\xlrd\book.py", line 476, in sheet_by_name
+xlrd.biffh.XLRDError: No sheet named <"['qtout','qtout']">

@@ -1,0 +1,1065 @@
+2020-07-22 15:49:13,442 [INFO]: #  From Excel import testsuite success
+2020-07-22 15:49:16,024 [INFO]: #  --------------------------------------------------
+2020-07-22 15:49:16,024 [INFO]: #  >>> Run the TestCase: HOME_001|打开云塑ERP
+2020-07-22 15:49:16,025 [INFO]: #  Run the Step: 1|通用|OPEN|通用-首页链接
+2020-07-22 15:49:22,594 [INFO]: #  --- success ---
+2020-07-22 15:49:22,794 [INFO]: #  Run the Step: 2|通用|CHECK|通用-页面title
+2020-07-22 15:49:22,795 [INFO]: #  DATA:'云塑 企业资源计划管理系统'
+2020-07-22 15:49:22,804 [INFO]: #  REAL:'云塑 企业资源计划管理系统'
+2020-07-22 15:49:22,827 [INFO]: #  --- success ---
+2020-07-22 15:49:23,028 [INFO]: #  --------------------------------------------------
+2020-07-22 15:49:23,029 [INFO]: #  >>> Run the TestCase: Login_001|登录
+2020-07-22 15:49:23,029 [INFO]: #  Run the Step: 1|登录页面|INPUT|登录页面-账号输入框
+2020-07-22 15:49:23,900 [INFO]: #  --- success ---
+2020-07-22 15:49:24,101 [INFO]: #  Run the Step: 2|登录页面|INPUT|登录页面-密码输入框
+2020-07-22 15:49:24,972 [INFO]: #  --- success ---
+2020-07-22 15:49:25,180 [INFO]: #  Run the Step: 3|登录页面|CLICK|登录页面-确定按钮
+2020-07-22 15:49:25,841 [INFO]: #  --- success ---
+2020-07-22 15:49:26,041 [INFO]: #  Run the Step: 4|登录页面|CHECK|通用-页面加载校验
+2020-07-22 15:49:27,693 [INFO]: #  DATA:'欢迎进入 云塑企业资源计划管理系统'
+2020-07-22 15:49:27,694 [INFO]: #  REAL:'欢迎进入 云塑企业资源计划管理系统'
+2020-07-22 15:49:27,694 [INFO]: #  --- success ---
+2020-07-22 15:49:27,894 [INFO]: #  ==================================================
+2020-07-22 15:49:27,894 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-22 15:49:27,895 [INFO]: #  --------------------------------------------------
+2020-07-22 15:49:27,896 [INFO]: #  >>> Run the TestCase: AEQ_001|审核编辑
+2020-07-22 15:49:27,896 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-07-22 15:49:27,898 [INFO]: #  >>> Run the TestCase: CQ_001|新增需求订单
+2020-07-22 15:49:27,898 [INFO]: #  Run the Step: 1|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:49:28,646 [INFO]: #  --- success ---
+2020-07-22 15:49:28,847 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-22 15:49:29,914 [INFO]: #  --- success ---
+2020-07-22 15:49:30,114 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:49:30,816 [INFO]: #  --- success ---
+2020-07-22 15:49:31,016 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|滚动需求订单-tab滚动需求
+2020-07-22 15:49:31,818 [INFO]: #  --- success ---
+2020-07-22 15:49:32,019 [INFO]: #  Run the Step: 5|滚动需求订单|CLICK|滚动需求订单-btn新增
+2020-07-22 15:49:33,413 [INFO]: #  --- success ---
+2020-07-22 15:49:33,624 [INFO]: #  Run the Step: 6|滚动需求订单|CLICK|滚动需求订单-sel预交日期
+2020-07-22 15:49:34,357 [INFO]: #  --- success ---
+2020-07-22 15:49:34,557 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|滚动需求订单-val预交日期
+2020-07-22 15:49:35,297 [INFO]: #  --- success ---
+2020-07-22 15:49:35,498 [INFO]: #  Run the Step: 8|滚动需求订单|CLICK|滚动需求订单-sel客户名称
+2020-07-22 15:49:36,176 [INFO]: #  --- success ---
+2020-07-22 15:49:36,376 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|滚动需求订单-val客户名称-美的
+2020-07-22 15:49:37,095 [INFO]: #  --- success ---
+2020-07-22 15:49:37,311 [INFO]: #  Run the Step: 10|滚动需求订单|CLICK|滚动需求订单-sel订单等级
+2020-07-22 15:49:37,986 [INFO]: #  --- success ---
+2020-07-22 15:49:38,188 [INFO]: #  Run the Step: 11|滚动需求订单|CLICK|滚动需求订单-val订单等级-正常
+2020-07-22 15:49:38,817 [INFO]: #  --- success ---
+2020-07-22 15:49:39,018 [INFO]: #  Run the Step: 12|滚动需求订单|CLICK|滚动需求订单-sel业务部门
+2020-07-22 15:49:39,720 [INFO]: #  --- success ---
+2020-07-22 15:49:39,921 [INFO]: #  Run the Step: 13|滚动需求订单|CLICK|滚动需求订单-val业务部门-办公室
+2020-07-22 15:49:40,662 [INFO]: #  --- success ---
+2020-07-22 15:49:40,863 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|滚动需求订单-sel业务人员
+2020-07-22 15:49:41,540 [INFO]: #  --- success ---
+2020-07-22 15:49:41,741 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|滚动需求订单-val业务人员-周文杰
+2020-07-22 15:49:42,468 [INFO]: #  --- success ---
+2020-07-22 15:49:42,668 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|滚动需求订单-sel交货验收
+2020-07-22 15:49:43,349 [INFO]: #  --- success ---
+2020-07-22 15:49:43,556 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|滚动需求订单-val交货验收-否
+2020-07-22 15:49:44,186 [INFO]: #  --- success ---
+2020-07-22 15:49:44,387 [INFO]: #  Run the Step: 18|滚动需求订单|CLICK|滚动需求订单-btn订单明细-添加
+2020-07-22 15:49:45,300 [INFO]: #  --- success ---
+2020-07-22 15:49:45,500 [INFO]: #  Run the Step: 19|滚动需求订单|CLICK|滚动需求订单-sel物料编码
+2020-07-22 15:49:46,243 [INFO]: #  --- success ---
+2020-07-22 15:49:46,444 [INFO]: #  Run the Step: 20|滚动需求订单|INPUT|滚动需求订单-inp选择物料
+2020-07-22 15:49:47,116 [INFO]: #  --- success ---
+2020-07-22 15:49:47,316 [INFO]: #  Run the Step: 21|滚动需求订单|CLICK|滚动需求订单-val物料编码-风扇罩-K333A0042-W1N-PP-不要求-NW-054
+2020-07-22 15:49:48,350 [INFO]: #  --- success ---
+2020-07-22 15:49:48,550 [INFO]: #  Run the Step: 22|滚动需求订单|INPUT|滚动需求订单-inp数量
+2020-07-22 15:49:49,460 [INFO]: #  --- success ---
+2020-07-22 15:49:49,660 [INFO]: #  Run the Step: 23|滚动需求订单|CLICK|滚动需求订单-sel订单明细-单价
+2020-07-22 15:49:50,361 [INFO]: #  --- success ---
+2020-07-22 15:49:50,562 [INFO]: #  Run the Step: 24|滚动需求订单|CHECK|滚动需求订单-sel订单明细-交货地点
+2020-07-22 15:49:50,643 [INFO]: #  DATA:'B2成品货位'
+2020-07-22 15:49:50,643 [INFO]: #  REAL:'B2成品货位'
+2020-07-22 15:49:50,644 [INFO]: #  --- success ---
+2020-07-22 15:49:50,844 [INFO]: #  Run the Step: 25|滚动需求订单|INPUT|滚动需求订单-inp备注
+2020-07-22 15:49:52,251 [INFO]: #  --- success ---
+2020-07-22 15:49:52,451 [INFO]: #  --- success ---
+2020-07-22 15:49:52,651 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-btn直接提交
+2020-07-22 15:49:53,329 [INFO]: #  --- success ---
+2020-07-22 15:49:53,529 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-btn直接提交-确定
+2020-07-22 15:49:54,409 [INFO]: #  --- success ---
+2020-07-22 15:49:54,611 [INFO]: #  Run the Step: 4|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#已提交
+2020-07-22 15:49:55,775 [INFO]: #  DATA:'已提交'
+2020-07-22 15:49:55,775 [INFO]: #  REAL:'已提交'
+2020-07-22 15:49:55,776 [INFO]: #  --- success ---
+2020-07-22 15:49:55,976 [INFO]: #  Run the Step: 5|滚动需求订单|CLICK|通用-btn审核
+2020-07-22 15:49:56,839 [INFO]: #  --- success ---
+2020-07-22 15:49:57,040 [INFO]: #  Run the Step: 6|滚动需求订单|CLICK|通用-sel审核-不通过
+2020-07-22 15:50:08,276 [INFO]: #  --- success ---
+2020-07-22 15:50:08,477 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|通用-btn审核-确定
+2020-07-22 15:50:09,247 [INFO]: #  --- success ---
+2020-07-22 15:50:09,447 [INFO]: #  Run the Step: 8|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#不通过
+2020-07-22 15:50:09,979 [INFO]: #  DATA:'不通过'
+2020-07-22 15:50:09,979 [INFO]: #  REAL:'不通过'
+2020-07-22 15:50:09,979 [INFO]: #  --- success ---
+2020-07-22 15:50:10,179 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|通用-btn编辑
+2020-07-22 15:50:11,161 [INFO]: #  --- success ---
+2020-07-22 15:50:11,361 [INFO]: #  Run the Step: 10|滚动需求订单|CLICK|通用-btn保存
+2020-07-22 15:50:12,131 [INFO]: #  --- success ---
+2020-07-22 15:50:12,332 [INFO]: #  Run the Step: 11|滚动需求订单|CLICK|通用-btn提交
+2020-07-22 15:50:13,662 [INFO]: #  --- success ---
+2020-07-22 15:50:13,865 [INFO]: #  Run the Step: 12|滚动需求订单|CLICK|通用-btn提交-确定
+2020-07-22 15:50:14,629 [INFO]: #  --- success ---
+2020-07-22 15:50:14,830 [INFO]: #  Run the Step: 13|滚动需求订单|CLICK|通用-btn审核
+2020-07-22 15:50:16,197 [INFO]: #  --- success ---
+2020-07-22 15:50:16,398 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|通用-sel审核-通过
+2020-07-22 15:50:27,611 [INFO]: #  --- success ---
+2020-07-22 15:50:27,812 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|通用-btn审核-确定
+2020-07-22 15:50:28,563 [INFO]: #  --- success ---
+2020-07-22 15:50:28,764 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:50:30,170 [INFO]: #  --- success ---
+2020-07-22 15:50:30,370 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|通用-tab已审核
+2020-07-22 15:50:31,684 [INFO]: #  --- success ---
+2020-07-22 15:50:31,884 [INFO]: #  Run the Step: 18|滚动需求订单|CLICK|通用-val单号
+2020-07-22 15:50:32,738 [INFO]: #  --- success ---
+2020-07-22 15:50:32,938 [INFO]: #  Run the Step: 19|滚动需求订单|INPUT|通用-inp搜索
+2020-07-22 15:50:35,450 [INFO]: #  --- success ---
+2020-07-22 15:50:35,658 [INFO]: #  Run the Step: 20|滚动需求订单|CLICK|通用-btn搜索
+2020-07-22 15:50:36,621 [INFO]: #  --- success ---
+2020-07-22 15:50:36,831 [INFO]: #  Run the Step: 21|滚动需求订单|CLICK|通用-tab已审核
+2020-07-22 15:50:37,544 [INFO]: #  --- success ---
+2020-07-22 15:50:37,745 [INFO]: #  Run the Step: 22|滚动需求订单|CLICK|通用-tab已审核-查看
+2020-07-22 15:50:38,551 [INFO]: #  --- success ---
+2020-07-22 15:50:38,751 [INFO]: #  Run the Step: 23|滚动需求订单|CLICK|通用-btn关闭
+2020-07-22 15:50:39,743 [INFO]: #  --- success ---
+2020-07-22 15:50:39,946 [INFO]: #  Run the Step: 24|滚动需求订单|CLICK|通用-btn关闭确定
+2020-07-22 15:50:40,672 [INFO]: #  --- success ---
+2020-07-22 15:50:40,872 [INFO]: #  Run the Step: 25|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#已关闭
+2020-07-22 15:50:41,187 [INFO]: #  DATA:'已关闭'
+2020-07-22 15:50:41,188 [INFO]: #  REAL:'已关闭'
+2020-07-22 15:50:41,188 [INFO]: #  --- success ---
+2020-07-22 15:50:41,388 [INFO]: #  Run the Step: 26|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:50:42,185 [INFO]: #  --- success ---
+2020-07-22 15:50:42,385 [INFO]: #  Run the Step: 27|滚动需求订单|CLICK|通用-tab已关闭
+2020-07-22 15:50:43,472 [INFO]: #  --- success ---
+2020-07-22 15:50:43,675 [INFO]: #  Run the Step: 28|滚动需求订单|CLICK|通用-val单号
+2020-07-22 15:50:44,324 [INFO]: #  --- success ---
+2020-07-22 15:50:44,525 [INFO]: #  ==================================================
+2020-07-22 15:50:44,525 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-22 15:50:44,525 [INFO]: #  --------------------------------------------------
+2020-07-22 15:50:44,526 [INFO]: #  >>> Run the TestCase: DQ_001|删除需求订单
+2020-07-22 15:50:44,526 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-07-22 15:50:44,528 [INFO]: #  >>> Run the TestCase: CQ_001|新增需求订单
+2020-07-22 15:50:44,528 [INFO]: #  Run the Step: 1|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:50:45,259 [INFO]: #  --- success ---
+2020-07-22 15:50:45,460 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-22 15:50:46,104 [INFO]: #  --- success ---
+2020-07-22 15:50:46,305 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:50:47,111 [INFO]: #  --- success ---
+2020-07-22 15:50:47,312 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|滚动需求订单-tab滚动需求
+2020-07-22 15:50:47,943 [INFO]: #  --- success ---
+2020-07-22 15:50:48,151 [INFO]: #  Run the Step: 5|滚动需求订单|CLICK|滚动需求订单-btn新增
+2020-07-22 15:50:49,050 [INFO]: #  --- success ---
+2020-07-22 15:50:49,251 [INFO]: #  Run the Step: 6|滚动需求订单|CLICK|滚动需求订单-sel预交日期
+2020-07-22 15:50:49,964 [INFO]: #  --- success ---
+2020-07-22 15:50:50,165 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|滚动需求订单-val预交日期
+2020-07-22 15:50:50,890 [INFO]: #  --- success ---
+2020-07-22 15:50:51,090 [INFO]: #  Run the Step: 8|滚动需求订单|CLICK|滚动需求订单-sel客户名称
+2020-07-22 15:50:51,767 [INFO]: #  --- success ---
+2020-07-22 15:50:51,969 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|滚动需求订单-val客户名称-美的
+2020-07-22 15:50:52,661 [INFO]: #  --- success ---
+2020-07-22 15:50:52,862 [INFO]: #  Run the Step: 10|滚动需求订单|CLICK|滚动需求订单-sel订单等级
+2020-07-22 15:50:53,512 [INFO]: #  --- success ---
+2020-07-22 15:50:53,713 [INFO]: #  Run the Step: 11|滚动需求订单|CLICK|滚动需求订单-val订单等级-正常
+2020-07-22 15:50:54,343 [INFO]: #  --- success ---
+2020-07-22 15:50:54,547 [INFO]: #  Run the Step: 12|滚动需求订单|CLICK|滚动需求订单-sel业务部门
+2020-07-22 15:50:55,247 [INFO]: #  --- success ---
+2020-07-22 15:50:55,447 [INFO]: #  Run the Step: 13|滚动需求订单|CLICK|滚动需求订单-val业务部门-办公室
+2020-07-22 15:50:56,174 [INFO]: #  --- success ---
+2020-07-22 15:50:56,375 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|滚动需求订单-sel业务人员
+2020-07-22 15:50:57,036 [INFO]: #  --- success ---
+2020-07-22 15:50:57,236 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|滚动需求订单-val业务人员-周文杰
+2020-07-22 15:50:57,951 [INFO]: #  --- success ---
+2020-07-22 15:50:58,151 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|滚动需求订单-sel交货验收
+2020-07-22 15:50:58,819 [INFO]: #  --- success ---
+2020-07-22 15:50:59,019 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|滚动需求订单-val交货验收-否
+2020-07-22 15:50:59,659 [INFO]: #  --- success ---
+2020-07-22 15:50:59,860 [INFO]: #  Run the Step: 18|滚动需求订单|CLICK|滚动需求订单-btn订单明细-添加
+2020-07-22 15:51:00,661 [INFO]: #  --- success ---
+2020-07-22 15:51:00,861 [INFO]: #  Run the Step: 19|滚动需求订单|CLICK|滚动需求订单-sel物料编码
+2020-07-22 15:51:01,533 [INFO]: #  --- success ---
+2020-07-22 15:51:01,734 [INFO]: #  Run the Step: 20|滚动需求订单|INPUT|滚动需求订单-inp选择物料
+2020-07-22 15:51:02,388 [INFO]: #  --- success ---
+2020-07-22 15:51:02,588 [INFO]: #  Run the Step: 21|滚动需求订单|CLICK|滚动需求订单-val物料编码-风扇罩-K333A0042-W1N-PP-不要求-NW-054
+2020-07-22 15:51:03,457 [INFO]: #  --- success ---
+2020-07-22 15:51:03,658 [INFO]: #  Run the Step: 22|滚动需求订单|INPUT|滚动需求订单-inp数量
+2020-07-22 15:51:04,463 [INFO]: #  --- success ---
+2020-07-22 15:51:04,663 [INFO]: #  Run the Step: 23|滚动需求订单|CLICK|滚动需求订单-sel订单明细-单价
+2020-07-22 15:51:05,348 [INFO]: #  --- success ---
+2020-07-22 15:51:05,550 [INFO]: #  Run the Step: 24|滚动需求订单|CHECK|滚动需求订单-sel订单明细-交货地点
+2020-07-22 15:51:05,626 [INFO]: #  DATA:'B2成品货位'
+2020-07-22 15:51:05,627 [INFO]: #  REAL:'B2成品货位'
+2020-07-22 15:51:05,627 [INFO]: #  --- success ---
+2020-07-22 15:51:05,827 [INFO]: #  Run the Step: 25|滚动需求订单|INPUT|滚动需求订单-inp备注
+2020-07-22 15:51:07,024 [INFO]: #  --- success ---
+2020-07-22 15:51:07,224 [INFO]: #  --- success ---
+2020-07-22 15:51:07,424 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-btn保存草稿
+2020-07-22 15:51:08,211 [INFO]: #  --- success ---
+2020-07-22 15:51:08,418 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:51:09,242 [INFO]: #  --- success ---
+2020-07-22 15:51:09,443 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|通用-tab已录入
+2020-07-22 15:51:10,383 [INFO]: #  --- success ---
+2020-07-22 15:51:10,584 [INFO]: #  Run the Step: 5|滚动需求订单|CLICK|通用-val单号
+2020-07-22 15:51:11,227 [INFO]: #  --- success ---
+2020-07-22 15:51:11,427 [INFO]: #  Run the Step: 6|滚动需求订单|INPUT|通用-inp搜索
+2020-07-22 15:51:13,688 [INFO]: #  --- success ---
+2020-07-22 15:51:13,888 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|通用-btn搜索
+2020-07-22 15:51:14,838 [INFO]: #  --- success ---
+2020-07-22 15:51:15,038 [INFO]: #  Run the Step: 8|滚动需求订单|CLICK|通用-tab已录入
+2020-07-22 15:51:15,734 [INFO]: #  --- success ---
+2020-07-22 15:51:15,934 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|通用-btn删除订单
+2020-07-22 15:51:16,621 [INFO]: #  --- success ---
+2020-07-22 15:51:16,822 [INFO]: #  Run the Step: 10|滚动需求订单|CLICK|通用-btn删除订单-确定
+2020-07-22 15:51:17,456 [INFO]: #  --- success ---
+2020-07-22 15:51:17,656 [INFO]: #  Run the Step: 11|滚动需求订单|CHECK|通用-toast删除提醒#删除成功!
+2020-07-22 15:51:17,728 [INFO]: #  DATA:'删除成功!'
+2020-07-22 15:51:17,729 [INFO]: #  REAL:'删除成功!'
+2020-07-22 15:51:17,730 [INFO]: #  --- success ---
+2020-07-22 15:51:17,930 [INFO]: #  Run the Step: 12|用例片段|EXECUTE|CQ_001
+2020-07-22 15:51:17,939 [INFO]: #  >>> Run the TestCase: CQ_001|新增需求订单
+2020-07-22 15:51:17,940 [INFO]: #  Run the Step: 1|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:51:18,591 [INFO]: #  --- success ---
+2020-07-22 15:51:18,792 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-22 15:51:19,401 [INFO]: #  --- success ---
+2020-07-22 15:51:19,606 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:51:20,279 [INFO]: #  --- success ---
+2020-07-22 15:51:20,483 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|滚动需求订单-tab滚动需求
+2020-07-22 15:51:21,115 [INFO]: #  --- success ---
+2020-07-22 15:51:21,315 [INFO]: #  Run the Step: 5|滚动需求订单|CLICK|滚动需求订单-btn新增
+2020-07-22 15:51:22,187 [INFO]: #  --- success ---
+2020-07-22 15:51:22,389 [INFO]: #  Run the Step: 6|滚动需求订单|CLICK|滚动需求订单-sel预交日期
+2020-07-22 15:51:23,091 [INFO]: #  --- success ---
+2020-07-22 15:51:23,292 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|滚动需求订单-val预交日期
+2020-07-22 15:51:23,998 [INFO]: #  --- success ---
+2020-07-22 15:51:24,199 [INFO]: #  Run the Step: 8|滚动需求订单|CLICK|滚动需求订单-sel客户名称
+2020-07-22 15:51:24,883 [INFO]: #  --- success ---
+2020-07-22 15:51:25,084 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|滚动需求订单-val客户名称-美的
+2020-07-22 15:51:25,809 [INFO]: #  --- success ---
+2020-07-22 15:51:26,010 [INFO]: #  Run the Step: 10|滚动需求订单|CLICK|滚动需求订单-sel订单等级
+2020-07-22 15:51:26,686 [INFO]: #  --- success ---
+2020-07-22 15:51:26,887 [INFO]: #  Run the Step: 11|滚动需求订单|CLICK|滚动需求订单-val订单等级-正常
+2020-07-22 15:51:27,507 [INFO]: #  --- success ---
+2020-07-22 15:51:27,707 [INFO]: #  Run the Step: 12|滚动需求订单|CLICK|滚动需求订单-sel业务部门
+2020-07-22 15:51:28,386 [INFO]: #  --- success ---
+2020-07-22 15:51:28,592 [INFO]: #  Run the Step: 13|滚动需求订单|CLICK|滚动需求订单-val业务部门-办公室
+2020-07-22 15:51:29,321 [INFO]: #  --- success ---
+2020-07-22 15:51:29,529 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|滚动需求订单-sel业务人员
+2020-07-22 15:51:30,310 [INFO]: #  --- success ---
+2020-07-22 15:51:30,510 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|滚动需求订单-val业务人员-周文杰
+2020-07-22 15:51:31,222 [INFO]: #  --- success ---
+2020-07-22 15:51:31,423 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|滚动需求订单-sel交货验收
+2020-07-22 15:51:32,079 [INFO]: #  --- success ---
+2020-07-22 15:51:32,279 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|滚动需求订单-val交货验收-否
+2020-07-22 15:51:32,913 [INFO]: #  --- success ---
+2020-07-22 15:51:33,115 [INFO]: #  Run the Step: 18|滚动需求订单|CLICK|滚动需求订单-btn订单明细-添加
+2020-07-22 15:51:33,907 [INFO]: #  --- success ---
+2020-07-22 15:51:34,111 [INFO]: #  Run the Step: 19|滚动需求订单|CLICK|滚动需求订单-sel物料编码
+2020-07-22 15:51:34,787 [INFO]: #  --- success ---
+2020-07-22 15:51:34,987 [INFO]: #  Run the Step: 20|滚动需求订单|INPUT|滚动需求订单-inp选择物料
+2020-07-22 15:51:35,621 [INFO]: #  --- success ---
+2020-07-22 15:51:35,821 [INFO]: #  Run the Step: 21|滚动需求订单|CLICK|滚动需求订单-val物料编码-风扇罩-K333A0042-W1N-PP-不要求-NW-054
+2020-07-22 15:51:36,681 [INFO]: #  --- success ---
+2020-07-22 15:51:36,889 [INFO]: #  Run the Step: 22|滚动需求订单|INPUT|滚动需求订单-inp数量
+2020-07-22 15:51:37,680 [INFO]: #  --- success ---
+2020-07-22 15:51:37,887 [INFO]: #  Run the Step: 23|滚动需求订单|CLICK|滚动需求订单-sel订单明细-单价
+2020-07-22 15:51:38,558 [INFO]: #  --- success ---
+2020-07-22 15:51:38,760 [INFO]: #  Run the Step: 24|滚动需求订单|CHECK|滚动需求订单-sel订单明细-交货地点
+2020-07-22 15:51:38,833 [INFO]: #  DATA:'B2成品货位'
+2020-07-22 15:51:38,843 [INFO]: #  REAL:'B2成品货位'
+2020-07-22 15:51:38,844 [INFO]: #  --- success ---
+2020-07-22 15:51:39,044 [INFO]: #  Run the Step: 25|滚动需求订单|INPUT|滚动需求订单-inp备注
+2020-07-22 15:51:40,435 [INFO]: #  --- success ---
+2020-07-22 15:51:40,635 [INFO]: #  --- success ---
+2020-07-22 15:51:40,835 [INFO]: #  Run the Step: 13|滚动需求订单|CLICK|通用-btn直接提交
+2020-07-22 15:51:41,504 [INFO]: #  --- success ---
+2020-07-22 15:51:41,705 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|通用-btn直接提交-确定
+2020-07-22 15:51:42,506 [INFO]: #  --- success ---
+2020-07-22 15:51:42,706 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:51:43,527 [INFO]: #  --- success ---
+2020-07-22 15:51:43,727 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|通用-tab已提交
+2020-07-22 15:51:44,859 [INFO]: #  --- success ---
+2020-07-22 15:51:45,071 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|通用-val单号
+2020-07-22 15:51:45,855 [INFO]: #  --- success ---
+2020-07-22 15:51:46,062 [INFO]: #  Run the Step: 18|滚动需求订单|INPUT|通用-inp搜索
+2020-07-22 15:51:48,379 [INFO]: #  --- success ---
+2020-07-22 15:51:48,579 [INFO]: #  Run the Step: 19|滚动需求订单|CLICK|通用-btn搜索
+2020-07-22 15:51:49,557 [INFO]: #  --- success ---
+2020-07-22 15:51:49,758 [INFO]: #  Run the Step: 20|滚动需求订单|CLICK|通用-tab已提交
+2020-07-22 15:51:50,525 [INFO]: #  --- success ---
+2020-07-22 15:51:50,726 [INFO]: #  Run the Step: 21|滚动需求订单|CLICK|通用-btn删除订单
+2020-07-22 15:51:51,380 [INFO]: #  --- success ---
+2020-07-22 15:51:51,581 [INFO]: #  Run the Step: 22|滚动需求订单|CLICK|通用-btn删除订单-确定
+2020-07-22 15:51:52,209 [INFO]: #  --- success ---
+2020-07-22 15:51:52,413 [INFO]: #  Run the Step: 23|滚动需求订单|CHECK|通用-toast删除提醒#删除成功!
+2020-07-22 15:51:52,550 [INFO]: #  DATA:'删除成功!'
+2020-07-22 15:51:52,551 [INFO]: #  REAL:'删除成功!'
+2020-07-22 15:51:52,551 [INFO]: #  --- success ---
+2020-07-22 15:51:52,754 [INFO]: #  Run the Step: 24|用例片段|EXECUTE|CQ_001
+2020-07-22 15:51:52,761 [INFO]: #  >>> Run the TestCase: CQ_001|新增需求订单
+2020-07-22 15:51:52,762 [INFO]: #  Run the Step: 1|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:51:53,419 [INFO]: #  --- success ---
+2020-07-22 15:51:53,625 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-22 15:51:54,232 [INFO]: #  --- success ---
+2020-07-22 15:51:54,433 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:51:55,084 [INFO]: #  --- success ---
+2020-07-22 15:51:55,284 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|滚动需求订单-tab滚动需求
+2020-07-22 15:51:55,924 [INFO]: #  --- success ---
+2020-07-22 15:51:56,126 [INFO]: #  Run the Step: 5|滚动需求订单|CLICK|滚动需求订单-btn新增
+2020-07-22 15:51:57,064 [INFO]: #  --- success ---
+2020-07-22 15:51:57,265 [INFO]: #  Run the Step: 6|滚动需求订单|CLICK|滚动需求订单-sel预交日期
+2020-07-22 15:51:57,964 [INFO]: #  --- success ---
+2020-07-22 15:51:58,165 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|滚动需求订单-val预交日期
+2020-07-22 15:51:58,871 [INFO]: #  --- success ---
+2020-07-22 15:51:59,075 [INFO]: #  Run the Step: 8|滚动需求订单|CLICK|滚动需求订单-sel客户名称
+2020-07-22 15:51:59,757 [INFO]: #  --- success ---
+2020-07-22 15:51:59,957 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|滚动需求订单-val客户名称-美的
+2020-07-22 15:52:00,675 [INFO]: #  --- success ---
+2020-07-22 15:52:00,884 [INFO]: #  Run the Step: 10|滚动需求订单|CLICK|滚动需求订单-sel订单等级
+2020-07-22 15:52:01,563 [INFO]: #  --- success ---
+2020-07-22 15:52:01,763 [INFO]: #  Run the Step: 11|滚动需求订单|CLICK|滚动需求订单-val订单等级-正常
+2020-07-22 15:52:02,390 [INFO]: #  --- success ---
+2020-07-22 15:52:02,590 [INFO]: #  Run the Step: 12|滚动需求订单|CLICK|滚动需求订单-sel业务部门
+2020-07-22 15:52:03,300 [INFO]: #  --- success ---
+2020-07-22 15:52:03,504 [INFO]: #  Run the Step: 13|滚动需求订单|CLICK|滚动需求订单-val业务部门-办公室
+2020-07-22 15:52:04,238 [INFO]: #  --- success ---
+2020-07-22 15:52:04,440 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|滚动需求订单-sel业务人员
+2020-07-22 15:52:05,104 [INFO]: #  --- success ---
+2020-07-22 15:52:05,305 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|滚动需求订单-val业务人员-周文杰
+2020-07-22 15:52:06,017 [INFO]: #  --- success ---
+2020-07-22 15:52:06,217 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|滚动需求订单-sel交货验收
+2020-07-22 15:52:06,880 [INFO]: #  --- success ---
+2020-07-22 15:52:07,091 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|滚动需求订单-val交货验收-否
+2020-07-22 15:52:07,708 [INFO]: #  --- success ---
+2020-07-22 15:52:07,908 [INFO]: #  Run the Step: 18|滚动需求订单|CLICK|滚动需求订单-btn订单明细-添加
+2020-07-22 15:52:08,688 [INFO]: #  --- success ---
+2020-07-22 15:52:08,897 [INFO]: #  Run the Step: 19|滚动需求订单|CLICK|滚动需求订单-sel物料编码
+2020-07-22 15:52:09,572 [INFO]: #  --- success ---
+2020-07-22 15:52:09,773 [INFO]: #  Run the Step: 20|滚动需求订单|INPUT|滚动需求订单-inp选择物料
+2020-07-22 15:52:10,407 [INFO]: #  --- success ---
+2020-07-22 15:52:10,608 [INFO]: #  Run the Step: 21|滚动需求订单|CLICK|滚动需求订单-val物料编码-风扇罩-K333A0042-W1N-PP-不要求-NW-054
+2020-07-22 15:52:11,475 [INFO]: #  --- success ---
+2020-07-22 15:52:11,676 [INFO]: #  Run the Step: 22|滚动需求订单|INPUT|滚动需求订单-inp数量
+2020-07-22 15:52:12,502 [INFO]: #  --- success ---
+2020-07-22 15:52:12,705 [INFO]: #  Run the Step: 23|滚动需求订单|CLICK|滚动需求订单-sel订单明细-单价
+2020-07-22 15:52:13,400 [INFO]: #  --- success ---
+2020-07-22 15:52:13,601 [INFO]: #  Run the Step: 24|滚动需求订单|CHECK|滚动需求订单-sel订单明细-交货地点
+2020-07-22 15:52:13,672 [INFO]: #  DATA:'B2成品货位'
+2020-07-22 15:52:13,672 [INFO]: #  REAL:'B2成品货位'
+2020-07-22 15:52:13,672 [INFO]: #  --- success ---
+2020-07-22 15:52:13,880 [INFO]: #  Run the Step: 25|滚动需求订单|INPUT|滚动需求订单-inp备注
+2020-07-22 15:52:15,073 [INFO]: #  --- success ---
+2020-07-22 15:52:15,273 [INFO]: #  --- success ---
+2020-07-22 15:52:15,473 [INFO]: #  Run the Step: 25|滚动需求订单|CLICK|通用-btn直接提交
+2020-07-22 15:52:16,142 [INFO]: #  --- success ---
+2020-07-22 15:52:16,342 [INFO]: #  Run the Step: 26|滚动需求订单|CLICK|通用-btn直接提交-确定
+2020-07-22 15:52:17,146 [INFO]: #  --- success ---
+2020-07-22 15:52:17,353 [INFO]: #  Run the Step: 27|滚动需求订单|CLICK|通用-btn审核
+2020-07-22 15:52:18,985 [INFO]: #  --- success ---
+2020-07-22 15:52:19,185 [INFO]: #  Run the Step: 28|滚动需求订单|CLICK|通用-sel审核-通过
+2020-07-22 15:52:29,809 [INFO]: #  --- success ---
+2020-07-22 15:52:30,010 [INFO]: #  Run the Step: 29|滚动需求订单|CLICK|通用-btn审核-确定
+2020-07-22 15:52:30,787 [INFO]: #  --- success ---
+2020-07-22 15:52:30,987 [INFO]: #  Run the Step: 30|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#已审核
+2020-07-22 15:52:31,750 [INFO]: #  DATA:'已审核'
+2020-07-22 15:52:31,751 [INFO]: #  REAL:'已审核'
+2020-07-22 15:52:31,751 [INFO]: #  --- success ---
+2020-07-22 15:52:31,951 [INFO]: #  Run the Step: 31|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:52:32,774 [INFO]: #  --- success ---
+2020-07-22 15:52:32,974 [INFO]: #  Run the Step: 32|滚动需求订单|CLICK|通用-tab已审核
+2020-07-22 15:52:34,084 [INFO]: #  --- success ---
+2020-07-22 15:52:34,285 [INFO]: #  Run the Step: 33|滚动需求订单|CLICK|通用-val单号
+2020-07-22 15:52:35,123 [INFO]: #  --- success ---
+2020-07-22 15:52:35,324 [INFO]: #  Run the Step: 34|滚动需求订单|INPUT|通用-inp搜索
+2020-07-22 15:52:37,610 [INFO]: #  --- success ---
+2020-07-22 15:52:37,810 [INFO]: #  Run the Step: 35|滚动需求订单|CLICK|通用-btn搜索
+2020-07-22 15:52:38,772 [INFO]: #  --- success ---
+2020-07-22 15:52:38,981 [INFO]: #  Run the Step: 36|滚动需求订单|CLICK|通用-tab已审核
+2020-07-22 15:52:39,673 [INFO]: #  --- success ---
+2020-07-22 15:52:39,874 [INFO]: #  Run the Step: 37|滚动需求订单|CLICK|通用-btn删除订单
+2020-07-22 15:52:40,545 [INFO]: #  --- success ---
+2020-07-22 15:52:40,755 [INFO]: #  Run the Step: 38|滚动需求订单|CLICK|通用-btn删除订单-确定
+2020-07-22 15:52:41,388 [INFO]: #  --- success ---
+2020-07-22 15:52:41,588 [INFO]: #  Run the Step: 39|滚动需求订单|CHECK|通用-toast删除提醒#当前单据已经通过审核，不得删除
+2020-07-22 15:52:41,657 [INFO]: #  DATA:'当前单据已经通过审核，不得删除'
+2020-07-22 15:52:41,657 [INFO]: #  REAL:'当前单据已经通过审核，不得删除'
+2020-07-22 15:52:41,658 [INFO]: #  --- success ---
+2020-07-22 15:52:41,858 [INFO]: #  Run the Step: 40|用例片段|EXECUTE|CQ_001
+2020-07-22 15:52:41,869 [INFO]: #  >>> Run the TestCase: CQ_001|新增需求订单
+2020-07-22 15:52:41,869 [INFO]: #  Run the Step: 1|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:52:42,523 [INFO]: #  --- success ---
+2020-07-22 15:52:42,723 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-22 15:52:43,337 [INFO]: #  --- success ---
+2020-07-22 15:52:43,545 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:52:44,205 [INFO]: #  --- success ---
+2020-07-22 15:52:44,406 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|滚动需求订单-tab滚动需求
+2020-07-22 15:52:45,028 [INFO]: #  --- success ---
+2020-07-22 15:52:45,230 [INFO]: #  Run the Step: 5|滚动需求订单|CLICK|滚动需求订单-btn新增
+2020-07-22 15:52:46,128 [INFO]: #  --- success ---
+2020-07-22 15:52:46,329 [INFO]: #  Run the Step: 6|滚动需求订单|CLICK|滚动需求订单-sel预交日期
+2020-07-22 15:52:47,019 [INFO]: #  --- success ---
+2020-07-22 15:52:47,220 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|滚动需求订单-val预交日期
+2020-07-22 15:52:47,938 [INFO]: #  --- success ---
+2020-07-22 15:52:48,139 [INFO]: #  Run the Step: 8|滚动需求订单|CLICK|滚动需求订单-sel客户名称
+2020-07-22 15:52:48,810 [INFO]: #  --- success ---
+2020-07-22 15:52:49,011 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|滚动需求订单-val客户名称-美的
+2020-07-22 15:52:49,713 [INFO]: #  --- success ---
+2020-07-22 15:52:49,916 [INFO]: #  Run the Step: 10|滚动需求订单|CLICK|滚动需求订单-sel订单等级
+2020-07-22 15:52:50,571 [INFO]: #  --- success ---
+2020-07-22 15:52:50,772 [INFO]: #  Run the Step: 11|滚动需求订单|CLICK|滚动需求订单-val订单等级-正常
+2020-07-22 15:52:51,394 [INFO]: #  --- success ---
+2020-07-22 15:52:51,600 [INFO]: #  Run the Step: 12|滚动需求订单|CLICK|滚动需求订单-sel业务部门
+2020-07-22 15:52:52,324 [INFO]: #  --- success ---
+2020-07-22 15:52:52,525 [INFO]: #  Run the Step: 13|滚动需求订单|CLICK|滚动需求订单-val业务部门-办公室
+2020-07-22 15:52:53,254 [INFO]: #  --- success ---
+2020-07-22 15:52:53,454 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|滚动需求订单-sel业务人员
+2020-07-22 15:52:54,123 [INFO]: #  --- success ---
+2020-07-22 15:52:54,329 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|滚动需求订单-val业务人员-周文杰
+2020-07-22 15:52:55,042 [INFO]: #  --- success ---
+2020-07-22 15:52:55,246 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|滚动需求订单-sel交货验收
+2020-07-22 15:52:55,918 [INFO]: #  --- success ---
+2020-07-22 15:52:56,122 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|滚动需求订单-val交货验收-否
+2020-07-22 15:52:56,744 [INFO]: #  --- success ---
+2020-07-22 15:52:56,944 [INFO]: #  Run the Step: 18|滚动需求订单|CLICK|滚动需求订单-btn订单明细-添加
+2020-07-22 15:52:57,778 [INFO]: #  --- success ---
+2020-07-22 15:52:57,978 [INFO]: #  Run the Step: 19|滚动需求订单|CLICK|滚动需求订单-sel物料编码
+2020-07-22 15:52:58,656 [INFO]: #  --- success ---
+2020-07-22 15:52:58,856 [INFO]: #  Run the Step: 20|滚动需求订单|INPUT|滚动需求订单-inp选择物料
+2020-07-22 15:52:59,491 [INFO]: #  --- success ---
+2020-07-22 15:52:59,691 [INFO]: #  Run the Step: 21|滚动需求订单|CLICK|滚动需求订单-val物料编码-风扇罩-K333A0042-W1N-PP-不要求-NW-054
+2020-07-22 15:53:00,559 [INFO]: #  --- success ---
+2020-07-22 15:53:00,759 [INFO]: #  Run the Step: 22|滚动需求订单|INPUT|滚动需求订单-inp数量
+2020-07-22 15:53:01,558 [INFO]: #  --- success ---
+2020-07-22 15:53:01,759 [INFO]: #  Run the Step: 23|滚动需求订单|CLICK|滚动需求订单-sel订单明细-单价
+2020-07-22 15:53:02,428 [INFO]: #  --- success ---
+2020-07-22 15:53:02,628 [INFO]: #  Run the Step: 24|滚动需求订单|CHECK|滚动需求订单-sel订单明细-交货地点
+2020-07-22 15:53:02,701 [INFO]: #  DATA:'B2成品货位'
+2020-07-22 15:53:02,710 [INFO]: #  REAL:'B2成品货位'
+2020-07-22 15:53:02,710 [INFO]: #  --- success ---
+2020-07-22 15:53:02,910 [INFO]: #  Run the Step: 25|滚动需求订单|INPUT|滚动需求订单-inp备注
+2020-07-22 15:53:04,111 [INFO]: #  --- success ---
+2020-07-22 15:53:04,311 [INFO]: #  --- success ---
+2020-07-22 15:53:04,511 [INFO]: #  Run the Step: 41|滚动需求订单|CLICK|通用-btn直接提交
+2020-07-22 15:53:05,202 [INFO]: #  --- success ---
+2020-07-22 15:53:05,403 [INFO]: #  Run the Step: 42|滚动需求订单|CLICK|通用-btn直接提交-确定
+2020-07-22 15:53:06,231 [INFO]: #  --- success ---
+2020-07-22 15:53:06,432 [INFO]: #  Run the Step: 43|滚动需求订单|CLICK|通用-btn审核
+2020-07-22 15:53:08,179 [INFO]: #  --- success ---
+2020-07-22 15:53:08,380 [INFO]: #  Run the Step: 44|滚动需求订单|CLICK|通用-sel审核-不通过
+2020-07-22 15:53:19,282 [INFO]: #  --- success ---
+2020-07-22 15:53:19,483 [INFO]: #  Run the Step: 45|滚动需求订单|CLICK|通用-btn审核-确定
+2020-07-22 15:53:20,238 [INFO]: #  --- success ---
+2020-07-22 15:53:20,439 [INFO]: #  Run the Step: 46|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#不通过
+2020-07-22 15:53:21,189 [INFO]: #  DATA:'不通过'
+2020-07-22 15:53:21,190 [INFO]: #  REAL:'不通过'
+2020-07-22 15:53:21,191 [INFO]: #  --- success ---
+2020-07-22 15:53:21,391 [INFO]: #  Run the Step: 47|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:53:22,287 [INFO]: #  --- success ---
+2020-07-22 15:53:22,487 [INFO]: #  Run the Step: 48|滚动需求订单|CLICK|通用-tab不通过
+2020-07-22 15:53:23,617 [INFO]: #  --- success ---
+2020-07-22 15:53:23,820 [INFO]: #  Run the Step: 49|滚动需求订单|CLICK|通用-val单号
+2020-07-22 15:53:24,505 [INFO]: #  --- success ---
+2020-07-22 15:53:24,705 [INFO]: #  Run the Step: 50|滚动需求订单|INPUT|通用-inp搜索
+2020-07-22 15:53:26,534 [INFO]: #  --- success ---
+2020-07-22 15:53:26,736 [INFO]: #  Run the Step: 51|滚动需求订单|CLICK|通用-btn搜索
+2020-07-22 15:53:27,637 [INFO]: #  --- success ---
+2020-07-22 15:53:27,837 [INFO]: #  Run the Step: 52|滚动需求订单|CLICK|通用-tab不通过
+2020-07-22 15:53:28,559 [INFO]: #  --- success ---
+2020-07-22 15:53:28,759 [INFO]: #  Run the Step: 53|滚动需求订单|CLICK|通用-btn删除订单
+2020-07-22 15:53:29,430 [INFO]: #  --- success ---
+2020-07-22 15:53:29,630 [INFO]: #  Run the Step: 54|滚动需求订单|CLICK|通用-btn删除订单-确定
+2020-07-22 15:53:30,254 [INFO]: #  --- success ---
+2020-07-22 15:53:30,455 [INFO]: #  Run the Step: 55|滚动需求订单|CHECK|通用-toast删除提醒#删除成功!
+2020-07-22 15:53:30,522 [INFO]: #  DATA:'删除成功!'
+2020-07-22 15:53:30,523 [INFO]: #  REAL:'删除成功!'
+2020-07-22 15:53:30,523 [INFO]: #  --- success ---
+2020-07-22 15:53:30,723 [INFO]: #  Run the Step: 56|用例片段|EXECUTE|CQ_001
+2020-07-22 15:53:30,725 [INFO]: #  >>> Run the TestCase: CQ_001|新增需求订单
+2020-07-22 15:53:30,725 [INFO]: #  Run the Step: 1|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:53:31,421 [INFO]: #  --- success ---
+2020-07-22 15:53:31,622 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-22 15:53:32,259 [INFO]: #  --- success ---
+2020-07-22 15:53:32,460 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:53:33,153 [INFO]: #  --- success ---
+2020-07-22 15:53:33,353 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|滚动需求订单-tab滚动需求
+2020-07-22 15:53:33,988 [INFO]: #  --- success ---
+2020-07-22 15:53:34,189 [INFO]: #  Run the Step: 5|滚动需求订单|CLICK|滚动需求订单-btn新增
+2020-07-22 15:53:35,111 [INFO]: #  --- success ---
+2020-07-22 15:53:35,311 [INFO]: #  Run the Step: 6|滚动需求订单|CLICK|滚动需求订单-sel预交日期
+2020-07-22 15:53:36,019 [INFO]: #  --- success ---
+2020-07-22 15:53:36,219 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|滚动需求订单-val预交日期
+2020-07-22 15:53:36,956 [INFO]: #  --- success ---
+2020-07-22 15:53:37,156 [INFO]: #  Run the Step: 8|滚动需求订单|CLICK|滚动需求订单-sel客户名称
+2020-07-22 15:53:37,844 [INFO]: #  --- success ---
+2020-07-22 15:53:38,045 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|滚动需求订单-val客户名称-美的
+2020-07-22 15:53:38,780 [INFO]: #  --- success ---
+2020-07-22 15:53:38,980 [INFO]: #  Run the Step: 10|滚动需求订单|CLICK|滚动需求订单-sel订单等级
+2020-07-22 15:53:39,650 [INFO]: #  --- success ---
+2020-07-22 15:53:39,850 [INFO]: #  Run the Step: 11|滚动需求订单|CLICK|滚动需求订单-val订单等级-正常
+2020-07-22 15:53:40,481 [INFO]: #  --- success ---
+2020-07-22 15:53:40,682 [INFO]: #  Run the Step: 12|滚动需求订单|CLICK|滚动需求订单-sel业务部门
+2020-07-22 15:53:41,382 [INFO]: #  --- success ---
+2020-07-22 15:53:41,585 [INFO]: #  Run the Step: 13|滚动需求订单|CLICK|滚动需求订单-val业务部门-办公室
+2020-07-22 15:53:42,386 [INFO]: #  --- success ---
+2020-07-22 15:53:42,586 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|滚动需求订单-sel业务人员
+2020-07-22 15:53:43,263 [INFO]: #  --- success ---
+2020-07-22 15:53:43,463 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|滚动需求订单-val业务人员-周文杰
+2020-07-22 15:53:44,251 [INFO]: #  --- success ---
+2020-07-22 15:53:44,452 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|滚动需求订单-sel交货验收
+2020-07-22 15:53:45,121 [INFO]: #  --- success ---
+2020-07-22 15:53:45,321 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|滚动需求订单-val交货验收-否
+2020-07-22 15:53:45,952 [INFO]: #  --- success ---
+2020-07-22 15:53:46,155 [INFO]: #  Run the Step: 18|滚动需求订单|CLICK|滚动需求订单-btn订单明细-添加
+2020-07-22 15:53:47,009 [INFO]: #  --- success ---
+2020-07-22 15:53:47,209 [INFO]: #  Run the Step: 19|滚动需求订单|CLICK|滚动需求订单-sel物料编码
+2020-07-22 15:53:47,895 [INFO]: #  --- success ---
+2020-07-22 15:53:48,101 [INFO]: #  Run the Step: 20|滚动需求订单|INPUT|滚动需求订单-inp选择物料
+2020-07-22 15:53:48,752 [INFO]: #  --- success ---
+2020-07-22 15:53:48,952 [INFO]: #  Run the Step: 21|滚动需求订单|CLICK|滚动需求订单-val物料编码-风扇罩-K333A0042-W1N-PP-不要求-NW-054
+2020-07-22 15:53:49,856 [INFO]: #  --- success ---
+2020-07-22 15:53:50,057 [INFO]: #  Run the Step: 22|滚动需求订单|INPUT|滚动需求订单-inp数量
+2020-07-22 15:53:50,889 [INFO]: #  --- success ---
+2020-07-22 15:53:51,089 [INFO]: #  Run the Step: 23|滚动需求订单|CLICK|滚动需求订单-sel订单明细-单价
+2020-07-22 15:53:51,780 [INFO]: #  --- success ---
+2020-07-22 15:53:51,980 [INFO]: #  Run the Step: 24|滚动需求订单|CHECK|滚动需求订单-sel订单明细-交货地点
+2020-07-22 15:53:52,055 [INFO]: #  DATA:'B2成品货位'
+2020-07-22 15:53:52,064 [INFO]: #  REAL:'B2成品货位'
+2020-07-22 15:53:52,065 [INFO]: #  --- success ---
+2020-07-22 15:53:52,265 [INFO]: #  Run the Step: 25|滚动需求订单|INPUT|滚动需求订单-inp备注
+2020-07-22 15:53:53,526 [INFO]: #  --- success ---
+2020-07-22 15:53:53,726 [INFO]: #  --- success ---
+2020-07-22 15:53:53,926 [INFO]: #  Run the Step: 57|滚动需求订单|CLICK|通用-btn直接提交
+2020-07-22 15:53:54,611 [INFO]: #  --- success ---
+2020-07-22 15:53:54,820 [INFO]: #  Run the Step: 58|滚动需求订单|CLICK|通用-btn直接提交-确定
+2020-07-22 15:53:55,709 [INFO]: #  --- success ---
+2020-07-22 15:53:55,910 [INFO]: #  Run the Step: 59|滚动需求订单|CLICK|通用-btn审核
+2020-07-22 15:53:57,613 [INFO]: #  --- success ---
+2020-07-22 15:53:57,813 [INFO]: #  Run the Step: 60|滚动需求订单|CLICK|通用-sel审核-通过
+2020-07-22 15:54:08,445 [INFO]: #  --- success ---
+2020-07-22 15:54:08,645 [INFO]: #  Run the Step: 61|滚动需求订单|CLICK|通用-btn审核-确定
+2020-07-22 15:54:09,439 [INFO]: #  --- success ---
+2020-07-22 15:54:09,640 [INFO]: #  Run the Step: 62|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#已审核
+2020-07-22 15:54:10,262 [INFO]: #  DATA:'已审核'
+2020-07-22 15:54:10,263 [INFO]: #  REAL:'已审核'
+2020-07-22 15:54:10,263 [INFO]: #  --- success ---
+2020-07-22 15:54:10,463 [INFO]: #  Run the Step: 63|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:54:11,335 [INFO]: #  --- success ---
+2020-07-22 15:54:11,535 [INFO]: #  Run the Step: 64|滚动需求订单|CLICK|通用-tab已审核
+2020-07-22 15:54:12,797 [INFO]: #  --- success ---
+2020-07-22 15:54:12,997 [INFO]: #  Run the Step: 65|滚动需求订单|CLICK|通用-val单号
+2020-07-22 15:54:14,018 [INFO]: #  --- success ---
+2020-07-22 15:54:14,221 [INFO]: #  Run the Step: 66|滚动需求订单|INPUT|通用-inp搜索
+2020-07-22 15:54:16,755 [INFO]: #  --- success ---
+2020-07-22 15:54:16,961 [INFO]: #  Run the Step: 67|滚动需求订单|CLICK|通用-btn搜索
+2020-07-22 15:54:17,968 [INFO]: #  --- success ---
+2020-07-22 15:54:18,168 [INFO]: #  Run the Step: 68|滚动需求订单|CLICK|通用-tab已审核
+2020-07-22 15:54:18,905 [INFO]: #  --- success ---
+2020-07-22 15:54:19,106 [INFO]: #  Run the Step: 69|滚动需求订单|CLICK|通用-tab已审核-查看
+2020-07-22 15:54:19,907 [INFO]: #  --- success ---
+2020-07-22 15:54:20,108 [INFO]: #  Run the Step: 70|滚动需求订单|CLICK|通用-btn关闭
+2020-07-22 15:54:21,221 [INFO]: #  --- success ---
+2020-07-22 15:54:21,422 [INFO]: #  Run the Step: 71|滚动需求订单|CLICK|通用-btn关闭确定
+2020-07-22 15:54:22,179 [INFO]: #  --- success ---
+2020-07-22 15:54:22,387 [INFO]: #  Run the Step: 72|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#已关闭
+2020-07-22 15:54:22,916 [INFO]: #  DATA:'已关闭'
+2020-07-22 15:54:22,917 [INFO]: #  REAL:'已关闭'
+2020-07-22 15:54:22,917 [INFO]: #  --- success ---
+2020-07-22 15:54:23,118 [INFO]: #  Run the Step: 73|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:54:23,938 [INFO]: #  --- success ---
+2020-07-22 15:54:24,138 [INFO]: #  Run the Step: 74|滚动需求订单|CLICK|通用-tab已关闭
+2020-07-22 15:54:25,472 [INFO]: #  --- success ---
+2020-07-22 15:54:25,681 [INFO]: #  Run the Step: 75|滚动需求订单|CLICK|通用-val单号
+2020-07-22 15:54:26,352 [INFO]: #  --- success ---
+2020-07-22 15:54:26,552 [INFO]: #  Run the Step: 76|滚动需求订单|INPUT|通用-inp搜索
+2020-07-22 15:54:28,192 [INFO]: #  --- success ---
+2020-07-22 15:54:28,392 [INFO]: #  Run the Step: 77|滚动需求订单|CLICK|通用-btn搜索
+2020-07-22 15:54:29,223 [INFO]: #  --- success ---
+2020-07-22 15:54:29,423 [INFO]: #  Run the Step: 78|滚动需求订单|CLICK|通用-tab已关闭
+2020-07-22 15:54:30,156 [INFO]: #  --- success ---
+2020-07-22 15:54:30,356 [INFO]: #  Run the Step: 79|滚动需求订单|CLICK|通用-btn删除订单
+2020-07-22 15:54:31,035 [INFO]: #  --- success ---
+2020-07-22 15:54:31,237 [INFO]: #  Run the Step: 80|滚动需求订单|CLICK|通用-btn删除订单-确定
+2020-07-22 15:54:31,883 [INFO]: #  --- success ---
+2020-07-22 15:54:32,084 [INFO]: #  Run the Step: 81|滚动需求订单|CHECK|通用-toast删除提醒#删除失败!
+2020-07-22 15:54:58,538 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 32, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 37, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\testcase.py", line 137, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\keywords\web.py", line 83, in check
+    element_location = locating_element(element)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 40, in locating_element
+    raise Exception('Locating the element:%s is Failure: Timeout' % element)
+Exception: Locating the element:通用-toast删除提醒#删除失败! is Failure: Timeout
+2020-07-22 15:54:58,541 [INFO]: #  ==================================================
+2020-07-22 15:54:58,541 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-22 15:54:58,542 [INFO]: #  --------------------------------------------------
+2020-07-22 15:54:58,542 [INFO]: #  >>> Run the TestCase: CH_001|查看需求订单
+2020-07-22 15:54:58,542 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-07-22 15:54:58,544 [INFO]: #  >>> Run the TestCase: CQ_001|新增需求订单
+2020-07-22 15:54:58,544 [INFO]: #  Run the Step: 1|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:54:59,214 [INFO]: #  --- success ---
+2020-07-22 15:54:59,415 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-22 15:55:00,038 [INFO]: #  --- success ---
+2020-07-22 15:55:00,238 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:55:00,906 [INFO]: #  --- success ---
+2020-07-22 15:55:01,106 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|滚动需求订单-tab滚动需求
+2020-07-22 15:55:01,742 [INFO]: #  --- success ---
+2020-07-22 15:55:01,942 [INFO]: #  Run the Step: 5|滚动需求订单|CLICK|滚动需求订单-btn新增
+2020-07-22 15:55:02,841 [INFO]: #  --- success ---
+2020-07-22 15:55:03,042 [INFO]: #  Run the Step: 6|滚动需求订单|CLICK|滚动需求订单-sel预交日期
+2020-07-22 15:55:03,770 [INFO]: #  --- success ---
+2020-07-22 15:55:03,970 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|滚动需求订单-val预交日期
+2020-07-22 15:55:04,704 [INFO]: #  --- success ---
+2020-07-22 15:55:04,904 [INFO]: #  Run the Step: 8|滚动需求订单|CLICK|滚动需求订单-sel客户名称
+2020-07-22 15:55:05,608 [INFO]: #  --- success ---
+2020-07-22 15:55:05,809 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|滚动需求订单-val客户名称-美的
+2020-07-22 15:55:06,534 [INFO]: #  --- success ---
+2020-07-22 15:55:06,734 [INFO]: #  Run the Step: 10|滚动需求订单|CLICK|滚动需求订单-sel订单等级
+2020-07-22 15:55:07,422 [INFO]: #  --- success ---
+2020-07-22 15:55:07,623 [INFO]: #  Run the Step: 11|滚动需求订单|CLICK|滚动需求订单-val订单等级-正常
+2020-07-22 15:55:08,252 [INFO]: #  --- success ---
+2020-07-22 15:55:08,455 [INFO]: #  Run the Step: 12|滚动需求订单|CLICK|滚动需求订单-sel业务部门
+2020-07-22 15:55:09,241 [INFO]: #  --- success ---
+2020-07-22 15:55:09,448 [INFO]: #  Run the Step: 13|滚动需求订单|CLICK|滚动需求订单-val业务部门-办公室
+2020-07-22 15:55:10,211 [INFO]: #  --- success ---
+2020-07-22 15:55:10,412 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|滚动需求订单-sel业务人员
+2020-07-22 15:55:11,117 [INFO]: #  --- success ---
+2020-07-22 15:55:11,318 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|滚动需求订单-val业务人员-周文杰
+2020-07-22 15:55:12,073 [INFO]: #  --- success ---
+2020-07-22 15:55:12,274 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|滚动需求订单-sel交货验收
+2020-07-22 15:55:12,984 [INFO]: #  --- success ---
+2020-07-22 15:55:13,184 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|滚动需求订单-val交货验收-否
+2020-07-22 15:55:13,827 [INFO]: #  --- success ---
+2020-07-22 15:55:14,029 [INFO]: #  Run the Step: 18|滚动需求订单|CLICK|滚动需求订单-btn订单明细-添加
+2020-07-22 15:55:14,854 [INFO]: #  --- success ---
+2020-07-22 15:55:15,057 [INFO]: #  Run the Step: 19|滚动需求订单|CLICK|滚动需求订单-sel物料编码
+2020-07-22 15:55:15,746 [INFO]: #  --- success ---
+2020-07-22 15:55:15,947 [INFO]: #  Run the Step: 20|滚动需求订单|INPUT|滚动需求订单-inp选择物料
+2020-07-22 15:55:16,603 [INFO]: #  --- success ---
+2020-07-22 15:55:16,803 [INFO]: #  Run the Step: 21|滚动需求订单|CLICK|滚动需求订单-val物料编码-风扇罩-K333A0042-W1N-PP-不要求-NW-054
+2020-07-22 15:55:17,816 [INFO]: #  --- success ---
+2020-07-22 15:55:18,017 [INFO]: #  Run the Step: 22|滚动需求订单|INPUT|滚动需求订单-inp数量
+2020-07-22 15:55:18,857 [INFO]: #  --- success ---
+2020-07-22 15:55:19,058 [INFO]: #  Run the Step: 23|滚动需求订单|CLICK|滚动需求订单-sel订单明细-单价
+2020-07-22 15:55:19,774 [INFO]: #  --- success ---
+2020-07-22 15:55:19,975 [INFO]: #  Run the Step: 24|滚动需求订单|CHECK|滚动需求订单-sel订单明细-交货地点
+2020-07-22 15:55:20,051 [INFO]: #  DATA:'B2成品货位'
+2020-07-22 15:55:20,052 [INFO]: #  REAL:'B2成品货位'
+2020-07-22 15:55:20,052 [INFO]: #  --- success ---
+2020-07-22 15:55:20,252 [INFO]: #  Run the Step: 25|滚动需求订单|INPUT|滚动需求订单-inp备注
+2020-07-22 15:55:21,588 [INFO]: #  --- success ---
+2020-07-22 15:55:21,796 [INFO]: #  --- success ---
+2020-07-22 15:55:21,996 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-btn保存草稿
+2020-07-22 15:55:22,810 [INFO]: #  --- success ---
+2020-07-22 15:55:23,010 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:55:24,250 [INFO]: #  --- success ---
+2020-07-22 15:55:24,451 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|通用-tab已录入
+2020-07-22 15:55:25,563 [INFO]: #  --- success ---
+2020-07-22 15:55:25,764 [INFO]: #  Run the Step: 5|滚动需求订单|CLICK|通用-val单号
+2020-07-22 15:55:26,424 [INFO]: #  --- success ---
+2020-07-22 15:55:26,624 [INFO]: #  Run the Step: 6|滚动需求订单|INPUT|通用-inp搜索
+2020-07-22 15:55:29,018 [INFO]: #  --- success ---
+2020-07-22 15:55:29,221 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|通用-btn搜索
+2020-07-22 15:55:30,217 [INFO]: #  --- success ---
+2020-07-22 15:55:30,418 [INFO]: #  Run the Step: 8|滚动需求订单|CLICK|通用-tab已录入
+2020-07-22 15:55:31,149 [INFO]: #  --- success ---
+2020-07-22 15:55:31,350 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|通用-btn查看订单
+2020-07-22 15:55:32,371 [INFO]: #  --- success ---
+2020-07-22 15:55:32,572 [INFO]: #  Run the Step: 10|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#已录入
+2020-07-22 15:55:32,993 [INFO]: #  DATA:'已录入'
+2020-07-22 15:55:32,994 [INFO]: #  REAL:'已录入'
+2020-07-22 15:55:32,994 [INFO]: #  --- success ---
+2020-07-22 15:55:33,195 [INFO]: #  Run the Step: 11|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:55:34,015 [INFO]: #  --- success ---
+2020-07-22 15:55:34,216 [INFO]: #  Run the Step: 13|用例片段|EXECUTE|CQ_001
+2020-07-22 15:55:34,225 [INFO]: #  >>> Run the TestCase: CQ_001|新增需求订单
+2020-07-22 15:55:34,226 [INFO]: #  Run the Step: 1|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:55:35,755 [INFO]: #  --- success ---
+2020-07-22 15:55:35,956 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-22 15:55:36,594 [INFO]: #  --- success ---
+2020-07-22 15:55:36,795 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:55:37,507 [INFO]: #  --- success ---
+2020-07-22 15:55:37,711 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|滚动需求订单-tab滚动需求
+2020-07-22 15:55:38,348 [INFO]: #  --- success ---
+2020-07-22 15:55:38,548 [INFO]: #  Run the Step: 5|滚动需求订单|CLICK|滚动需求订单-btn新增
+2020-07-22 15:55:39,523 [INFO]: #  --- success ---
+2020-07-22 15:55:39,724 [INFO]: #  Run the Step: 6|滚动需求订单|CLICK|滚动需求订单-sel预交日期
+2020-07-22 15:55:40,467 [INFO]: #  --- success ---
+2020-07-22 15:55:40,672 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|滚动需求订单-val预交日期
+2020-07-22 15:55:41,417 [INFO]: #  --- success ---
+2020-07-22 15:55:41,617 [INFO]: #  Run the Step: 8|滚动需求订单|CLICK|滚动需求订单-sel客户名称
+2020-07-22 15:55:42,318 [INFO]: #  --- success ---
+2020-07-22 15:55:42,519 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|滚动需求订单-val客户名称-美的
+2020-07-22 15:55:43,236 [INFO]: #  --- success ---
+2020-07-22 15:55:43,437 [INFO]: #  Run the Step: 10|滚动需求订单|CLICK|滚动需求订单-sel订单等级
+2020-07-22 15:55:44,108 [INFO]: #  --- success ---
+2020-07-22 15:55:44,310 [INFO]: #  Run the Step: 11|滚动需求订单|CLICK|滚动需求订单-val订单等级-正常
+2020-07-22 15:55:44,995 [INFO]: #  --- success ---
+2020-07-22 15:55:45,195 [INFO]: #  Run the Step: 12|滚动需求订单|CLICK|滚动需求订单-sel业务部门
+2020-07-22 15:55:45,904 [INFO]: #  --- success ---
+2020-07-22 15:55:46,105 [INFO]: #  Run the Step: 13|滚动需求订单|CLICK|滚动需求订单-val业务部门-办公室
+2020-07-22 15:55:46,834 [INFO]: #  --- success ---
+2020-07-22 15:55:47,036 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|滚动需求订单-sel业务人员
+2020-07-22 15:55:47,741 [INFO]: #  --- success ---
+2020-07-22 15:55:47,942 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|滚动需求订单-val业务人员-周文杰
+2020-07-22 15:55:48,678 [INFO]: #  --- success ---
+2020-07-22 15:55:48,881 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|滚动需求订单-sel交货验收
+2020-07-22 15:55:49,570 [INFO]: #  --- success ---
+2020-07-22 15:55:49,771 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|滚动需求订单-val交货验收-否
+2020-07-22 15:55:50,397 [INFO]: #  --- success ---
+2020-07-22 15:55:50,597 [INFO]: #  Run the Step: 18|滚动需求订单|CLICK|滚动需求订单-btn订单明细-添加
+2020-07-22 15:55:51,430 [INFO]: #  --- success ---
+2020-07-22 15:55:51,630 [INFO]: #  Run the Step: 19|滚动需求订单|CLICK|滚动需求订单-sel物料编码
+2020-07-22 15:55:52,332 [INFO]: #  --- success ---
+2020-07-22 15:55:52,532 [INFO]: #  Run the Step: 20|滚动需求订单|INPUT|滚动需求订单-inp选择物料
+2020-07-22 15:55:53,182 [INFO]: #  --- success ---
+2020-07-22 15:55:53,388 [INFO]: #  Run the Step: 21|滚动需求订单|CLICK|滚动需求订单-val物料编码-风扇罩-K333A0042-W1N-PP-不要求-NW-054
+2020-07-22 15:55:54,296 [INFO]: #  --- success ---
+2020-07-22 15:55:54,496 [INFO]: #  Run the Step: 22|滚动需求订单|INPUT|滚动需求订单-inp数量
+2020-07-22 15:55:55,316 [INFO]: #  --- success ---
+2020-07-22 15:55:55,521 [INFO]: #  Run the Step: 23|滚动需求订单|CLICK|滚动需求订单-sel订单明细-单价
+2020-07-22 15:55:56,210 [INFO]: #  --- success ---
+2020-07-22 15:55:56,414 [INFO]: #  Run the Step: 24|滚动需求订单|CHECK|滚动需求订单-sel订单明细-交货地点
+2020-07-22 15:55:56,482 [INFO]: #  DATA:'B2成品货位'
+2020-07-22 15:55:56,482 [INFO]: #  REAL:'B2成品货位'
+2020-07-22 15:55:56,483 [INFO]: #  --- success ---
+2020-07-22 15:55:56,692 [INFO]: #  Run the Step: 25|滚动需求订单|INPUT|滚动需求订单-inp备注
+2020-07-22 15:55:58,033 [INFO]: #  --- success ---
+2020-07-22 15:55:58,234 [INFO]: #  --- success ---
+2020-07-22 15:55:58,438 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|通用-btn直接提交
+2020-07-22 15:55:59,125 [INFO]: #  --- success ---
+2020-07-22 15:55:59,331 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|通用-btn直接提交-确定
+2020-07-22 15:56:00,155 [INFO]: #  --- success ---
+2020-07-22 15:56:00,361 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:56:01,205 [INFO]: #  --- success ---
+2020-07-22 15:56:01,405 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|通用-tab已提交
+2020-07-22 15:56:02,910 [INFO]: #  --- success ---
+2020-07-22 15:56:03,121 [INFO]: #  Run the Step: 18|滚动需求订单|CLICK|通用-val单号
+2020-07-22 15:56:04,123 [INFO]: #  --- success ---
+2020-07-22 15:56:04,323 [INFO]: #  Run the Step: 19|滚动需求订单|INPUT|通用-inp搜索
+2020-07-22 15:56:06,645 [INFO]: #  --- success ---
+2020-07-22 15:56:06,847 [INFO]: #  Run the Step: 20|滚动需求订单|CLICK|通用-btn搜索
+2020-07-22 15:56:07,832 [INFO]: #  --- success ---
+2020-07-22 15:56:08,033 [INFO]: #  Run the Step: 21|滚动需求订单|CLICK|通用-tab已提交
+2020-07-22 15:56:08,744 [INFO]: #  --- success ---
+2020-07-22 15:56:08,944 [INFO]: #  Run the Step: 22|滚动需求订单|CLICK|通用-btn查看订单
+2020-07-22 15:56:09,767 [INFO]: #  --- success ---
+2020-07-22 15:56:09,967 [INFO]: #  Run the Step: 23|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#已提交
+2020-07-22 15:56:10,478 [INFO]: #  DATA:'已提交'
+2020-07-22 15:56:10,484 [INFO]: #  REAL:'已提交'
+2020-07-22 15:56:10,485 [INFO]: #  --- success ---
+2020-07-22 15:56:10,685 [INFO]: #  Run the Step: 24|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:56:11,492 [INFO]: #  --- success ---
+2020-07-22 15:56:11,692 [INFO]: #  Run the Step: 26|用例片段|EXECUTE|CQ_001
+2020-07-22 15:56:11,698 [INFO]: #  >>> Run the TestCase: CQ_001|新增需求订单
+2020-07-22 15:56:11,699 [INFO]: #  Run the Step: 1|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:56:12,804 [INFO]: #  --- success ---
+2020-07-22 15:56:13,010 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-22 15:56:13,621 [INFO]: #  --- success ---
+2020-07-22 15:56:13,823 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:56:14,595 [INFO]: #  --- success ---
+2020-07-22 15:56:14,795 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|滚动需求订单-tab滚动需求
+2020-07-22 15:56:15,441 [INFO]: #  --- success ---
+2020-07-22 15:56:15,649 [INFO]: #  Run the Step: 5|滚动需求订单|CLICK|滚动需求订单-btn新增
+2020-07-22 15:56:16,595 [INFO]: #  --- success ---
+2020-07-22 15:56:16,795 [INFO]: #  Run the Step: 6|滚动需求订单|CLICK|滚动需求订单-sel预交日期
+2020-07-22 15:56:17,534 [INFO]: #  --- success ---
+2020-07-22 15:56:17,734 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|滚动需求订单-val预交日期
+2020-07-22 15:56:18,474 [INFO]: #  --- success ---
+2020-07-22 15:56:18,674 [INFO]: #  Run the Step: 8|滚动需求订单|CLICK|滚动需求订单-sel客户名称
+2020-07-22 15:56:19,511 [INFO]: #  --- success ---
+2020-07-22 15:56:19,712 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|滚动需求订单-val客户名称-美的
+2020-07-22 15:56:20,437 [INFO]: #  --- success ---
+2020-07-22 15:56:20,637 [INFO]: #  Run the Step: 10|滚动需求订单|CLICK|滚动需求订单-sel订单等级
+2020-07-22 15:56:21,302 [INFO]: #  --- success ---
+2020-07-22 15:56:21,502 [INFO]: #  Run the Step: 11|滚动需求订单|CLICK|滚动需求订单-val订单等级-正常
+2020-07-22 15:56:22,149 [INFO]: #  --- success ---
+2020-07-22 15:56:22,349 [INFO]: #  Run the Step: 12|滚动需求订单|CLICK|滚动需求订单-sel业务部门
+2020-07-22 15:56:23,059 [INFO]: #  --- success ---
+2020-07-22 15:56:23,260 [INFO]: #  Run the Step: 13|滚动需求订单|CLICK|滚动需求订单-val业务部门-办公室
+2020-07-22 15:56:24,017 [INFO]: #  --- success ---
+2020-07-22 15:56:24,217 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|滚动需求订单-sel业务人员
+2020-07-22 15:56:24,917 [INFO]: #  --- success ---
+2020-07-22 15:56:25,117 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|滚动需求订单-val业务人员-周文杰
+2020-07-22 15:56:25,863 [INFO]: #  --- success ---
+2020-07-22 15:56:26,071 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|滚动需求订单-sel交货验收
+2020-07-22 15:56:26,765 [INFO]: #  --- success ---
+2020-07-22 15:56:26,966 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|滚动需求订单-val交货验收-否
+2020-07-22 15:56:27,608 [INFO]: #  --- success ---
+2020-07-22 15:56:27,808 [INFO]: #  Run the Step: 18|滚动需求订单|CLICK|滚动需求订单-btn订单明细-添加
+2020-07-22 15:56:28,624 [INFO]: #  --- success ---
+2020-07-22 15:56:28,825 [INFO]: #  Run the Step: 19|滚动需求订单|CLICK|滚动需求订单-sel物料编码
+2020-07-22 15:56:29,517 [INFO]: #  --- success ---
+2020-07-22 15:56:29,726 [INFO]: #  Run the Step: 20|滚动需求订单|INPUT|滚动需求订单-inp选择物料
+2020-07-22 15:56:30,373 [INFO]: #  --- success ---
+2020-07-22 15:56:30,576 [INFO]: #  Run the Step: 21|滚动需求订单|CLICK|滚动需求订单-val物料编码-风扇罩-K333A0042-W1N-PP-不要求-NW-054
+2020-07-22 15:56:31,474 [INFO]: #  --- success ---
+2020-07-22 15:56:31,674 [INFO]: #  Run the Step: 22|滚动需求订单|INPUT|滚动需求订单-inp数量
+2020-07-22 15:56:32,523 [INFO]: #  --- success ---
+2020-07-22 15:56:32,723 [INFO]: #  Run the Step: 23|滚动需求订单|CLICK|滚动需求订单-sel订单明细-单价
+2020-07-22 15:56:33,459 [INFO]: #  --- success ---
+2020-07-22 15:56:33,660 [INFO]: #  Run the Step: 24|滚动需求订单|CHECK|滚动需求订单-sel订单明细-交货地点
+2020-07-22 15:56:33,741 [INFO]: #  DATA:'B2成品货位'
+2020-07-22 15:56:33,748 [INFO]: #  REAL:'B2成品货位'
+2020-07-22 15:56:33,749 [INFO]: #  --- success ---
+2020-07-22 15:56:33,949 [INFO]: #  Run the Step: 25|滚动需求订单|INPUT|滚动需求订单-inp备注
+2020-07-22 15:56:35,289 [INFO]: #  --- success ---
+2020-07-22 15:56:35,489 [INFO]: #  --- success ---
+2020-07-22 15:56:35,695 [INFO]: #  Run the Step: 27|滚动需求订单|CLICK|通用-btn直接提交
+2020-07-22 15:56:36,401 [INFO]: #  --- success ---
+2020-07-22 15:56:36,602 [INFO]: #  Run the Step: 28|滚动需求订单|CLICK|通用-btn直接提交-确定
+2020-07-22 15:56:37,418 [INFO]: #  --- success ---
+2020-07-22 15:56:37,618 [INFO]: #  Run the Step: 29|滚动需求订单|CLICK|通用-btn审核
+2020-07-22 15:56:39,241 [INFO]: #  --- success ---
+2020-07-22 15:56:39,441 [INFO]: #  Run the Step: 30|滚动需求订单|CLICK|通用-sel审核-通过
+2020-07-22 15:56:50,086 [INFO]: #  --- success ---
+2020-07-22 15:56:50,293 [INFO]: #  Run the Step: 31|滚动需求订单|CLICK|通用-btn审核-确定
+2020-07-22 15:56:51,104 [INFO]: #  --- success ---
+2020-07-22 15:56:51,305 [INFO]: #  Run the Step: 32|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#已审核
+2020-07-22 15:56:52,066 [INFO]: #  DATA:'已审核'
+2020-07-22 15:56:52,066 [INFO]: #  REAL:'已审核'
+2020-07-22 15:56:52,067 [INFO]: #  --- success ---
+2020-07-22 15:56:52,267 [INFO]: #  Run the Step: 33|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:56:53,092 [INFO]: #  --- success ---
+2020-07-22 15:56:53,293 [INFO]: #  Run the Step: 34|滚动需求订单|CLICK|通用-tab已审核
+2020-07-22 15:56:54,744 [INFO]: #  --- success ---
+2020-07-22 15:56:54,945 [INFO]: #  Run the Step: 35|滚动需求订单|CLICK|通用-val单号
+2020-07-22 15:56:55,911 [INFO]: #  --- success ---
+2020-07-22 15:56:56,113 [INFO]: #  Run the Step: 36|滚动需求订单|INPUT|通用-inp搜索
+2020-07-22 15:56:58,479 [INFO]: #  --- success ---
+2020-07-22 15:56:58,687 [INFO]: #  Run the Step: 37|滚动需求订单|CLICK|通用-btn搜索
+2020-07-22 15:56:59,667 [INFO]: #  --- success ---
+2020-07-22 15:56:59,868 [INFO]: #  Run the Step: 38|滚动需求订单|CLICK|通用-tab已审核
+2020-07-22 15:57:00,604 [INFO]: #  --- success ---
+2020-07-22 15:57:00,810 [INFO]: #  Run the Step: 39|滚动需求订单|CLICK|通用-btn查看订单
+2020-07-22 15:57:01,626 [INFO]: #  --- success ---
+2020-07-22 15:57:01,827 [INFO]: #  Run the Step: 40|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#已审核
+2020-07-22 15:57:02,292 [INFO]: #  DATA:'已审核'
+2020-07-22 15:57:02,295 [INFO]: #  REAL:'已审核'
+2020-07-22 15:57:02,296 [INFO]: #  --- success ---
+2020-07-22 15:57:02,496 [INFO]: #  Run the Step: 41|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:57:03,302 [INFO]: #  --- success ---
+2020-07-22 15:57:03,502 [INFO]: #  Run the Step: 43|用例片段|EXECUTE|CQ_001
+2020-07-22 15:57:03,507 [INFO]: #  >>> Run the TestCase: CQ_001|新增需求订单
+2020-07-22 15:57:03,508 [INFO]: #  Run the Step: 1|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:57:04,617 [INFO]: #  --- success ---
+2020-07-22 15:57:04,818 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-22 15:57:05,456 [INFO]: #  --- success ---
+2020-07-22 15:57:05,658 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:57:06,368 [INFO]: #  --- success ---
+2020-07-22 15:57:06,568 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|滚动需求订单-tab滚动需求
+2020-07-22 15:57:07,203 [INFO]: #  --- success ---
+2020-07-22 15:57:07,403 [INFO]: #  Run the Step: 5|滚动需求订单|CLICK|滚动需求订单-btn新增
+2020-07-22 15:57:08,380 [INFO]: #  --- success ---
+2020-07-22 15:57:08,581 [INFO]: #  Run the Step: 6|滚动需求订单|CLICK|滚动需求订单-sel预交日期
+2020-07-22 15:57:09,305 [INFO]: #  --- success ---
+2020-07-22 15:57:09,506 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|滚动需求订单-val预交日期
+2020-07-22 15:57:10,255 [INFO]: #  --- success ---
+2020-07-22 15:57:10,455 [INFO]: #  Run the Step: 8|滚动需求订单|CLICK|滚动需求订单-sel客户名称
+2020-07-22 15:57:11,139 [INFO]: #  --- success ---
+2020-07-22 15:57:11,340 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|滚动需求订单-val客户名称-美的
+2020-07-22 15:57:12,057 [INFO]: #  --- success ---
+2020-07-22 15:57:12,263 [INFO]: #  Run the Step: 10|滚动需求订单|CLICK|滚动需求订单-sel订单等级
+2020-07-22 15:57:12,945 [INFO]: #  --- success ---
+2020-07-22 15:57:13,145 [INFO]: #  Run the Step: 11|滚动需求订单|CLICK|滚动需求订单-val订单等级-正常
+2020-07-22 15:57:13,781 [INFO]: #  --- success ---
+2020-07-22 15:57:13,983 [INFO]: #  Run the Step: 12|滚动需求订单|CLICK|滚动需求订单-sel业务部门
+2020-07-22 15:57:14,678 [INFO]: #  --- success ---
+2020-07-22 15:57:14,883 [INFO]: #  Run the Step: 13|滚动需求订单|CLICK|滚动需求订单-val业务部门-办公室
+2020-07-22 15:57:15,632 [INFO]: #  --- success ---
+2020-07-22 15:57:15,832 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|滚动需求订单-sel业务人员
+2020-07-22 15:57:16,697 [INFO]: #  --- success ---
+2020-07-22 15:57:16,898 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|滚动需求订单-val业务人员-周文杰
+2020-07-22 15:57:17,653 [INFO]: #  --- success ---
+2020-07-22 15:57:17,854 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|滚动需求订单-sel交货验收
+2020-07-22 15:57:18,561 [INFO]: #  --- success ---
+2020-07-22 15:57:18,761 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|滚动需求订单-val交货验收-否
+2020-07-22 15:57:19,415 [INFO]: #  --- success ---
+2020-07-22 15:57:19,624 [INFO]: #  Run the Step: 18|滚动需求订单|CLICK|滚动需求订单-btn订单明细-添加
+2020-07-22 15:57:20,449 [INFO]: #  --- success ---
+2020-07-22 15:57:20,649 [INFO]: #  Run the Step: 19|滚动需求订单|CLICK|滚动需求订单-sel物料编码
+2020-07-22 15:57:21,753 [INFO]: #  --- success ---
+2020-07-22 15:57:21,954 [INFO]: #  Run the Step: 20|滚动需求订单|INPUT|滚动需求订单-inp选择物料
+2020-07-22 15:57:22,605 [INFO]: #  --- success ---
+2020-07-22 15:57:22,807 [INFO]: #  Run the Step: 21|滚动需求订单|CLICK|滚动需求订单-val物料编码-风扇罩-K333A0042-W1N-PP-不要求-NW-054
+2020-07-22 15:57:23,765 [INFO]: #  --- success ---
+2020-07-22 15:57:23,965 [INFO]: #  Run the Step: 22|滚动需求订单|INPUT|滚动需求订单-inp数量
+2020-07-22 15:57:24,802 [INFO]: #  --- success ---
+2020-07-22 15:57:25,002 [INFO]: #  Run the Step: 23|滚动需求订单|CLICK|滚动需求订单-sel订单明细-单价
+2020-07-22 15:57:25,744 [INFO]: #  --- success ---
+2020-07-22 15:57:25,944 [INFO]: #  Run the Step: 24|滚动需求订单|CHECK|滚动需求订单-sel订单明细-交货地点
+2020-07-22 15:57:26,021 [INFO]: #  DATA:'B2成品货位'
+2020-07-22 15:57:26,021 [INFO]: #  REAL:'B2成品货位'
+2020-07-22 15:57:26,022 [INFO]: #  --- success ---
+2020-07-22 15:57:26,222 [INFO]: #  Run the Step: 25|滚动需求订单|INPUT|滚动需求订单-inp备注
+2020-07-22 15:57:27,513 [INFO]: #  --- success ---
+2020-07-22 15:57:27,715 [INFO]: #  --- success ---
+2020-07-22 15:57:27,920 [INFO]: #  Run the Step: 44|滚动需求订单|CLICK|通用-btn直接提交
+2020-07-22 15:57:28,638 [INFO]: #  --- success ---
+2020-07-22 15:57:28,844 [INFO]: #  Run the Step: 45|滚动需求订单|CLICK|通用-btn直接提交-确定
+2020-07-22 15:57:29,694 [INFO]: #  --- success ---
+2020-07-22 15:57:29,895 [INFO]: #  Run the Step: 46|滚动需求订单|CLICK|通用-btn审核
+2020-07-22 15:57:31,886 [INFO]: #  --- success ---
+2020-07-22 15:57:32,086 [INFO]: #  Run the Step: 47|滚动需求订单|CLICK|通用-sel审核-不通过
+2020-07-22 15:57:42,831 [INFO]: #  --- success ---
+2020-07-22 15:57:43,031 [INFO]: #  Run the Step: 48|滚动需求订单|CLICK|通用-btn审核-确定
+2020-07-22 15:57:43,801 [INFO]: #  --- success ---
+2020-07-22 15:57:44,008 [INFO]: #  Run the Step: 49|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#不通过
+2020-07-22 15:57:44,683 [INFO]: #  DATA:'不通过'
+2020-07-22 15:57:44,683 [INFO]: #  REAL:'不通过'
+2020-07-22 15:57:44,684 [INFO]: #  --- success ---
+2020-07-22 15:57:44,884 [INFO]: #  Run the Step: 50|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:57:45,724 [INFO]: #  --- success ---
+2020-07-22 15:57:45,927 [INFO]: #  Run the Step: 51|滚动需求订单|CLICK|通用-tab不通过
+2020-07-22 15:57:47,960 [INFO]: #  --- success ---
+2020-07-22 15:57:48,160 [INFO]: #  Run the Step: 52|滚动需求订单|CLICK|通用-val单号
+2020-07-22 15:57:48,841 [INFO]: #  --- success ---
+2020-07-22 15:57:49,047 [INFO]: #  Run the Step: 53|滚动需求订单|INPUT|通用-inp搜索
+2020-07-22 15:57:50,813 [INFO]: #  --- success ---
+2020-07-22 15:57:51,013 [INFO]: #  Run the Step: 54|滚动需求订单|CLICK|通用-btn搜索
+2020-07-22 15:57:51,881 [INFO]: #  --- success ---
+2020-07-22 15:57:52,087 [INFO]: #  Run the Step: 55|滚动需求订单|CLICK|通用-tab不通过
+2020-07-22 15:57:52,818 [INFO]: #  --- success ---
+2020-07-22 15:57:53,019 [INFO]: #  Run the Step: 56|滚动需求订单|CLICK|通用-btn查看订单
+2020-07-22 15:57:53,843 [INFO]: #  --- success ---
+2020-07-22 15:57:54,046 [INFO]: #  Run the Step: 57|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#不通过
+2020-07-22 15:57:54,567 [INFO]: #  DATA:'不通过'
+2020-07-22 15:57:54,567 [INFO]: #  REAL:'不通过'
+2020-07-22 15:57:54,568 [INFO]: #  --- success ---
+2020-07-22 15:57:54,768 [INFO]: #  Run the Step: 58|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:57:55,587 [INFO]: #  --- success ---
+2020-07-22 15:57:55,788 [INFO]: #  Run the Step: 60|用例片段|EXECUTE|CQ_001
+2020-07-22 15:57:55,793 [INFO]: #  >>> Run the TestCase: CQ_001|新增需求订单
+2020-07-22 15:57:55,806 [INFO]: #  Run the Step: 1|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:57:56,968 [INFO]: #  --- success ---
+2020-07-22 15:57:57,170 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-22 15:57:57,808 [INFO]: #  --- success ---
+2020-07-22 15:57:58,014 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-22 15:57:58,721 [INFO]: #  --- success ---
+2020-07-22 15:57:58,922 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|滚动需求订单-tab滚动需求
+2020-07-22 15:57:59,565 [INFO]: #  --- success ---
+2020-07-22 15:57:59,765 [INFO]: #  Run the Step: 5|滚动需求订单|CLICK|滚动需求订单-btn新增
+2020-07-22 15:58:00,700 [INFO]: #  --- success ---
+2020-07-22 15:58:00,900 [INFO]: #  Run the Step: 6|滚动需求订单|CLICK|滚动需求订单-sel预交日期
+2020-07-22 15:58:01,631 [INFO]: #  --- success ---
+2020-07-22 15:58:01,836 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|滚动需求订单-val预交日期
+2020-07-22 15:58:02,568 [INFO]: #  --- success ---
+2020-07-22 15:58:02,771 [INFO]: #  Run the Step: 8|滚动需求订单|CLICK|滚动需求订单-sel客户名称
+2020-07-22 15:58:03,476 [INFO]: #  --- success ---
+2020-07-22 15:58:03,683 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|滚动需求订单-val客户名称-美的
+2020-07-22 15:58:04,452 [INFO]: #  --- success ---
+2020-07-22 15:58:04,653 [INFO]: #  Run the Step: 10|滚动需求订单|CLICK|滚动需求订单-sel订单等级
+2020-07-22 15:58:05,355 [INFO]: #  --- success ---
+2020-07-22 15:58:05,556 [INFO]: #  Run the Step: 11|滚动需求订单|CLICK|滚动需求订单-val订单等级-正常
+2020-07-22 15:58:06,191 [INFO]: #  --- success ---
+2020-07-22 15:58:06,397 [INFO]: #  Run the Step: 12|滚动需求订单|CLICK|滚动需求订单-sel业务部门
+2020-07-22 15:58:07,086 [INFO]: #  --- success ---
+2020-07-22 15:58:07,287 [INFO]: #  Run the Step: 13|滚动需求订单|CLICK|滚动需求订单-val业务部门-办公室
+2020-07-22 15:58:08,045 [INFO]: #  --- success ---
+2020-07-22 15:58:08,252 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|滚动需求订单-sel业务人员
+2020-07-22 15:58:08,928 [INFO]: #  --- success ---
+2020-07-22 15:58:09,128 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|滚动需求订单-val业务人员-周文杰
+2020-07-22 15:58:09,876 [INFO]: #  --- success ---
+2020-07-22 15:58:10,078 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|滚动需求订单-sel交货验收
+2020-07-22 15:58:10,775 [INFO]: #  --- success ---
+2020-07-22 15:58:10,975 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|滚动需求订单-val交货验收-否
+2020-07-22 15:58:11,612 [INFO]: #  --- success ---
+2020-07-22 15:58:11,813 [INFO]: #  Run the Step: 18|滚动需求订单|CLICK|滚动需求订单-btn订单明细-添加
+2020-07-22 15:58:12,615 [INFO]: #  --- success ---
+2020-07-22 15:58:12,820 [INFO]: #  Run the Step: 19|滚动需求订单|CLICK|滚动需求订单-sel物料编码
+2020-07-22 15:58:13,568 [INFO]: #  --- success ---
+2020-07-22 15:58:13,769 [INFO]: #  Run the Step: 20|滚动需求订单|INPUT|滚动需求订单-inp选择物料
+2020-07-22 15:58:14,425 [INFO]: #  --- success ---
+2020-07-22 15:58:14,625 [INFO]: #  Run the Step: 21|滚动需求订单|CLICK|滚动需求订单-val物料编码-风扇罩-K333A0042-W1N-PP-不要求-NW-054
+2020-07-22 15:58:15,536 [INFO]: #  --- success ---
+2020-07-22 15:58:15,739 [INFO]: #  Run the Step: 22|滚动需求订单|INPUT|滚动需求订单-inp数量
+2020-07-22 15:58:16,549 [INFO]: #  --- success ---
+2020-07-22 15:58:16,757 [INFO]: #  Run the Step: 23|滚动需求订单|CLICK|滚动需求订单-sel订单明细-单价
+2020-07-22 15:58:17,469 [INFO]: #  --- success ---
+2020-07-22 15:58:17,670 [INFO]: #  Run the Step: 24|滚动需求订单|CHECK|滚动需求订单-sel订单明细-交货地点
+2020-07-22 15:58:17,753 [INFO]: #  DATA:'B2成品货位'
+2020-07-22 15:58:17,754 [INFO]: #  REAL:'B2成品货位'
+2020-07-22 15:58:17,754 [INFO]: #  --- success ---
+2020-07-22 15:58:17,955 [INFO]: #  Run the Step: 25|滚动需求订单|INPUT|滚动需求订单-inp备注
+2020-07-22 15:58:19,189 [INFO]: #  --- success ---
+2020-07-22 15:58:19,393 [INFO]: #  --- success ---
+2020-07-22 15:58:19,594 [INFO]: #  Run the Step: 61|滚动需求订单|CLICK|通用-btn直接提交
+2020-07-22 15:58:20,279 [INFO]: #  --- success ---
+2020-07-22 15:58:20,484 [INFO]: #  Run the Step: 62|滚动需求订单|CLICK|通用-btn直接提交-确定
+2020-07-22 15:58:21,318 [INFO]: #  --- success ---
+2020-07-22 15:58:21,526 [INFO]: #  Run the Step: 63|滚动需求订单|CLICK|通用-btn审核
+2020-07-22 15:58:23,142 [INFO]: #  --- success ---
+2020-07-22 15:58:23,343 [INFO]: #  Run the Step: 64|滚动需求订单|CLICK|通用-sel审核-通过
+2020-07-22 15:58:33,994 [INFO]: #  --- success ---
+2020-07-22 15:58:34,194 [INFO]: #  Run the Step: 65|滚动需求订单|CLICK|通用-btn审核-确定
+2020-07-22 15:58:34,977 [INFO]: #  --- success ---
+2020-07-22 15:58:35,178 [INFO]: #  Run the Step: 66|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#已审核
+2020-07-22 15:58:36,001 [INFO]: #  DATA:'已审核'
+2020-07-22 15:58:36,002 [INFO]: #  REAL:'已审核'
+2020-07-22 15:58:36,002 [INFO]: #  --- success ---
+2020-07-22 15:58:36,203 [INFO]: #  Run the Step: 67|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:58:37,031 [INFO]: #  --- success ---
+2020-07-22 15:58:37,232 [INFO]: #  Run the Step: 68|滚动需求订单|CLICK|通用-tab已审核
+2020-07-22 15:58:38,618 [INFO]: #  --- success ---
+2020-07-22 15:58:38,829 [INFO]: #  Run the Step: 69|滚动需求订单|CLICK|通用-val单号
+2020-07-22 15:58:39,832 [INFO]: #  --- success ---
+2020-07-22 15:58:40,040 [INFO]: #  Run the Step: 70|滚动需求订单|INPUT|通用-inp搜索
+2020-07-22 15:58:42,362 [INFO]: #  --- success ---
+2020-07-22 15:58:42,562 [INFO]: #  Run the Step: 71|滚动需求订单|CLICK|通用-btn搜索
+2020-07-22 15:58:43,531 [INFO]: #  --- success ---
+2020-07-22 15:58:43,731 [INFO]: #  Run the Step: 72|滚动需求订单|CLICK|通用-tab已审核
+2020-07-22 15:58:44,431 [INFO]: #  --- success ---
+2020-07-22 15:58:44,632 [INFO]: #  Run the Step: 73|滚动需求订单|CLICK|通用-tab已审核-查看
+2020-07-22 15:58:45,435 [INFO]: #  --- success ---
+2020-07-22 15:58:45,652 [INFO]: #  Run the Step: 74|滚动需求订单|CLICK|通用-btn关闭
+2020-07-22 15:58:46,633 [INFO]: #  --- success ---
+2020-07-22 15:58:46,834 [INFO]: #  Run the Step: 75|滚动需求订单|CLICK|通用-btn关闭确定
+2020-07-22 15:58:47,594 [INFO]: #  --- success ---
+2020-07-22 15:58:47,797 [INFO]: #  Run the Step: 76|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#已关闭
+2020-07-22 15:58:48,367 [INFO]: #  DATA:'已关闭'
+2020-07-22 15:58:48,367 [INFO]: #  REAL:'已关闭'
+2020-07-22 15:58:48,368 [INFO]: #  --- success ---
+2020-07-22 15:58:48,568 [INFO]: #  Run the Step: 77|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:58:49,387 [INFO]: #  --- success ---
+2020-07-22 15:58:49,588 [INFO]: #  Run the Step: 78|滚动需求订单|CLICK|通用-tab已关闭
+2020-07-22 15:58:50,915 [INFO]: #  --- success ---
+2020-07-22 15:58:51,116 [INFO]: #  Run the Step: 79|滚动需求订单|CLICK|通用-val单号
+2020-07-22 15:58:51,885 [INFO]: #  --- success ---
+2020-07-22 15:58:52,086 [INFO]: #  Run the Step: 80|滚动需求订单|INPUT|通用-inp搜索
+2020-07-22 15:58:53,733 [INFO]: #  --- success ---
+2020-07-22 15:58:53,933 [INFO]: #  Run the Step: 81|滚动需求订单|CLICK|通用-btn搜索
+2020-07-22 15:58:54,768 [INFO]: #  --- success ---
+2020-07-22 15:58:54,972 [INFO]: #  Run the Step: 82|滚动需求订单|CLICK|通用-tab已关闭
+2020-07-22 15:58:55,699 [INFO]: #  --- success ---
+2020-07-22 15:58:55,900 [INFO]: #  Run the Step: 83|滚动需求订单|CLICK|通用-btn查看订单
+2020-07-22 15:58:56,751 [INFO]: #  --- success ---
+2020-07-22 15:58:56,952 [INFO]: #  Run the Step: 84|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#已关闭
+2020-07-22 15:58:57,327 [INFO]: #  DATA:'已关闭'
+2020-07-22 15:58:57,332 [INFO]: #  REAL:'已关闭'
+2020-07-22 15:58:57,333 [INFO]: #  --- success ---
+2020-07-22 15:58:57,534 [INFO]: #  Run the Step: 85|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-22 15:58:58,379 [INFO]: #  --- success ---
+2020-07-22 15:59:01,092 [INFO]: #  --- Quit th Driver: Chrome

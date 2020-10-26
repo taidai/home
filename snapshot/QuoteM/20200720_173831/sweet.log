@@ -1,0 +1,204 @@
+2020-07-20 17:38:31,997 [INFO]: #  From Excel import testsuite success
+2020-07-20 17:38:34,933 [INFO]: #  --------------------------------------------------
+2020-07-20 17:38:34,934 [INFO]: #  >>> Run the TestCase: HOME_001|打开云塑ERP
+2020-07-20 17:38:34,934 [INFO]: #  Run the Step: 1|通用|OPEN|通用-首页链接
+2020-07-20 17:38:44,199 [INFO]: #  --- success ---
+2020-07-20 17:38:44,399 [INFO]: #  Run the Step: 2|通用|CHECK|通用-页面title
+2020-07-20 17:38:44,401 [INFO]: #  DATA:'云塑 企业资源计划管理系统'
+2020-07-20 17:38:44,410 [INFO]: #  REAL:'云塑 企业资源计划管理系统'
+2020-07-20 17:38:44,419 [INFO]: #  --- success ---
+2020-07-20 17:38:44,619 [INFO]: #  --------------------------------------------------
+2020-07-20 17:38:44,636 [INFO]: #  >>> Run the TestCase: Login_001|登录
+2020-07-20 17:38:44,637 [INFO]: #  Run the Step: 1|登录页面|INPUT|登录页面-账号输入框
+2020-07-20 17:38:45,563 [INFO]: #  --- success ---
+2020-07-20 17:38:45,763 [INFO]: #  Run the Step: 2|登录页面|INPUT|登录页面-密码输入框
+2020-07-20 17:38:46,745 [INFO]: #  --- success ---
+2020-07-20 17:38:46,946 [INFO]: #  Run the Step: 3|登录页面|CLICK|登录页面-确定按钮
+2020-07-20 17:38:47,643 [INFO]: #  --- success ---
+2020-07-20 17:38:47,843 [INFO]: #  Run the Step: 4|登录页面|CHECK|通用-页面加载校验
+2020-07-20 17:38:49,984 [INFO]: #  DATA:'欢迎进入 云塑企业资源计划管理系统'
+2020-07-20 17:38:49,987 [INFO]: #  REAL:'欢迎进入 云塑企业资源计划管理系统'
+2020-07-20 17:38:49,987 [INFO]: #  --- success ---
+2020-07-20 17:38:50,188 [INFO]: #  ==================================================
+2020-07-20 17:38:50,189 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-20 17:38:50,189 [INFO]: #  --------------------------------------------------
+2020-07-20 17:38:50,190 [INFO]: #  >>> Run the TestCase: VQ_001|查看附件
+2020-07-20 17:38:50,190 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-07-20 17:38:50,193 [INFO]: #  >>> Run the TestCase: CQ_001|新增报价单
+2020-07-20 17:38:50,194 [INFO]: #  Run the Step: 1|报价管理|CLICK|报价管理-btn侧边栏报价管理
+2020-07-20 17:38:51,513 [INFO]: #  --- success ---
+2020-07-20 17:38:51,716 [INFO]: #  Run the Step: 2|报价管理|CLICK|报价管理-btn新增
+2020-07-20 17:38:52,803 [INFO]: #  --- success ---
+2020-07-20 17:38:53,015 [INFO]: #  Run the Step: 3|报价管理|CHECK|报价管理-lab报价状态#未定义
+2020-07-20 17:38:53,112 [INFO]: #  DATA:'未定义'
+2020-07-20 17:38:53,125 [INFO]: #  REAL:'未定义'
+2020-07-20 17:38:53,126 [INFO]: #  --- success ---
+2020-07-20 17:38:53,326 [INFO]: #  Run the Step: 4|报价管理|CLICK|报价管理-sel报价日期
+2020-07-20 17:38:54,063 [INFO]: #  --- success ---
+2020-07-20 17:38:54,263 [INFO]: #  Run the Step: 5|报价管理|CLICK|报价管理-val报价日期
+2020-07-20 17:38:54,909 [INFO]: #  --- success ---
+2020-07-20 17:38:55,114 [INFO]: #  Run the Step: 6|报价管理|CLICK|报价管理-sel客户简称
+2020-07-20 17:38:55,816 [INFO]: #  --- success ---
+2020-07-20 17:38:56,016 [INFO]: #  Run the Step: 7|报价管理|CLICK|报价管理-val客户简称-美的
+2020-07-20 17:38:56,809 [INFO]: #  --- success ---
+2020-07-20 17:38:57,009 [INFO]: #  Run the Step: 8|报价管理|CLICK|报价管理-sel业务部门
+2020-07-20 17:38:57,746 [INFO]: #  --- success ---
+2020-07-20 17:38:57,951 [INFO]: #  Run the Step: 9|报价管理|CLICK|报价管理-val业务部门-办公室
+2020-07-20 17:38:58,732 [INFO]: #  --- success ---
+2020-07-20 17:38:58,932 [INFO]: #  Run the Step: 10|报价管理|CLICK|报价管理-sel业务人员
+2020-07-20 17:38:59,623 [INFO]: #  --- success ---
+2020-07-20 17:38:59,824 [INFO]: #  Run the Step: 11|报价管理|CLICK|报价管理-val业务人员-田丰
+2020-07-20 17:39:00,594 [INFO]: #  --- success ---
+2020-07-20 17:39:00,796 [INFO]: #  Run the Step: 12|报价管理|CLICK|报价管理-sel生效日期
+2020-07-20 17:39:01,541 [INFO]: #  --- success ---
+2020-07-20 17:39:01,746 [INFO]: #  Run the Step: 13|报价管理|CLICK|报价管理-val生效日期
+2020-07-20 17:39:02,511 [INFO]: #  --- success ---
+2020-07-20 17:39:02,712 [INFO]: #  Run the Step: 14|报价管理|INPUT|报价管理-inp有效期限
+2020-07-20 17:39:03,645 [INFO]: #  --- success ---
+2020-07-20 17:39:03,849 [INFO]: #  Run the Step: 15|报价管理|INPUT|报价管理-inp交货周期
+2020-07-20 17:39:04,785 [INFO]: #  --- success ---
+2020-07-20 17:39:04,988 [INFO]: #  Run the Step: 16|报价管理|CLICK|报价管理-sel价格属性
+2020-07-20 17:39:05,704 [INFO]: #  --- success ---
+2020-07-20 17:39:05,911 [INFO]: #  Run the Step: 17|报价管理|CLICK|报价管理-val价格属性-不含税
+2020-07-20 17:39:06,564 [INFO]: #  --- success ---
+2020-07-20 17:39:06,771 [INFO]: #  Run the Step: 18|报价管理|CLICK|报价管理-sel收款方式
+2020-07-20 17:39:07,463 [INFO]: #  --- success ---
+2020-07-20 17:39:07,664 [INFO]: #  Run the Step: 19|报价管理|CLICK|报价管理-val收款方式-银行转账
+2020-07-20 17:39:08,441 [INFO]: #  --- success ---
+2020-07-20 17:39:08,641 [INFO]: #  Run the Step: 20|报价管理|CLICK|报价管理-sel运输方式
+2020-07-20 17:39:09,315 [INFO]: #  --- success ---
+2020-07-20 17:39:09,515 [INFO]: #  Run the Step: 21|报价管理|CLICK|报价管理-val运输方式-送货上门
+2020-07-20 17:39:10,402 [INFO]: #  --- success ---
+2020-07-20 17:39:10,603 [INFO]: #  Run the Step: 22|报价管理|INPUT|报价管理-inp备注信息
+2020-07-20 17:39:11,777 [INFO]: #  --- success ---
+2020-07-20 17:39:11,978 [INFO]: #  Run the Step: 23|报价管理|CLICK|报价管理-btn单据明细新增
+2020-07-20 17:39:12,947 [INFO]: #  --- success ---
+2020-07-20 17:39:13,148 [INFO]: #  Run the Step: 24|报价管理|CLICK|报价管理-sel物料编码
+2020-07-20 17:39:13,985 [INFO]: #  --- success ---
+2020-07-20 17:39:14,191 [INFO]: #  Run the Step: 25|报价管理|CLICK|报价管理-val物料编码-风扇罩nw054
+2020-07-20 17:39:15,089 [INFO]: #  --- success ---
+2020-07-20 17:39:15,289 [INFO]: #  Run the Step: 26|报价管理|DOUBLE_CLICK|报价管理-inp报价
+2020-07-20 17:39:16,152 [INFO]: #  --- success ---
+2020-07-20 17:39:16,359 [INFO]: #  Run the Step: 27|报价管理|INPUT|报价管理-inp报价
+2020-07-20 17:39:16,946 [INFO]: #  --- success ---
+2020-07-20 17:39:17,147 [INFO]: #  Run the Step: 28|报价管理|INPUT|报价管理-inp报价
+2020-07-20 17:39:17,732 [INFO]: #  --- success ---
+2020-07-20 17:39:17,932 [INFO]: #  Run the Step: 29|报价管理|INPUT|报价管理-inp报价
+2020-07-20 17:39:18,576 [INFO]: #  --- success ---
+2020-07-20 17:39:18,776 [INFO]: #  Run the Step: 30|报价管理|CLICK|报价管理-sel价格状态
+2020-07-20 17:39:19,547 [INFO]: #  --- success ---
+2020-07-20 17:39:19,747 [INFO]: #  Run the Step: 31|报价管理|CLICK|报价管理-val生效
+2020-07-20 17:39:20,418 [INFO]: #  --- success ---
+2020-07-20 17:39:20,620 [INFO]: #  Run the Step: 32|报价管理|INPUT|报价管理-inp数量
+2020-07-20 17:39:21,976 [INFO]: #  --- success ---
+2020-07-20 17:39:22,176 [INFO]: #  Run the Step: 33|报价管理|CHECK|报价管理-lab金额
+2020-07-20 17:39:22,270 [INFO]: #  DATA:'10000.00'
+2020-07-20 17:39:22,270 [INFO]: #  REAL:'10000.00'
+2020-07-20 17:39:22,278 [INFO]: #  --- success ---
+2020-07-20 17:39:22,479 [INFO]: #  Run the Step: 34|报价管理|DOUBLE_CLICK|报价管理-inp折扣
+2020-07-20 17:39:23,341 [INFO]: #  --- success ---
+2020-07-20 17:39:23,549 [INFO]: #  Run the Step: 35|报价管理|INPUT|报价管理-inp折扣
+2020-07-20 17:39:24,147 [INFO]: #  --- success ---
+2020-07-20 17:39:24,347 [INFO]: #  Run the Step: 36|报价管理|INPUT|报价管理-inp折扣
+2020-07-20 17:39:24,968 [INFO]: #  --- success ---
+2020-07-20 17:39:25,169 [INFO]: #  Run the Step: 37|报价管理|INPUT|报价管理-inp折扣
+2020-07-20 17:39:26,131 [INFO]: #  --- success ---
+2020-07-20 17:39:26,332 [INFO]: #  Run the Step: 38|报价管理|CHECK|报价管理-lab金额
+2020-07-20 17:39:26,438 [INFO]: #  DATA:'5000.00'
+2020-07-20 17:39:26,438 [INFO]: #  REAL:'5000.00'
+2020-07-20 17:39:26,439 [INFO]: #  --- success ---
+2020-07-20 17:39:26,639 [INFO]: #  Run the Step: 39|报价管理|CLICK|报价管理-tab客户信息
+2020-07-20 17:39:27,345 [INFO]: #  --- success ---
+2020-07-20 17:39:27,546 [INFO]: #  Run the Step: 40|报价管理|CHECK|报价管理-val客户名称
+2020-07-20 17:39:27,631 [INFO]: #  DATA:'美的'
+2020-07-20 17:39:27,631 [INFO]: #  REAL:'美的'
+2020-07-20 17:39:27,632 [INFO]: #  --- success ---
+2020-07-20 17:39:27,832 [INFO]: #  --- success ---
+2020-07-20 17:39:28,032 [INFO]: #  Run the Step: 2|报价管理|CLICK|报价管理-btn直接提交
+2020-07-20 17:39:28,710 [INFO]: #  --- success ---
+2020-07-20 17:39:28,911 [INFO]: #  Run the Step: 3|报价管理|CLICK|报价管理-btn直接提交-确定
+2020-07-20 17:39:29,792 [INFO]: #  --- success ---
+2020-07-20 17:39:29,993 [INFO]: #  Run the Step: 4|报价管理|CHECK|报价管理-lab报价状态#已提交
+2020-07-20 17:39:30,255 [INFO]: #  DATA:'已提交'
+2020-07-20 17:39:30,256 [INFO]: #  REAL:'已提交'
+2020-07-20 17:39:30,256 [INFO]: #  --- success ---
+2020-07-20 17:39:30,456 [INFO]: #  ==================================================
+2020-07-20 17:39:30,456 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-20 17:39:30,456 [INFO]: #  --------------------------------------------------
+2020-07-20 17:39:30,457 [INFO]: #  >>> Run the TestCase: AEQ_001|审核编辑
+2020-07-20 17:39:30,457 [INFO]: #  Run the Step: 1|报价管理|CLICK|报价管理-btn审核
+2020-07-20 17:39:31,303 [INFO]: #  --- success ---
+2020-07-20 17:39:31,503 [INFO]: #  Run the Step: 2|报价管理|CLICK|报价管理-sel审核-不通过
+2020-07-20 17:39:42,300 [INFO]: #  --- success ---
+2020-07-20 17:39:42,508 [INFO]: #  Run the Step: 3|报价管理|CLICK|报价管理-btn审核-确定
+2020-07-20 17:39:43,318 [INFO]: #  --- success ---
+2020-07-20 17:39:43,519 [INFO]: #  Run the Step: 4|报价管理|CHECK|报价管理-lab报价状态#不通过
+2020-07-20 17:39:43,897 [INFO]: #  DATA:'不通过'
+2020-07-20 17:39:43,898 [INFO]: #  REAL:'不通过'
+2020-07-20 17:39:43,898 [INFO]: #  --- success ---
+2020-07-20 17:39:44,098 [INFO]: #  Run the Step: 5|报价管理|CLICK|报价管理-btn编辑
+2020-07-20 17:39:44,948 [INFO]: #  --- success ---
+2020-07-20 17:39:45,148 [INFO]: #  Run the Step: 6|报价管理|CLICK|报价管理-btn保存
+2020-07-20 17:39:45,969 [INFO]: #  --- success ---
+2020-07-20 17:39:46,175 [INFO]: #  Run the Step: 7|报价管理|CLICK|报价管理-btn提交
+2020-07-20 17:39:47,136 [INFO]: #  --- success ---
+2020-07-20 17:39:47,341 [INFO]: #  Run the Step: 8|报价管理|CLICK|报价管理-btn提交-确定
+2020-07-20 17:39:48,156 [INFO]: #  --- success ---
+2020-07-20 17:39:48,359 [INFO]: #  Run the Step: 9|报价管理|CLICK|报价管理-btn审核
+2020-07-20 17:39:49,277 [INFO]: #  --- success ---
+2020-07-20 17:39:49,478 [INFO]: #  Run the Step: 10|报价管理|CLICK|报价管理-sel审核-通过
+2020-07-20 17:40:00,749 [INFO]: #  --- success ---
+2020-07-20 17:40:00,949 [INFO]: #  Run the Step: 11|报价管理|CLICK|报价管理-btn审核-确定
+2020-07-20 17:40:01,737 [INFO]: #  --- success ---
+2020-07-20 17:40:01,945 [INFO]: #  Run the Step: 12|报价管理|CLICK|报价管理-btn关闭
+2020-07-20 17:40:02,907 [INFO]: #  --- success ---
+2020-07-20 17:40:03,118 [INFO]: #  Page:报价管理 element:btn关闭-确定
+2020-07-20 17:40:03,118 [INFO]: #  Run the Step: 13|报价管理|CLICK|btn关闭-确定
+2020-07-20 17:40:06,507 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\testcase.py", line 137, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\keywords\web.py", line 175, in click
+    element_location = locating_element(element, 'CLICK')
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 23, in locating_element
+    raise Exception(
+Exception: Locating the element:btn关闭-确定 is Failure, this element is not define
+2020-07-20 17:40:06,509 [INFO]: #  ==================================================
+2020-07-20 17:40:06,509 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-20 17:40:06,518 [INFO]: #  --------------------------------------------------
+2020-07-20 17:40:06,519 [INFO]: #  >>> Run the TestCase: DQ_001|删除报价单
+2020-07-20 17:40:06,519 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-07-20 17:40:06,522 [INFO]: #  >>> Run the TestCase: CQ_001|新增报价单
+2020-07-20 17:40:06,522 [INFO]: #  Run the Step: 1|报价管理|CLICK|报价管理-btn侧边栏报价管理
+2020-07-20 17:40:07,200 [INFO]: #  --- success ---
+2020-07-20 17:40:07,401 [INFO]: #  Run the Step: 2|报价管理|CLICK|报价管理-btn新增
+2020-07-20 17:40:33,905 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 32, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 37, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\testcase.py", line 137, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\keywords\web.py", line 175, in click
+    element_location = locating_element(element, 'CLICK')
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 40, in locating_element
+    raise Exception('Locating the element:%s is Failure: Timeout' % element)
+Exception: Locating the element:报价管理-btn新增 is Failure: Timeout
+2020-07-20 17:40:36,277 [INFO]: #  --- Quit th Driver: Chrome

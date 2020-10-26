@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="SalesO" hostname="saleso" timestamp="2020-07-23T16:39:12.250518" tests="5" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="838.852979" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="9.992572"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="18.643066"/>
+		<testcase name="审核编辑" classname="AEQ_002" priority="M" time="180.857344"/>
+		<testcase name="删除销售订单" classname="DQ_001" priority="M" time="382.434874"/>
+		<testcase name="查看销售订单" classname="CH_001" priority="M" time="242.055845">
+			<failure type="Failure" message="step-67|CLICK|通用-tab已审核-查看: Message: element not interactable
+  (Session info: chrome=84.0.4147.89)
+"/>
+		</testcase>
+	</testsuite>
+</testsuites>

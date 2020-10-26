@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="OsM" hostname="osm" timestamp="2020-06-28T17:58:14.893497" tests="3" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="103.527691" skipped="0" disabled="0">
+		<testcase name="登录" classname="Login_001" priority="M" time="21.656123"/>
+		<testcase name="新增委外工单" classname="CreateOs_001" priority="M" time="43.078446"/>
+		<testcase name="新增发料单" classname="CreateIssue_001" priority="M" time="36.174063">
+			<failure type="Failure" message="step-5|CHECK|通用-详情页校验#发料管理详情: Locating the element:通用-详情页校验#发料管理详情 is Failure: Timeout"/>
+		</testcase>
+	</testsuite>
+</testsuites>

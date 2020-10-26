@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="QuoteM" hostname="quotem" timestamp="2020-07-20T20:17:37.973071" tests="5" failures="2" failures_detail="H:0 M:2 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="134.997722" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="7.128408"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="4.886279"/>
+		<testcase name="查看附件" classname="VQ_001" priority="M" time="39.491259"/>
+		<testcase name="审核编辑" classname="AEQ_001" priority="M" time="56.272218">
+			<failure type="Failure" message="step-13|CLICK|报价管理-btn关闭确定: Message: element not interactable
+  (Session info: chrome=84.0.4147.89)
+"/>
+		</testcase>
+		<testcase name="删除报价单" classname="DQ_001" priority="M" time="24.392396">
+			<failure type="Failure" message=""/>
+		</testcase>
+	</testsuite>
+</testsuites>

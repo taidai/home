@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="DEMO" hostname="demo" timestamp="2020-08-04T21:46:19.999059" tests="3" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="98.490449" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="3.760184"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="4.611193"/>
+		<testcase name="编辑" classname="CQ_001" priority="M" time="87.471002">
+			<failure type="Failure" message="step-7|CLICK|通用-btn审核-确定: Locating the element:通用-btn审核-确定 is Failure: Timeout"/>
+		</testcase>
+	</testsuite>
+</testsuites>

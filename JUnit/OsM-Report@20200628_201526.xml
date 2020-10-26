@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="OsM" hostname="osm" timestamp="2020-06-28T20:15:45.867835" tests="3" failures="0" failures_detail="H:0 M:0 L:0" errors="3" errors_detail="H:0 M:0 L:0" time="7.003214" skipped="0" disabled="3">
+		<testcase name="登录" classname="Login_001" priority="M" time="1.525057">
+			<blocked type="Blocked" message="SETUP is not success"/>
+		</testcase>
+		<testcase name="新增委外工单" classname="CreateOs_001" priority="M" time="1.359045">
+			<blocked type="Blocked" message="SETUP is not success"/>
+		</testcase>
+		<testcase name="新增发料单" classname="CreateIssue_001" priority="M" time="1.447059">
+			<blocked type="Blocked" message="SETUP is not success"/>
+		</testcase>
+	</testsuite>
+</testsuites>

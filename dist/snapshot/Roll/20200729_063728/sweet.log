@@ -1,0 +1,222 @@
+2020-07-29 06:37:40,300 [INFO]: #  From Excel import testsuite success
+2020-07-29 06:37:42,945 [INFO]: #  --------------------------------------------------
+2020-07-29 06:37:42,945 [INFO]: #  >>> Run the TestCase: HOME_001|打开云塑ERP
+2020-07-29 06:37:42,945 [INFO]: #  Run the Step: 1|通用|OPEN|通用-首页链接
+2020-07-29 06:37:48,747 [INFO]: #  --- success ---
+2020-07-29 06:37:48,950 [INFO]: #  Run the Step: 2|通用|CHECK|通用-页面title
+2020-07-29 06:37:48,950 [INFO]: #  DATA:'云塑 企业资源计划管理系统'
+2020-07-29 06:37:48,980 [INFO]: #  REAL:'云塑 企业资源计划管理系统'
+2020-07-29 06:37:49,010 [INFO]: #  --- success ---
+2020-07-29 06:37:49,212 [INFO]: #  --------------------------------------------------
+2020-07-29 06:37:49,212 [INFO]: #  >>> Run the TestCase: Login_001|登录
+2020-07-29 06:37:49,212 [INFO]: #  Run the Step: 1|登录页面|INPUT|登录页面-账号输入框
+2020-07-29 06:37:50,456 [INFO]: #  --- success ---
+2020-07-29 06:37:50,659 [INFO]: #  Run the Step: 2|登录页面|INPUT|登录页面-密码输入框
+2020-07-29 06:37:51,735 [INFO]: #  --- success ---
+2020-07-29 06:37:51,942 [INFO]: #  Run the Step: 3|登录页面|CLICK|登录页面-确定按钮
+2020-07-29 06:37:52,705 [INFO]: #  --- success ---
+2020-07-29 06:37:52,905 [INFO]: #  Run the Step: 4|登录页面|CHECK|通用-页面加载校验
+2020-07-29 06:37:55,713 [INFO]: #  DATA:'欢迎进入 云塑企业资源计划管理系统'
+2020-07-29 06:37:55,717 [INFO]: #  REAL:'欢迎进入 云塑企业资源计划管理系统'
+2020-07-29 06:37:55,718 [INFO]: #  --- success ---
+2020-07-29 06:37:55,920 [INFO]: #  ==================================================
+2020-07-29 06:37:55,920 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-29 06:37:55,920 [INFO]: #  --------------------------------------------------
+2020-07-29 06:37:55,920 [INFO]: #  >>> Run the TestCase: AEQ_001|审核编辑
+2020-07-29 06:37:55,922 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-07-29 06:37:55,927 [INFO]: #  >>> Run the TestCase: CQ_001|新增需求订单
+2020-07-29 06:37:55,930 [INFO]: #  Run the Step: 1|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-29 06:37:56,677 [INFO]: #  --- success ---
+2020-07-29 06:37:56,878 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-29 06:37:57,976 [INFO]: #  --- success ---
+2020-07-29 06:37:58,177 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-29 06:37:59,419 [INFO]: #  --- success ---
+2020-07-29 06:37:59,624 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|滚动需求订单-tab滚动需求
+2020-07-29 06:38:00,557 [INFO]: #  --- success ---
+2020-07-29 06:38:00,757 [INFO]: #  Run the Step: 5|滚动需求订单|CLICK|滚动需求订单-btn新增
+2020-07-29 06:38:01,939 [INFO]: #  --- success ---
+2020-07-29 06:38:02,142 [INFO]: #  Run the Step: 6|滚动需求订单|CLICK|滚动需求订单-sel预交日期
+2020-07-29 06:38:03,005 [INFO]: #  --- success ---
+2020-07-29 06:38:03,208 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|滚动需求订单-val预交日期
+2020-07-29 06:38:04,170 [INFO]: #  --- success ---
+2020-07-29 06:38:04,373 [INFO]: #  Run the Step: 8|滚动需求订单|CLICK|滚动需求订单-sel客户名称
+2020-07-29 06:38:05,197 [INFO]: #  --- success ---
+2020-07-29 06:38:05,401 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|滚动需求订单-val客户名称-美的
+2020-07-29 06:38:06,270 [INFO]: #  --- success ---
+2020-07-29 06:38:06,473 [INFO]: #  Run the Step: 10|滚动需求订单|CLICK|滚动需求订单-sel订单等级
+2020-07-29 06:38:07,220 [INFO]: #  --- success ---
+2020-07-29 06:38:07,423 [INFO]: #  Run the Step: 11|滚动需求订单|CLICK|滚动需求订单-val订单等级-正常
+2020-07-29 06:38:08,315 [INFO]: #  --- success ---
+2020-07-29 06:38:08,517 [INFO]: #  Run the Step: 12|滚动需求订单|CLICK|滚动需求订单-sel业务部门
+2020-07-29 06:38:09,286 [INFO]: #  --- success ---
+2020-07-29 06:38:09,491 [INFO]: #  Run the Step: 13|滚动需求订单|CLICK|滚动需求订单-val业务部门-办公室
+2020-07-29 06:38:10,304 [INFO]: #  --- success ---
+2020-07-29 06:38:10,508 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|滚动需求订单-sel业务人员
+2020-07-29 06:38:11,420 [INFO]: #  --- success ---
+2020-07-29 06:38:11,623 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|滚动需求订单-val业务人员-周文杰
+2020-07-29 06:38:12,610 [INFO]: #  --- success ---
+2020-07-29 06:38:12,813 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|滚动需求订单-sel交货验收
+2020-07-29 06:38:13,712 [INFO]: #  --- success ---
+2020-07-29 06:38:13,917 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|滚动需求订单-val交货验收-否
+2020-07-29 06:38:14,708 [INFO]: #  --- success ---
+2020-07-29 06:38:14,912 [INFO]: #  Run the Step: 18|滚动需求订单|CLICK|滚动需求订单-btn订单明细-添加
+2020-07-29 06:38:15,836 [INFO]: #  --- success ---
+2020-07-29 06:38:16,039 [INFO]: #  Run the Step: 19|滚动需求订单|CLICK|滚动需求订单-sel物料编码
+2020-07-29 06:38:17,009 [INFO]: #  --- success ---
+2020-07-29 06:38:17,214 [INFO]: #  Run the Step: 20|滚动需求订单|INPUT|滚动需求订单-inp选择物料
+2020-07-29 06:38:17,997 [INFO]: #  --- success ---
+2020-07-29 06:38:18,200 [INFO]: #  Run the Step: 21|滚动需求订单|CLICK|滚动需求订单-val物料编码-风扇罩-K333A0042-W1N-PP-不要求-NW-054
+2020-07-29 06:38:19,196 [INFO]: #  --- success ---
+2020-07-29 06:38:19,397 [INFO]: #  Run the Step: 22|滚动需求订单|INPUT|滚动需求订单-inp数量
+2020-07-29 06:38:20,433 [INFO]: #  --- success ---
+2020-07-29 06:38:20,634 [INFO]: #  Run the Step: 23|滚动需求订单|CLICK|滚动需求订单-sel订单明细-单价
+2020-07-29 06:38:21,501 [INFO]: #  --- success ---
+2020-07-29 06:38:21,705 [INFO]: #  Run the Step: 24|滚动需求订单|CHECK|滚动需求订单-sel订单明细-交货地点
+2020-07-29 06:38:21,809 [INFO]: #  DATA:'B2成品货位'
+2020-07-29 06:38:21,809 [INFO]: #  REAL:'B2成品货位'
+2020-07-29 06:38:21,812 [INFO]: #  --- success ---
+2020-07-29 06:38:22,012 [INFO]: #  Run the Step: 25|滚动需求订单|INPUT|滚动需求订单-inp备注
+2020-07-29 06:38:23,368 [INFO]: #  --- success ---
+2020-07-29 06:38:23,569 [INFO]: #  --- success ---
+2020-07-29 06:38:23,773 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-btn直接提交
+2020-07-29 06:38:24,652 [INFO]: #  --- success ---
+2020-07-29 06:38:24,855 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-btn直接提交-确定
+2020-07-29 06:38:25,718 [INFO]: #  --- success ---
+2020-07-29 06:38:25,921 [INFO]: #  Run the Step: 4|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#已提交
+2020-07-29 06:38:27,018 [INFO]: #  DATA:'已提交'
+2020-07-29 06:38:27,021 [INFO]: #  REAL:'已提交'
+2020-07-29 06:38:27,021 [INFO]: #  --- success ---
+2020-07-29 06:38:27,223 [INFO]: #  Run the Step: 5|滚动需求订单|CLICK|通用-btn审核
+2020-07-29 06:38:27,979 [INFO]: #  --- success ---
+2020-07-29 06:38:28,183 [INFO]: #  Run the Step: 6|滚动需求订单|CLICK|通用-sel审核-不通过
+2020-07-29 06:38:39,210 [INFO]: #  --- success ---
+2020-07-29 06:38:39,414 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|通用-btn审核-确定
+2020-07-29 06:38:40,262 [INFO]: #  --- success ---
+2020-07-29 06:38:40,463 [INFO]: #  Run the Step: 8|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#不通过
+2020-07-29 06:38:41,067 [INFO]: #  DATA:'不通过'
+2020-07-29 06:38:41,068 [INFO]: #  REAL:'不通过'
+2020-07-29 06:38:41,069 [INFO]: #  --- success ---
+2020-07-29 06:38:41,271 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|通用-btn编辑
+2020-07-29 06:38:42,057 [INFO]: #  --- success ---
+2020-07-29 06:38:42,259 [INFO]: #  Run the Step: 10|滚动需求订单|CLICK|通用-btn保存
+2020-07-29 06:38:43,065 [INFO]: #  --- success ---
+2020-07-29 06:38:43,266 [INFO]: #  Run the Step: 11|滚动需求订单|CLICK|通用-btn提交
+2020-07-29 06:38:44,640 [INFO]: #  --- success ---
+2020-07-29 06:38:44,845 [INFO]: #  Run the Step: 12|滚动需求订单|CLICK|通用-btn提交-确定
+2020-07-29 06:38:45,839 [INFO]: #  --- success ---
+2020-07-29 06:38:46,042 [INFO]: #  Run the Step: 13|滚动需求订单|CLICK|通用-btn审核
+2020-07-29 06:38:47,542 [INFO]: #  --- success ---
+2020-07-29 06:38:47,743 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|通用-sel审核-通过
+2020-07-29 06:38:58,825 [INFO]: #  --- success ---
+2020-07-29 06:38:59,028 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|通用-btn审核-确定
+2020-07-29 06:39:00,010 [INFO]: #  --- success ---
+2020-07-29 06:39:00,213 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|通用-btn返回列表
+2020-07-29 06:39:01,387 [INFO]: #  --- success ---
+2020-07-29 06:39:01,588 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|通用-tab已审核
+2020-07-29 06:39:02,740 [INFO]: #  --- success ---
+2020-07-29 06:39:02,940 [INFO]: #  Run the Step: 18|滚动需求订单|CLICK|通用-val单号
+2020-07-29 06:39:03,733 [INFO]: #  --- success ---
+2020-07-29 06:39:03,933 [INFO]: #  Run the Step: 19|滚动需求订单|INPUT|通用-inp搜索
+2020-07-29 06:39:06,069 [INFO]: #  --- success ---
+2020-07-29 06:39:06,275 [INFO]: #  Run the Step: 20|滚动需求订单|CLICK|通用-btn搜索
+2020-07-29 06:39:07,387 [INFO]: #  --- success ---
+2020-07-29 06:39:07,588 [INFO]: #  Run the Step: 21|滚动需求订单|CLICK|通用-tab已审核
+2020-07-29 06:39:08,502 [INFO]: #  --- success ---
+2020-07-29 06:39:08,705 [INFO]: #  Run the Step: 22|滚动需求订单|CLICK|通用-tab已审核-查看
+2020-07-29 06:39:09,767 [INFO]: #  --- success ---
+2020-07-29 06:39:09,969 [INFO]: #  Run the Step: 23|滚动需求订单|CLICK|通用-btn关闭
+2020-07-29 06:39:11,047 [INFO]: #  --- success ---
+2020-07-29 06:39:11,249 [INFO]: #  Run the Step: 24|滚动需求订单|CLICK|通用-btn关闭确定
+2020-07-29 06:39:37,806 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "daitest\locator.py", line 32, in locating_element
+  File "site-packages\selenium\webdriver\support\wait.py", line 80, in until
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "daitest\locator.py", line 37, in locating_element
+  File "site-packages\selenium\webdriver\support\wait.py", line 80, in until
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "daitest\testcase.py", line 137, in run
+  File "daitest\keywords\web.py", line 175, in click
+  File "daitest\locator.py", line 40, in locating_element
+Exception: Locating the element:通用-btn关闭确定 is Failure: Timeout
+2020-07-29 06:39:37,814 [INFO]: #  ==================================================
+2020-07-29 06:39:37,814 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-29 06:39:37,816 [INFO]: #  --------------------------------------------------
+2020-07-29 06:39:37,816 [INFO]: #  >>> Run the TestCase: DQ_001|删除需求订单
+2020-07-29 06:39:37,819 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-07-29 06:39:37,824 [INFO]: #  >>> Run the TestCase: CQ_001|新增需求订单
+2020-07-29 06:39:37,826 [INFO]: #  Run the Step: 1|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-29 06:39:38,613 [INFO]: #  --- success ---
+2020-07-29 06:39:38,816 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-29 06:39:39,602 [INFO]: #  --- success ---
+2020-07-29 06:39:39,809 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-29 06:39:40,766 [INFO]: #  --- success ---
+2020-07-29 06:39:40,968 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|滚动需求订单-tab滚动需求
+2020-07-29 06:40:07,426 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "daitest\locator.py", line 32, in locating_element
+  File "site-packages\selenium\webdriver\support\wait.py", line 80, in until
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "daitest\locator.py", line 37, in locating_element
+  File "site-packages\selenium\webdriver\support\wait.py", line 80, in until
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "daitest\testcase.py", line 137, in run
+  File "daitest\keywords\web.py", line 175, in click
+  File "daitest\locator.py", line 40, in locating_element
+Exception: Locating the element:滚动需求订单-tab滚动需求 is Failure: Timeout
+2020-07-29 06:40:07,431 [INFO]: #  ==================================================
+2020-07-29 06:40:07,431 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-29 06:40:07,431 [INFO]: #  --------------------------------------------------
+2020-07-29 06:40:07,431 [INFO]: #  >>> Run the TestCase: CH_001|查看需求订单
+2020-07-29 06:40:07,434 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-07-29 06:40:07,436 [INFO]: #  >>> Run the TestCase: CQ_001|新增需求订单
+2020-07-29 06:40:07,439 [INFO]: #  Run the Step: 1|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-29 06:40:08,129 [INFO]: #  --- success ---
+2020-07-29 06:40:08,335 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-29 06:40:09,245 [INFO]: #  --- success ---
+2020-07-29 06:40:09,446 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-29 06:40:10,347 [INFO]: #  --- success ---
+2020-07-29 06:40:10,549 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|滚动需求订单-tab滚动需求
+2020-07-29 06:40:37,044 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "daitest\locator.py", line 32, in locating_element
+  File "site-packages\selenium\webdriver\support\wait.py", line 80, in until
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "daitest\locator.py", line 37, in locating_element
+  File "site-packages\selenium\webdriver\support\wait.py", line 80, in until
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "daitest\testcase.py", line 137, in run
+  File "daitest\keywords\web.py", line 175, in click
+  File "daitest\locator.py", line 40, in locating_element
+Exception: Locating the element:滚动需求订单-tab滚动需求 is Failure: Timeout
+2020-07-29 06:40:39,230 [INFO]: #  --- Quit th Driver: Chrome

@@ -1,0 +1,83 @@
+2020-07-21 15:08:50,955 [INFO]: #  From Excel import testsuite success
+2020-07-21 15:08:53,573 [INFO]: #  --------------------------------------------------
+2020-07-21 15:08:53,573 [INFO]: #  >>> Run the TestCase: HOME_001|打开云塑ERP
+2020-07-21 15:08:53,573 [INFO]: #  Run the Step: 1|通用|OPEN|通用-首页链接
+2020-07-21 15:08:59,216 [INFO]: #  --- success ---
+2020-07-21 15:08:59,416 [INFO]: #  Run the Step: 2|通用|CHECK|通用-页面title
+2020-07-21 15:08:59,417 [INFO]: #  DATA:'云塑 企业资源计划管理系统'
+2020-07-21 15:08:59,427 [INFO]: #  REAL:'云塑 企业资源计划管理系统'
+2020-07-21 15:08:59,440 [INFO]: #  --- success ---
+2020-07-21 15:08:59,641 [INFO]: #  --------------------------------------------------
+2020-07-21 15:08:59,646 [INFO]: #  >>> Run the TestCase: Login_001|登录
+2020-07-21 15:08:59,646 [INFO]: #  Run the Step: 1|登录页面|INPUT|登录页面-账号输入框
+2020-07-21 15:09:00,458 [INFO]: #  --- success ---
+2020-07-21 15:09:00,658 [INFO]: #  Run the Step: 2|登录页面|INPUT|登录页面-密码输入框
+2020-07-21 15:09:01,531 [INFO]: #  --- success ---
+2020-07-21 15:09:01,742 [INFO]: #  Run the Step: 3|登录页面|CLICK|登录页面-确定按钮
+2020-07-21 15:09:02,406 [INFO]: #  --- success ---
+2020-07-21 15:09:02,608 [INFO]: #  Run the Step: 4|登录页面|CHECK|通用-页面加载校验
+2020-07-21 15:09:04,417 [INFO]: #  DATA:'欢迎进入 云塑企业资源计划管理系统'
+2020-07-21 15:09:04,417 [INFO]: #  REAL:'欢迎进入 云塑企业资源计划管理系统'
+2020-07-21 15:09:04,418 [INFO]: #  --- success ---
+2020-07-21 15:09:04,618 [INFO]: #  ==================================================
+2020-07-21 15:09:04,625 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-21 15:09:04,626 [INFO]: #  --------------------------------------------------
+2020-07-21 15:09:04,626 [INFO]: #  >>> Run the TestCase: AEQ_001|审核编辑
+2020-07-21 15:09:04,626 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-07-21 15:09:04,628 [INFO]: #  >>> Run the TestCase: CQ_001|新增需求订单
+2020-07-21 15:09:04,629 [INFO]: #  Run the Step: 1|登录页面|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-21 15:09:05,403 [INFO]: #  --- success ---
+2020-07-21 15:09:05,603 [INFO]: #  Run the Step: 2|登录页面|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-21 15:09:06,909 [INFO]: #  --- success ---
+2020-07-21 15:09:07,119 [INFO]: #  Run the Step: 3|滚动需求订单|CLICK|滚动需求订单-tab滚动需求
+2020-07-21 15:09:08,030 [INFO]: #  --- success ---
+2020-07-21 15:09:08,234 [INFO]: #  Run the Step: 4|滚动需求订单|CLICK|滚动需求订单-btn新增
+2020-07-21 15:09:09,273 [INFO]: #  --- success ---
+2020-07-21 15:09:09,473 [INFO]: #  Run the Step: 5|滚动需求订单|CHECK|滚动需求订单-lab滚动单状态#未定义
+2020-07-21 15:09:09,551 [INFO]: #  DATA:'未定义'
+2020-07-21 15:09:09,556 [INFO]: #  REAL:'未定义'
+2020-07-21 15:09:09,556 [INFO]: #  --- success ---
+2020-07-21 15:09:09,757 [INFO]: #  Run the Step: 6|滚动需求订单|CLICK|滚动需求订单-sel预交日期
+2020-07-21 15:09:10,482 [INFO]: #  --- success ---
+2020-07-21 15:09:10,688 [INFO]: #  Run the Step: 7|滚动需求订单|CLICK|滚动需求订单-val预交日期
+2020-07-21 15:09:11,408 [INFO]: #  --- success ---
+2020-07-21 15:09:11,609 [INFO]: #  Run the Step: 8|滚动需求订单|CLICK|滚动需求订单-sel客户名称
+2020-07-21 15:09:12,280 [INFO]: #  --- success ---
+2020-07-21 15:09:12,481 [INFO]: #  Run the Step: 9|滚动需求订单|CLICK|滚动需求订单-val客户名称-美的
+2020-07-21 15:09:13,209 [INFO]: #  --- success ---
+2020-07-21 15:09:13,410 [INFO]: #  Run the Step: 10|滚动需求订单|CLICK|滚动需求订单-sel订单等级
+2020-07-21 15:09:14,072 [INFO]: #  --- success ---
+2020-07-21 15:09:14,272 [INFO]: #  Run the Step: 11|滚动需求订单|CLICK|滚动需求订单-val订单等级-正常
+2020-07-21 15:09:14,909 [INFO]: #  --- success ---
+2020-07-21 15:09:15,109 [INFO]: #  Run the Step: 12|滚动需求订单|CLICK|滚动需求订单-sel业务部门
+2020-07-21 15:09:15,813 [INFO]: #  --- success ---
+2020-07-21 15:09:16,014 [INFO]: #  Run the Step: 13|滚动需求订单|CLICK|滚动需求订单-val业务部门-办公室
+2020-07-21 15:09:16,761 [INFO]: #  --- success ---
+2020-07-21 15:09:16,962 [INFO]: #  Run the Step: 14|滚动需求订单|CLICK|滚动需求订单-sel业务人员
+2020-07-21 15:09:17,648 [INFO]: #  --- success ---
+2020-07-21 15:09:17,848 [INFO]: #  Run the Step: 15|滚动需求订单|CLICK|滚动需求订单-val业务人员-周文杰
+2020-07-21 15:09:18,585 [INFO]: #  --- success ---
+2020-07-21 15:09:18,785 [INFO]: #  Run the Step: 16|滚动需求订单|CLICK|滚动需求订单-sel交货验收
+2020-07-21 15:09:19,459 [INFO]: #  --- success ---
+2020-07-21 15:09:19,659 [INFO]: #  Run the Step: 17|滚动需求订单|CLICK|滚动需求订单-val交货验收-否
+2020-07-21 15:09:20,293 [INFO]: #  --- success ---
+2020-07-21 15:09:20,494 [INFO]: #  Page:滚动需求订单 element:btn添加
+2020-07-21 15:09:20,494 [INFO]: #  Run the Step: 18|滚动需求订单|CLICK|btn添加
+2020-07-21 15:09:20,884 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\testcase.py", line 137, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\keywords\web.py", line 175, in click
+    element_location = locating_element(element, 'CLICK')
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 23, in locating_element
+    raise Exception(
+Exception: Locating the element:btn添加 is Failure, this element is not define
+2020-07-21 15:09:20,886 [INFO]: #  ==================================================
+2020-07-21 15:09:20,886 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-21 15:09:20,887 [INFO]: #  --------------------------------------------------
+2020-07-21 15:09:20,887 [INFO]: #  >>> Run the TestCase: DQ_001|删除需求订单
+2020-07-21 15:09:20,887 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-07-21 15:09:20,889 [INFO]: #  >>> Run the TestCase: CQ_001|新增需求订单
+2020-07-21 15:09:20,889 [INFO]: #  Run the Step: 1|滚动需求订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-21 15:09:21,551 [INFO]: #  --- success ---
+2020-07-21 15:09:21,752 [INFO]: #  Run the Step: 2|滚动需求订单|CLICK|通用-左侧栏二级菜单#需求订单

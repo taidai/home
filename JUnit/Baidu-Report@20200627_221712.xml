@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Baidu" hostname="baidu" timestamp="2020-06-27T22:17:12.614363" tests="3" failures="0" failures_detail="H:0 M:0 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="19.479742" skipped="0" disabled="0">
+		<testcase name="搜索：自动化测试" classname="BAIDU_001" priority="H" time="5.088229"/>
+		<testcase name="搜索：搜狗" classname="BAIDU_002" priority="M" time="6.106264"/>
+		<testcase name="搜索：&lt;测试数据&gt;" classname="BAIDU_005" priority="M" time="5.701198"/>
+	</testsuite>
+</testsuites>

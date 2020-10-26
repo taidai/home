@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="QuoteM" hostname="quotem" timestamp="2020-07-20T17:38:31.995033" tests="5" failures="2" failures_detail="H:0 M:2 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="121.915973" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="9.686554"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="5.568318"/>
+		<testcase name="查看附件" classname="VQ_001" priority="M" time="40.268304"/>
+		<testcase name="审核编辑" classname="AEQ_001" priority="M" time="36.053062">
+			<failure type="Failure" message="step-13|CLICK|btn关闭-确定: Locating the element:btn关闭-确定 is Failure, this element is not define"/>
+		</testcase>
+		<testcase name="删除报价单" classname="DQ_001" priority="M" time="27.401567">
+			<failure type="Failure" message=""/>
+		</testcase>
+	</testsuite>
+</testsuites>

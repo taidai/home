@@ -1,0 +1,674 @@
+2020-07-28 00:32:32,402 [INFO]: #  From Excel import testsuite success
+2020-07-28 00:32:34,953 [INFO]: #  --------------------------------------------------
+2020-07-28 00:32:34,953 [INFO]: #  >>> Run the TestCase: HOME_001|打开云塑ERP
+2020-07-28 00:32:34,953 [INFO]: #  Run the Step: 1|通用|OPEN|通用-首页链接
+2020-07-28 00:32:46,415 [INFO]: #  --- success ---
+2020-07-28 00:32:46,616 [INFO]: #  Run the Step: 2|通用|CHECK|通用-页面title
+2020-07-28 00:32:46,618 [INFO]: #  DATA:'云塑 企业资源计划管理系统'
+2020-07-28 00:32:46,626 [INFO]: #  REAL:'云塑 企业资源计划管理系统'
+2020-07-28 00:32:46,637 [INFO]: #  --- success ---
+2020-07-28 00:32:46,838 [INFO]: #  --------------------------------------------------
+2020-07-28 00:32:46,838 [INFO]: #  >>> Run the TestCase: Login_001|登录
+2020-07-28 00:32:46,839 [INFO]: #  Run the Step: 1|登录页面|INPUT|登录页面-账号输入框
+2020-07-28 00:32:47,794 [INFO]: #  --- success ---
+2020-07-28 00:32:47,994 [INFO]: #  Run the Step: 2|登录页面|INPUT|登录页面-密码输入框
+2020-07-28 00:32:48,898 [INFO]: #  --- success ---
+2020-07-28 00:32:49,098 [INFO]: #  Run the Step: 3|登录页面|CLICK|登录页面-确定按钮
+2020-07-28 00:32:49,768 [INFO]: #  --- success ---
+2020-07-28 00:32:49,972 [INFO]: #  Run the Step: 4|登录页面|CHECK|通用-页面加载校验
+2020-07-28 00:32:51,670 [INFO]: #  DATA:'欢迎进入 云塑企业资源计划管理系统'
+2020-07-28 00:32:51,671 [INFO]: #  REAL:'欢迎进入 云塑企业资源计划管理系统'
+2020-07-28 00:32:51,672 [INFO]: #  --- success ---
+2020-07-28 00:32:51,875 [INFO]: #  ==================================================
+2020-07-28 00:32:51,875 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-28 00:32:51,876 [INFO]: #  --------------------------------------------------
+2020-07-28 00:32:51,876 [INFO]: #  >>> Run the TestCase: AEQ_001|审核编辑
+2020-07-28 00:32:51,876 [INFO]: #  Page:登录页面 element:CQ_001
+2020-07-28 00:32:51,877 [INFO]: #  Run the Step: 1|登录页面|EXECUTE|CQ_001
+2020-07-28 00:32:51,879 [INFO]: #  >>> Run the TestCase: CQ_001|新增意向订单
+2020-07-28 00:32:51,879 [INFO]: #  Run the Step: 1|登录页面|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-28 00:32:52,610 [INFO]: #  --- success ---
+2020-07-28 00:32:52,811 [INFO]: #  Run the Step: 2|登录页面|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-28 00:32:54,414 [INFO]: #  --- success ---
+2020-07-28 00:32:54,623 [INFO]: #  Run the Step: 3|登录页面|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-28 00:32:56,949 [INFO]: #  --- success ---
+2020-07-28 00:32:57,150 [INFO]: #  Run the Step: 4|意向订单|CLICK|意向订单-tab意向订单
+2020-07-28 00:32:58,137 [INFO]: #  --- success ---
+2020-07-28 00:32:58,337 [INFO]: #  Run the Step: 5|意向订单|CLICK|意向订单-btn新增
+2020-07-28 00:32:59,277 [INFO]: #  --- success ---
+2020-07-28 00:32:59,478 [INFO]: #  Run the Step: 6|意向订单|CHECK|意向订单-lab意向订单状态#未定义
+2020-07-28 00:32:59,554 [INFO]: #  DATA:'未定义'
+2020-07-28 00:32:59,555 [INFO]: #  REAL:'未定义'
+2020-07-28 00:32:59,555 [INFO]: #  --- success ---
+2020-07-28 00:32:59,756 [INFO]: #  Run the Step: 7|意向订单|CLICK|意向订单-sel预交日期
+2020-07-28 00:33:00,503 [INFO]: #  --- success ---
+2020-07-28 00:33:00,703 [INFO]: #  Run the Step: 8|意向订单|CLICK|意向订单-val预交日期
+2020-07-28 00:33:01,395 [INFO]: #  --- success ---
+2020-07-28 00:33:01,596 [INFO]: #  Run the Step: 9|意向订单|CLICK|意向订单-sel客户名称
+2020-07-28 00:33:02,270 [INFO]: #  --- success ---
+2020-07-28 00:33:02,471 [INFO]: #  Run the Step: 10|意向订单|CLICK|意向订单-val客户名称-美的
+2020-07-28 00:33:03,201 [INFO]: #  --- success ---
+2020-07-28 00:33:03,401 [INFO]: #  Run the Step: 11|意向订单|CLICK|意向订单-sel业务部门
+2020-07-28 00:33:04,108 [INFO]: #  --- success ---
+2020-07-28 00:33:04,309 [INFO]: #  Run the Step: 12|意向订单|CLICK|意向订单-val业务部门-办公室
+2020-07-28 00:33:05,037 [INFO]: #  --- success ---
+2020-07-28 00:33:05,237 [INFO]: #  Run the Step: 13|意向订单|CLICK|意向订单-sel业务人员
+2020-07-28 00:33:05,920 [INFO]: #  --- success ---
+2020-07-28 00:33:06,122 [INFO]: #  Run the Step: 14|意向订单|CLICK|意向订单-val业务人员-田丰
+2020-07-28 00:33:06,872 [INFO]: #  --- success ---
+2020-07-28 00:33:07,073 [INFO]: #  Run the Step: 15|意向订单|CLICK|意向订单-btn订单明细-添加
+2020-07-28 00:33:07,838 [INFO]: #  --- success ---
+2020-07-28 00:33:08,039 [INFO]: #  Run the Step: 16|意向订单|CLICK|意向订单-sel物料编码
+2020-07-28 00:33:08,752 [INFO]: #  --- success ---
+2020-07-28 00:33:08,952 [INFO]: #  Run the Step: 17|意向订单|INPUT|意向订单-inp选择物料
+2020-07-28 00:33:09,592 [INFO]: #  --- success ---
+2020-07-28 00:33:09,793 [INFO]: #  Run the Step: 18|意向订单|CLICK|意向订单-val物料编码-风扇罩-K33A0042-W1N-PP-不要求-NW-054
+2020-07-28 00:33:10,689 [INFO]: #  --- success ---
+2020-07-28 00:33:10,889 [INFO]: #  Run the Step: 19|意向订单|INPUT|意向订单-inp数量
+2020-07-28 00:33:11,661 [INFO]: #  --- success ---
+2020-07-28 00:33:11,861 [INFO]: #  Run the Step: 20|意向订单|CHECK|意向订单-sel订单明细-交货地点
+2020-07-28 00:33:11,943 [INFO]: #  DATA:'B2成品货位'
+2020-07-28 00:33:11,943 [INFO]: #  REAL:'B2成品货位'
+2020-07-28 00:33:11,944 [INFO]: #  --- success ---
+2020-07-28 00:33:12,144 [INFO]: #  Run the Step: 21|意向订单|INPUT|意向订单-inp备注
+2020-07-28 00:33:13,187 [INFO]: #  --- success ---
+2020-07-28 00:33:13,388 [INFO]: #  --- success ---
+2020-07-28 00:33:13,588 [INFO]: #  Run the Step: 2|意向订单|CLICK|通用-btn直接提交
+2020-07-28 00:33:14,248 [INFO]: #  --- success ---
+2020-07-28 00:33:14,449 [INFO]: #  Run the Step: 3|意向订单|CLICK|通用-btn直接提交-确定
+2020-07-28 00:33:15,205 [INFO]: #  --- success ---
+2020-07-28 00:33:15,405 [INFO]: #  Run the Step: 4|意向订单|CHECK|意向订单-lab意向订单状态#已提交
+2020-07-28 00:33:15,864 [INFO]: #  DATA:'已提交'
+2020-07-28 00:33:15,864 [INFO]: #  REAL:'已提交'
+2020-07-28 00:33:15,865 [INFO]: #  --- success ---
+2020-07-28 00:33:16,065 [INFO]: #  Run the Step: 5|意向订单|CLICK|通用-btn审核
+2020-07-28 00:33:16,827 [INFO]: #  --- success ---
+2020-07-28 00:33:17,027 [INFO]: #  Run the Step: 6|意向订单|CLICK|通用-sel审核-不通过
+2020-07-28 00:33:28,235 [INFO]: #  --- success ---
+2020-07-28 00:33:28,435 [INFO]: #  Run the Step: 7|意向订单|CLICK|通用-btn审核-确定
+2020-07-28 00:33:29,160 [INFO]: #  --- success ---
+2020-07-28 00:33:29,360 [INFO]: #  Run the Step: 8|意向订单|CHECK|意向订单-lab意向订单状态#不通过
+2020-07-28 00:33:29,760 [INFO]: #  DATA:'不通过'
+2020-07-28 00:33:29,760 [INFO]: #  REAL:'不通过'
+2020-07-28 00:33:29,760 [INFO]: #  --- success ---
+2020-07-28 00:33:29,961 [INFO]: #  Run the Step: 9|意向订单|CLICK|通用-btn编辑
+2020-07-28 00:33:30,727 [INFO]: #  --- success ---
+2020-07-28 00:33:30,928 [INFO]: #  Run the Step: 10|意向订单|INPUT|意向订单-inp备注
+2020-07-28 00:33:32,093 [INFO]: #  --- success ---
+2020-07-28 00:33:32,293 [INFO]: #  Run the Step: 11|意向订单|CLICK|通用-btn保存
+2020-07-28 00:33:33,027 [INFO]: #  --- success ---
+2020-07-28 00:33:33,228 [INFO]: #  Run the Step: 12|意向订单|CHECK|意向订单-toast修改成功提醒#修改成功!
+2020-07-28 00:33:33,312 [INFO]: #  DATA:'修改成功!'
+2020-07-28 00:33:33,312 [INFO]: #  REAL:'修改成功!'
+2020-07-28 00:33:33,313 [INFO]: #  --- success ---
+2020-07-28 00:33:33,513 [INFO]: #  Run the Step: 13|意向订单|CLICK|通用-btn提交
+2020-07-28 00:33:34,888 [INFO]: #  --- success ---
+2020-07-28 00:33:35,089 [INFO]: #  Run the Step: 14|意向订单|CLICK|通用-btn提交-确定
+2020-07-28 00:33:35,831 [INFO]: #  --- success ---
+2020-07-28 00:33:36,031 [INFO]: #  Run the Step: 15|意向订单|CLICK|通用-btn审核
+2020-07-28 00:33:37,319 [INFO]: #  --- success ---
+2020-07-28 00:33:37,519 [INFO]: #  Run the Step: 16|意向订单|CLICK|通用-sel审核-通过
+2020-07-28 00:33:48,218 [INFO]: #  --- success ---
+2020-07-28 00:33:48,420 [INFO]: #  Run the Step: 17|意向订单|CLICK|通用-btn审核-确定
+2020-07-28 00:33:49,129 [INFO]: #  --- success ---
+2020-07-28 00:33:49,330 [INFO]: #  Run the Step: 18|意向订单|CHECK|意向订单-lab意向订单状态#已审核
+2020-07-28 00:33:49,870 [INFO]: #  DATA:'已审核'
+2020-07-28 00:33:49,871 [INFO]: #  REAL:'已审核'
+2020-07-28 00:33:49,871 [INFO]: #  --- success ---
+2020-07-28 00:33:50,072 [INFO]: #  Run the Step: 19|意向订单|CLICK|通用-btn返回列表
+2020-07-28 00:33:50,872 [INFO]: #  --- success ---
+2020-07-28 00:33:51,073 [INFO]: #  Run the Step: 20|意向订单|CLICK|通用-tab已审核
+2020-07-28 00:33:51,809 [INFO]: #  --- success ---
+2020-07-28 00:33:52,009 [INFO]: #  Run the Step: 21|意向订单|CLICK|通用-val单号
+2020-07-28 00:33:52,696 [INFO]: #  --- success ---
+2020-07-28 00:33:52,897 [INFO]: #  Run the Step: 22|意向订单|INPUT|通用-inp搜索
+2020-07-28 00:33:54,329 [INFO]: #  --- success ---
+2020-07-28 00:33:54,529 [INFO]: #  Run the Step: 23|意向订单|CLICK|通用-btn搜索
+2020-07-28 00:33:55,297 [INFO]: #  --- success ---
+2020-07-28 00:33:55,498 [INFO]: #  Run the Step: 24|意向订单|CLICK|通用-tab已审核
+2020-07-28 00:33:56,205 [INFO]: #  --- success ---
+2020-07-28 00:33:56,406 [INFO]: #  Run the Step: 25|意向订单|CLICK|通用-tab已审核-查看
+2020-07-28 00:33:57,197 [INFO]: #  --- success ---
+2020-07-28 00:33:57,397 [INFO]: #  Run the Step: 26|意向订单|CLICK|通用-btn关闭
+2020-07-28 00:33:58,383 [INFO]: #  --- success ---
+2020-07-28 00:33:58,585 [INFO]: #  Run the Step: 27|意向订单|CLICK|通用-btn关闭-确定
+2020-07-28 00:33:59,295 [INFO]: #  --- success ---
+2020-07-28 00:33:59,495 [INFO]: #  Run the Step: 28|意向订单|CHECK|意向订单-lab意向订单状态#已关闭
+2020-07-28 00:33:59,671 [INFO]: #  DATA:'已关闭'
+2020-07-28 00:33:59,671 [INFO]: #  REAL:'已关闭'
+2020-07-28 00:33:59,672 [INFO]: #  --- success ---
+2020-07-28 00:33:59,872 [INFO]: #  Run the Step: 29|意向订单|CLICK|通用-btn返回列表
+2020-07-28 00:34:00,670 [INFO]: #  --- success ---
+2020-07-28 00:34:00,871 [INFO]: #  ==================================================
+2020-07-28 00:34:00,872 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-28 00:34:00,873 [INFO]: #  --------------------------------------------------
+2020-07-28 00:34:00,873 [INFO]: #  >>> Run the TestCase: DQ_001|删除需求订单
+2020-07-28 00:34:00,874 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-07-28 00:34:00,876 [INFO]: #  >>> Run the TestCase: CQ_001|新增意向订单
+2020-07-28 00:34:00,876 [INFO]: #  Run the Step: 1|意向订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-28 00:34:01,541 [INFO]: #  --- success ---
+2020-07-28 00:34:01,742 [INFO]: #  Run the Step: 2|意向订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-28 00:34:02,369 [INFO]: #  --- success ---
+2020-07-28 00:34:02,569 [INFO]: #  Run the Step: 3|意向订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-28 00:34:03,240 [INFO]: #  --- success ---
+2020-07-28 00:34:03,441 [INFO]: #  Run the Step: 4|意向订单|CLICK|意向订单-tab意向订单
+2020-07-28 00:34:04,072 [INFO]: #  --- success ---
+2020-07-28 00:34:04,273 [INFO]: #  Run the Step: 5|意向订单|CLICK|意向订单-btn新增
+2020-07-28 00:34:05,128 [INFO]: #  --- success ---
+2020-07-28 00:34:05,329 [INFO]: #  Run the Step: 6|意向订单|CHECK|意向订单-lab意向订单状态#未定义
+2020-07-28 00:34:05,410 [INFO]: #  DATA:'未定义'
+2020-07-28 00:34:05,410 [INFO]: #  REAL:'未定义'
+2020-07-28 00:34:05,411 [INFO]: #  --- success ---
+2020-07-28 00:34:05,611 [INFO]: #  Run the Step: 7|意向订单|CLICK|意向订单-sel预交日期
+2020-07-28 00:34:06,307 [INFO]: #  --- success ---
+2020-07-28 00:34:06,508 [INFO]: #  Run the Step: 8|意向订单|CLICK|意向订单-val预交日期
+2020-07-28 00:34:07,189 [INFO]: #  --- success ---
+2020-07-28 00:34:07,390 [INFO]: #  Run the Step: 9|意向订单|CLICK|意向订单-sel客户名称
+2020-07-28 00:34:08,061 [INFO]: #  --- success ---
+2020-07-28 00:34:08,262 [INFO]: #  Run the Step: 10|意向订单|CLICK|意向订单-val客户名称-美的
+2020-07-28 00:34:08,956 [INFO]: #  --- success ---
+2020-07-28 00:34:09,156 [INFO]: #  Run the Step: 11|意向订单|CLICK|意向订单-sel业务部门
+2020-07-28 00:34:09,846 [INFO]: #  --- success ---
+2020-07-28 00:34:10,047 [INFO]: #  Run the Step: 12|意向订单|CLICK|意向订单-val业务部门-办公室
+2020-07-28 00:34:10,759 [INFO]: #  --- success ---
+2020-07-28 00:34:10,959 [INFO]: #  Run the Step: 13|意向订单|CLICK|意向订单-sel业务人员
+2020-07-28 00:34:11,631 [INFO]: #  --- success ---
+2020-07-28 00:34:11,831 [INFO]: #  Run the Step: 14|意向订单|CLICK|意向订单-val业务人员-田丰
+2020-07-28 00:34:12,538 [INFO]: #  --- success ---
+2020-07-28 00:34:12,739 [INFO]: #  Run the Step: 15|意向订单|CLICK|意向订单-btn订单明细-添加
+2020-07-28 00:34:13,498 [INFO]: #  --- success ---
+2020-07-28 00:34:13,698 [INFO]: #  Run the Step: 16|意向订单|CLICK|意向订单-sel物料编码
+2020-07-28 00:34:14,390 [INFO]: #  --- success ---
+2020-07-28 00:34:14,591 [INFO]: #  Run the Step: 17|意向订单|INPUT|意向订单-inp选择物料
+2020-07-28 00:34:15,222 [INFO]: #  --- success ---
+2020-07-28 00:34:15,423 [INFO]: #  Run the Step: 18|意向订单|CLICK|意向订单-val物料编码-风扇罩-K33A0042-W1N-PP-不要求-NW-054
+2020-07-28 00:34:16,243 [INFO]: #  --- success ---
+2020-07-28 00:34:16,444 [INFO]: #  Run the Step: 19|意向订单|INPUT|意向订单-inp数量
+2020-07-28 00:34:17,216 [INFO]: #  --- success ---
+2020-07-28 00:34:17,416 [INFO]: #  Run the Step: 20|意向订单|CHECK|意向订单-sel订单明细-交货地点
+2020-07-28 00:34:17,486 [INFO]: #  DATA:'B2成品货位'
+2020-07-28 00:34:17,487 [INFO]: #  REAL:'B2成品货位'
+2020-07-28 00:34:17,487 [INFO]: #  --- success ---
+2020-07-28 00:34:17,687 [INFO]: #  Run the Step: 21|意向订单|INPUT|意向订单-inp备注
+2020-07-28 00:34:18,695 [INFO]: #  --- success ---
+2020-07-28 00:34:18,895 [INFO]: #  --- success ---
+2020-07-28 00:34:19,095 [INFO]: #  Run the Step: 2|意向订单|CLICK|通用-btn保存草稿
+2020-07-28 00:34:19,849 [INFO]: #  --- success ---
+2020-07-28 00:34:20,049 [INFO]: #  Run the Step: 3|意向订单|CHECK|意向订单-lab意向订单状态#已录入
+2020-07-28 00:34:20,685 [INFO]: #  DATA:'已录入'
+2020-07-28 00:34:20,685 [INFO]: #  REAL:'已录入'
+2020-07-28 00:34:20,686 [INFO]: #  --- success ---
+2020-07-28 00:34:20,886 [INFO]: #  Run the Step: 4|意向订单|CLICK|通用-btn返回列表
+2020-07-28 00:34:21,717 [INFO]: #  --- success ---
+2020-07-28 00:34:21,917 [INFO]: #  Run the Step: 5|意向订单|CLICK|通用-tab已录入
+2020-07-28 00:34:22,555 [INFO]: #  --- success ---
+2020-07-28 00:34:22,756 [INFO]: #  Run the Step: 6|意向订单|CLICK|通用-val单号
+2020-07-28 00:34:23,426 [INFO]: #  --- success ---
+2020-07-28 00:34:23,626 [INFO]: #  Run the Step: 7|意向订单|INPUT|通用-inp搜索
+2020-07-28 00:34:25,220 [INFO]: #  --- success ---
+2020-07-28 00:34:25,420 [INFO]: #  Run the Step: 8|意向订单|CLICK|通用-btn搜索
+2020-07-28 00:34:26,191 [INFO]: #  --- success ---
+2020-07-28 00:34:26,391 [INFO]: #  Run the Step: 9|意向订单|CLICK|通用-tab已录入
+2020-07-28 00:34:27,185 [INFO]: #  --- success ---
+2020-07-28 00:34:27,385 [INFO]: #  Run the Step: 10|意向订单|CLICK|通用-btn删除订单
+2020-07-28 00:34:28,049 [INFO]: #  --- success ---
+2020-07-28 00:34:28,250 [INFO]: #  Run the Step: 11|意向订单|CLICK|通用-btn删除订单-确定
+2020-07-28 00:34:28,893 [INFO]: #  --- success ---
+2020-07-28 00:34:29,094 [INFO]: #  Run the Step: 12|意向订单|CHECK|意向订单-toast删除提醒#删除成功!
+2020-07-28 00:34:55,172 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 32, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 37, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\testcase.py", line 137, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\keywords\web.py", line 83, in check
+    element_location = locating_element(element)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 40, in locating_element
+    raise Exception('Locating the element:%s is Failure: Timeout' % element)
+Exception: Locating the element:意向订单-toast删除提醒#删除成功! is Failure: Timeout
+2020-07-28 00:34:55,175 [INFO]: #  ==================================================
+2020-07-28 00:34:55,175 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-28 00:34:55,175 [INFO]: #  --------------------------------------------------
+2020-07-28 00:34:55,176 [INFO]: #  >>> Run the TestCase: CH_001|查看需求订单
+2020-07-28 00:34:55,176 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-07-28 00:34:55,178 [INFO]: #  >>> Run the TestCase: CQ_001|新增意向订单
+2020-07-28 00:34:55,178 [INFO]: #  Run the Step: 1|意向订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-28 00:34:55,894 [INFO]: #  --- success ---
+2020-07-28 00:34:56,094 [INFO]: #  Run the Step: 2|意向订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-28 00:34:56,760 [INFO]: #  --- success ---
+2020-07-28 00:34:56,960 [INFO]: #  Run the Step: 3|意向订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-28 00:34:57,649 [INFO]: #  --- success ---
+2020-07-28 00:34:57,850 [INFO]: #  Run the Step: 4|意向订单|CLICK|意向订单-tab意向订单
+2020-07-28 00:34:58,492 [INFO]: #  --- success ---
+2020-07-28 00:34:58,693 [INFO]: #  Run the Step: 5|意向订单|CLICK|意向订单-btn新增
+2020-07-28 00:34:59,640 [INFO]: #  --- success ---
+2020-07-28 00:34:59,841 [INFO]: #  Run the Step: 6|意向订单|CHECK|意向订单-lab意向订单状态#未定义
+2020-07-28 00:34:59,952 [INFO]: #  DATA:'未定义'
+2020-07-28 00:34:59,952 [INFO]: #  REAL:'未定义'
+2020-07-28 00:34:59,953 [INFO]: #  --- success ---
+2020-07-28 00:35:00,153 [INFO]: #  Run the Step: 7|意向订单|CLICK|意向订单-sel预交日期
+2020-07-28 00:35:00,881 [INFO]: #  --- success ---
+2020-07-28 00:35:01,081 [INFO]: #  Run the Step: 8|意向订单|CLICK|意向订单-val预交日期
+2020-07-28 00:35:01,783 [INFO]: #  --- success ---
+2020-07-28 00:35:01,983 [INFO]: #  Run the Step: 9|意向订单|CLICK|意向订单-sel客户名称
+2020-07-28 00:35:02,642 [INFO]: #  --- success ---
+2020-07-28 00:35:02,843 [INFO]: #  Run the Step: 10|意向订单|CLICK|意向订单-val客户名称-美的
+2020-07-28 00:35:03,585 [INFO]: #  --- success ---
+2020-07-28 00:35:03,786 [INFO]: #  Run the Step: 11|意向订单|CLICK|意向订单-sel业务部门
+2020-07-28 00:35:04,495 [INFO]: #  --- success ---
+2020-07-28 00:35:04,696 [INFO]: #  Run the Step: 12|意向订单|CLICK|意向订单-val业务部门-办公室
+2020-07-28 00:35:05,430 [INFO]: #  --- success ---
+2020-07-28 00:35:05,630 [INFO]: #  Run the Step: 13|意向订单|CLICK|意向订单-sel业务人员
+2020-07-28 00:35:06,307 [INFO]: #  --- success ---
+2020-07-28 00:35:06,508 [INFO]: #  Run the Step: 14|意向订单|CLICK|意向订单-val业务人员-田丰
+2020-07-28 00:35:07,220 [INFO]: #  --- success ---
+2020-07-28 00:35:07,420 [INFO]: #  Run the Step: 15|意向订单|CLICK|意向订单-btn订单明细-添加
+2020-07-28 00:35:08,279 [INFO]: #  --- success ---
+2020-07-28 00:35:08,480 [INFO]: #  Run the Step: 16|意向订单|CLICK|意向订单-sel物料编码
+2020-07-28 00:35:09,155 [INFO]: #  --- success ---
+2020-07-28 00:35:09,356 [INFO]: #  Run the Step: 17|意向订单|INPUT|意向订单-inp选择物料
+2020-07-28 00:35:10,015 [INFO]: #  --- success ---
+2020-07-28 00:35:10,216 [INFO]: #  Run the Step: 18|意向订单|CLICK|意向订单-val物料编码-风扇罩-K33A0042-W1N-PP-不要求-NW-054
+2020-07-28 00:35:11,076 [INFO]: #  --- success ---
+2020-07-28 00:35:11,277 [INFO]: #  Run the Step: 19|意向订单|INPUT|意向订单-inp数量
+2020-07-28 00:35:12,085 [INFO]: #  --- success ---
+2020-07-28 00:35:12,285 [INFO]: #  Run the Step: 20|意向订单|CHECK|意向订单-sel订单明细-交货地点
+2020-07-28 00:35:12,373 [INFO]: #  DATA:'B2成品货位'
+2020-07-28 00:35:12,373 [INFO]: #  REAL:'B2成品货位'
+2020-07-28 00:35:12,373 [INFO]: #  --- success ---
+2020-07-28 00:35:12,574 [INFO]: #  Run the Step: 21|意向订单|INPUT|意向订单-inp备注
+2020-07-28 00:35:13,585 [INFO]: #  --- success ---
+2020-07-28 00:35:13,786 [INFO]: #  --- success ---
+2020-07-28 00:35:13,986 [INFO]: #  Run the Step: 2|意向订单|CLICK|通用-btn保存草稿
+2020-07-28 00:35:14,717 [INFO]: #  --- success ---
+2020-07-28 00:35:14,917 [INFO]: #  Run the Step: 3|意向订单|CHECK|意向订单-lab意向订单状态#已录入
+2020-07-28 00:35:16,325 [INFO]: #  DATA:'已录入'
+2020-07-28 00:35:16,325 [INFO]: #  REAL:'已录入'
+2020-07-28 00:35:16,326 [INFO]: #  --- success ---
+2020-07-28 00:35:16,526 [INFO]: #  Run the Step: 4|意向订单|CLICK|通用-btn返回列表
+2020-07-28 00:35:17,594 [INFO]: #  --- success ---
+2020-07-28 00:35:17,795 [INFO]: #  Run the Step: 5|意向订单|CLICK|通用-tab已录入
+2020-07-28 00:35:18,611 [INFO]: #  --- success ---
+2020-07-28 00:35:18,811 [INFO]: #  Run the Step: 6|意向订单|CLICK|通用-val单号
+2020-07-28 00:35:19,480 [INFO]: #  --- success ---
+2020-07-28 00:35:19,682 [INFO]: #  Run the Step: 7|意向订单|INPUT|通用-inp搜索
+2020-07-28 00:35:21,172 [INFO]: #  --- success ---
+2020-07-28 00:35:21,372 [INFO]: #  Run the Step: 8|意向订单|CLICK|通用-btn搜索
+2020-07-28 00:35:22,218 [INFO]: #  --- success ---
+2020-07-28 00:35:22,418 [INFO]: #  Run the Step: 9|意向订单|CLICK|通用-tab已录入
+2020-07-28 00:35:23,140 [INFO]: #  --- success ---
+2020-07-28 00:35:23,341 [INFO]: #  Run the Step: 10|意向订单|CLICK|通用-btn查看订单
+2020-07-28 00:35:24,136 [INFO]: #  --- success ---
+2020-07-28 00:35:24,338 [INFO]: #  Run the Step: 11|意向订单|CHECK|意向订单-lab意向订单状态#已录入
+2020-07-28 00:35:25,012 [INFO]: #  DATA:'已录入'
+2020-07-28 00:35:25,013 [INFO]: #  REAL:'已录入'
+2020-07-28 00:35:25,014 [INFO]: #  --- success ---
+2020-07-28 00:35:25,214 [INFO]: #  Run the Step: 12|意向订单|CLICK|通用-btn返回列表
+2020-07-28 00:35:26,152 [INFO]: #  --- success ---
+2020-07-28 00:35:26,352 [INFO]: #  Run the Step: 13|用例片段|EXECUTE|CQ_001
+2020-07-28 00:35:26,355 [INFO]: #  >>> Run the TestCase: CQ_001|新增意向订单
+2020-07-28 00:35:26,356 [INFO]: #  Run the Step: 1|意向订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-28 00:35:27,136 [INFO]: #  --- success ---
+2020-07-28 00:35:27,337 [INFO]: #  Run the Step: 2|意向订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-28 00:35:27,972 [INFO]: #  --- success ---
+2020-07-28 00:35:28,173 [INFO]: #  Run the Step: 3|意向订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-28 00:35:28,919 [INFO]: #  --- success ---
+2020-07-28 00:35:29,120 [INFO]: #  Run the Step: 4|意向订单|CLICK|意向订单-tab意向订单
+2020-07-28 00:35:29,747 [INFO]: #  --- success ---
+2020-07-28 00:35:29,949 [INFO]: #  Run the Step: 5|意向订单|CLICK|意向订单-btn新增
+2020-07-28 00:35:30,813 [INFO]: #  --- success ---
+2020-07-28 00:35:31,015 [INFO]: #  Run the Step: 6|意向订单|CHECK|意向订单-lab意向订单状态#未定义
+2020-07-28 00:35:31,178 [INFO]: #  DATA:'未定义'
+2020-07-28 00:35:31,179 [INFO]: #  REAL:'未定义'
+2020-07-28 00:35:31,180 [INFO]: #  --- success ---
+2020-07-28 00:35:31,380 [INFO]: #  Run the Step: 7|意向订单|CLICK|意向订单-sel预交日期
+2020-07-28 00:35:32,092 [INFO]: #  --- success ---
+2020-07-28 00:35:32,292 [INFO]: #  Run the Step: 8|意向订单|CLICK|意向订单-val预交日期
+2020-07-28 00:35:32,986 [INFO]: #  --- success ---
+2020-07-28 00:35:33,187 [INFO]: #  Run the Step: 9|意向订单|CLICK|意向订单-sel客户名称
+2020-07-28 00:35:33,869 [INFO]: #  --- success ---
+2020-07-28 00:35:34,070 [INFO]: #  Run the Step: 10|意向订单|CLICK|意向订单-val客户名称-美的
+2020-07-28 00:35:34,773 [INFO]: #  --- success ---
+2020-07-28 00:35:34,974 [INFO]: #  Run the Step: 11|意向订单|CLICK|意向订单-sel业务部门
+2020-07-28 00:35:35,682 [INFO]: #  --- success ---
+2020-07-28 00:35:35,883 [INFO]: #  Run the Step: 12|意向订单|CLICK|意向订单-val业务部门-办公室
+2020-07-28 00:35:36,590 [INFO]: #  --- success ---
+2020-07-28 00:35:36,791 [INFO]: #  Run the Step: 13|意向订单|CLICK|意向订单-sel业务人员
+2020-07-28 00:35:37,459 [INFO]: #  --- success ---
+2020-07-28 00:35:37,660 [INFO]: #  Run the Step: 14|意向订单|CLICK|意向订单-val业务人员-田丰
+2020-07-28 00:35:38,364 [INFO]: #  --- success ---
+2020-07-28 00:35:38,565 [INFO]: #  Run the Step: 15|意向订单|CLICK|意向订单-btn订单明细-添加
+2020-07-28 00:35:39,347 [INFO]: #  --- success ---
+2020-07-28 00:35:39,548 [INFO]: #  Run the Step: 16|意向订单|CLICK|意向订单-sel物料编码
+2020-07-28 00:35:40,224 [INFO]: #  --- success ---
+2020-07-28 00:35:40,425 [INFO]: #  Run the Step: 17|意向订单|INPUT|意向订单-inp选择物料
+2020-07-28 00:35:41,095 [INFO]: #  --- success ---
+2020-07-28 00:35:41,296 [INFO]: #  Run the Step: 18|意向订单|CLICK|意向订单-val物料编码-风扇罩-K33A0042-W1N-PP-不要求-NW-054
+2020-07-28 00:35:42,145 [INFO]: #  --- success ---
+2020-07-28 00:35:42,346 [INFO]: #  Run the Step: 19|意向订单|INPUT|意向订单-inp数量
+2020-07-28 00:35:43,131 [INFO]: #  --- success ---
+2020-07-28 00:35:43,331 [INFO]: #  Run the Step: 20|意向订单|CHECK|意向订单-sel订单明细-交货地点
+2020-07-28 00:35:43,402 [INFO]: #  DATA:'B2成品货位'
+2020-07-28 00:35:43,403 [INFO]: #  REAL:'B2成品货位'
+2020-07-28 00:35:43,403 [INFO]: #  --- success ---
+2020-07-28 00:35:43,604 [INFO]: #  Run the Step: 21|意向订单|INPUT|意向订单-inp备注
+2020-07-28 00:35:44,619 [INFO]: #  --- success ---
+2020-07-28 00:35:44,819 [INFO]: #  --- success ---
+2020-07-28 00:35:45,019 [INFO]: #  Run the Step: 14|意向订单|CLICK|通用-btn直接提交
+2020-07-28 00:35:45,701 [INFO]: #  --- success ---
+2020-07-28 00:35:45,902 [INFO]: #  Run the Step: 15|意向订单|CLICK|通用-btn直接提交-确定
+2020-07-28 00:35:46,657 [INFO]: #  --- success ---
+2020-07-28 00:35:46,859 [INFO]: #  Run the Step: 16|意向订单|CHECK|意向订单-lab意向订单状态#已提交
+2020-07-28 00:35:48,261 [INFO]: #  DATA:'已提交'
+2020-07-28 00:35:48,262 [INFO]: #  REAL:'已提交'
+2020-07-28 00:35:48,262 [INFO]: #  --- success ---
+2020-07-28 00:35:48,463 [INFO]: #  Run the Step: 17|意向订单|CLICK|通用-btn返回列表
+2020-07-28 00:35:49,452 [INFO]: #  --- success ---
+2020-07-28 00:35:49,653 [INFO]: #  Run the Step: 18|意向订单|CLICK|通用-tab已提交
+2020-07-28 00:35:50,551 [INFO]: #  --- success ---
+2020-07-28 00:35:50,752 [INFO]: #  Run the Step: 19|意向订单|CLICK|通用-val单号
+2020-07-28 00:35:51,413 [INFO]: #  --- success ---
+2020-07-28 00:35:51,613 [INFO]: #  Run the Step: 20|意向订单|INPUT|通用-inp搜索
+2020-07-28 00:35:52,883 [INFO]: #  --- success ---
+2020-07-28 00:35:53,083 [INFO]: #  Run the Step: 21|意向订单|CLICK|通用-btn搜索
+2020-07-28 00:35:53,809 [INFO]: #  --- success ---
+2020-07-28 00:35:54,009 [INFO]: #  Run the Step: 22|意向订单|CLICK|通用-tab已提交
+2020-07-28 00:35:54,700 [INFO]: #  --- success ---
+2020-07-28 00:35:54,901 [INFO]: #  Run the Step: 23|意向订单|CLICK|通用-btn查看订单
+2020-07-28 00:35:55,664 [INFO]: #  --- success ---
+2020-07-28 00:35:55,865 [INFO]: #  Run the Step: 24|意向订单|CHECK|意向订单-lab意向订单状态#已提交
+2020-07-28 00:35:56,412 [INFO]: #  DATA:'已提交'
+2020-07-28 00:35:56,412 [INFO]: #  REAL:'已提交'
+2020-07-28 00:35:56,413 [INFO]: #  --- success ---
+2020-07-28 00:35:56,614 [INFO]: #  Run the Step: 25|意向订单|CLICK|通用-btn返回列表
+2020-07-28 00:35:57,542 [INFO]: #  --- success ---
+2020-07-28 00:35:57,743 [INFO]: #  Run the Step: 26|用例片段|EXECUTE|CQ_001
+2020-07-28 00:35:57,745 [INFO]: #  >>> Run the TestCase: CQ_001|新增意向订单
+2020-07-28 00:35:57,745 [INFO]: #  Run the Step: 1|意向订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-28 00:35:58,440 [INFO]: #  --- success ---
+2020-07-28 00:35:58,640 [INFO]: #  Run the Step: 2|意向订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-28 00:35:59,261 [INFO]: #  --- success ---
+2020-07-28 00:35:59,461 [INFO]: #  Run the Step: 3|意向订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-28 00:36:00,136 [INFO]: #  --- success ---
+2020-07-28 00:36:00,337 [INFO]: #  Run the Step: 4|意向订单|CLICK|意向订单-tab意向订单
+2020-07-28 00:36:00,969 [INFO]: #  --- success ---
+2020-07-28 00:36:01,170 [INFO]: #  Run the Step: 5|意向订单|CLICK|意向订单-btn新增
+2020-07-28 00:36:02,009 [INFO]: #  --- success ---
+2020-07-28 00:36:02,210 [INFO]: #  Run the Step: 6|意向订单|CHECK|意向订单-lab意向订单状态#未定义
+2020-07-28 00:36:02,301 [INFO]: #  DATA:'未定义'
+2020-07-28 00:36:02,303 [INFO]: #  REAL:'未定义'
+2020-07-28 00:36:02,303 [INFO]: #  --- success ---
+2020-07-28 00:36:02,504 [INFO]: #  Run the Step: 7|意向订单|CLICK|意向订单-sel预交日期
+2020-07-28 00:36:03,221 [INFO]: #  --- success ---
+2020-07-28 00:36:03,424 [INFO]: #  Run the Step: 8|意向订单|CLICK|意向订单-val预交日期
+2020-07-28 00:36:04,150 [INFO]: #  --- success ---
+2020-07-28 00:36:04,350 [INFO]: #  Run the Step: 9|意向订单|CLICK|意向订单-sel客户名称
+2020-07-28 00:36:05,024 [INFO]: #  --- success ---
+2020-07-28 00:36:05,225 [INFO]: #  Run the Step: 10|意向订单|CLICK|意向订单-val客户名称-美的
+2020-07-28 00:36:05,916 [INFO]: #  --- success ---
+2020-07-28 00:36:06,117 [INFO]: #  Run the Step: 11|意向订单|CLICK|意向订单-sel业务部门
+2020-07-28 00:36:06,813 [INFO]: #  --- success ---
+2020-07-28 00:36:07,013 [INFO]: #  Run the Step: 12|意向订单|CLICK|意向订单-val业务部门-办公室
+2020-07-28 00:36:07,706 [INFO]: #  --- success ---
+2020-07-28 00:36:07,906 [INFO]: #  Run the Step: 13|意向订单|CLICK|意向订单-sel业务人员
+2020-07-28 00:36:08,588 [INFO]: #  --- success ---
+2020-07-28 00:36:08,788 [INFO]: #  Run the Step: 14|意向订单|CLICK|意向订单-val业务人员-田丰
+2020-07-28 00:36:09,488 [INFO]: #  --- success ---
+2020-07-28 00:36:09,688 [INFO]: #  Run the Step: 15|意向订单|CLICK|意向订单-btn订单明细-添加
+2020-07-28 00:36:10,449 [INFO]: #  --- success ---
+2020-07-28 00:36:10,650 [INFO]: #  Run the Step: 16|意向订单|CLICK|意向订单-sel物料编码
+2020-07-28 00:36:11,323 [INFO]: #  --- success ---
+2020-07-28 00:36:11,524 [INFO]: #  Run the Step: 17|意向订单|INPUT|意向订单-inp选择物料
+2020-07-28 00:36:12,166 [INFO]: #  --- success ---
+2020-07-28 00:36:12,366 [INFO]: #  Run the Step: 18|意向订单|CLICK|意向订单-val物料编码-风扇罩-K33A0042-W1N-PP-不要求-NW-054
+2020-07-28 00:36:13,254 [INFO]: #  --- success ---
+2020-07-28 00:36:13,456 [INFO]: #  Run the Step: 19|意向订单|INPUT|意向订单-inp数量
+2020-07-28 00:36:14,241 [INFO]: #  --- success ---
+2020-07-28 00:36:14,441 [INFO]: #  Run the Step: 20|意向订单|CHECK|意向订单-sel订单明细-交货地点
+2020-07-28 00:36:14,525 [INFO]: #  DATA:'B2成品货位'
+2020-07-28 00:36:14,525 [INFO]: #  REAL:'B2成品货位'
+2020-07-28 00:36:14,526 [INFO]: #  --- success ---
+2020-07-28 00:36:14,726 [INFO]: #  Run the Step: 21|意向订单|INPUT|意向订单-inp备注
+2020-07-28 00:36:15,741 [INFO]: #  --- success ---
+2020-07-28 00:36:15,941 [INFO]: #  --- success ---
+2020-07-28 00:36:16,141 [INFO]: #  Run the Step: 27|意向订单|CLICK|通用-btn直接提交
+2020-07-28 00:36:16,797 [INFO]: #  --- success ---
+2020-07-28 00:36:16,998 [INFO]: #  Run the Step: 28|意向订单|CLICK|通用-btn直接提交-确定
+2020-07-28 00:36:17,782 [INFO]: #  --- success ---
+2020-07-28 00:36:17,982 [INFO]: #  Run the Step: 29|意向订单|CLICK|通用-btn审核
+2020-07-28 00:36:20,087 [INFO]: #  --- success ---
+2020-07-28 00:36:20,288 [INFO]: #  Run the Step: 30|意向订单|CLICK|通用-sel审核-通过
+2020-07-28 00:36:31,374 [INFO]: #  --- success ---
+2020-07-28 00:36:31,575 [INFO]: #  Run the Step: 31|意向订单|CLICK|通用-btn审核-确定
+2020-07-28 00:36:32,312 [INFO]: #  --- success ---
+2020-07-28 00:36:32,512 [INFO]: #  Run the Step: 32|意向订单|CHECK|意向订单-lab意向订单状态#已审核
+2020-07-28 00:36:33,652 [INFO]: #  DATA:'已审核'
+2020-07-28 00:36:33,652 [INFO]: #  REAL:'已审核'
+2020-07-28 00:36:33,653 [INFO]: #  --- success ---
+2020-07-28 00:36:33,853 [INFO]: #  Run the Step: 33|意向订单|CLICK|通用-btn返回列表
+2020-07-28 00:36:34,844 [INFO]: #  --- success ---
+2020-07-28 00:36:35,045 [INFO]: #  Run the Step: 34|意向订单|CLICK|通用-tab已审核
+2020-07-28 00:36:35,829 [INFO]: #  --- success ---
+2020-07-28 00:36:36,032 [INFO]: #  Run the Step: 35|意向订单|CLICK|通用-val单号
+2020-07-28 00:36:36,731 [INFO]: #  --- success ---
+2020-07-28 00:36:36,932 [INFO]: #  Run the Step: 36|意向订单|INPUT|通用-inp搜索
+2020-07-28 00:36:38,406 [INFO]: #  --- success ---
+2020-07-28 00:36:38,606 [INFO]: #  Run the Step: 37|意向订单|CLICK|通用-btn搜索
+2020-07-28 00:36:39,375 [INFO]: #  --- success ---
+2020-07-28 00:36:39,576 [INFO]: #  Run the Step: 38|意向订单|CLICK|通用-tab已审核
+2020-07-28 00:36:40,356 [INFO]: #  --- success ---
+2020-07-28 00:36:40,556 [INFO]: #  Run the Step: 39|意向订单|CLICK|通用-btn查看订单
+2020-07-28 00:36:41,387 [INFO]: #  --- success ---
+2020-07-28 00:36:41,588 [INFO]: #  Run the Step: 40|意向订单|CHECK|意向订单-lab意向订单状态#已审核
+2020-07-28 00:36:42,567 [INFO]: #  DATA:'已审核'
+2020-07-28 00:36:42,568 [INFO]: #  REAL:'已审核'
+2020-07-28 00:36:42,569 [INFO]: #  --- success ---
+2020-07-28 00:36:42,769 [INFO]: #  Run the Step: 41|意向订单|CLICK|通用-btn返回列表
+2020-07-28 00:36:43,666 [INFO]: #  --- success ---
+2020-07-28 00:36:43,867 [INFO]: #  Run the Step: 42|用例片段|EXECUTE|CQ_001
+2020-07-28 00:36:43,869 [INFO]: #  >>> Run the TestCase: CQ_001|新增意向订单
+2020-07-28 00:36:43,869 [INFO]: #  Run the Step: 1|意向订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-28 00:36:44,599 [INFO]: #  --- success ---
+2020-07-28 00:36:44,799 [INFO]: #  Run the Step: 2|意向订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-28 00:36:45,412 [INFO]: #  --- success ---
+2020-07-28 00:36:45,613 [INFO]: #  Run the Step: 3|意向订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-28 00:36:46,290 [INFO]: #  --- success ---
+2020-07-28 00:36:46,491 [INFO]: #  Run the Step: 4|意向订单|CLICK|意向订单-tab意向订单
+2020-07-28 00:36:47,122 [INFO]: #  --- success ---
+2020-07-28 00:36:47,322 [INFO]: #  Run the Step: 5|意向订单|CLICK|意向订单-btn新增
+2020-07-28 00:36:48,167 [INFO]: #  --- success ---
+2020-07-28 00:36:48,368 [INFO]: #  Run the Step: 6|意向订单|CHECK|意向订单-lab意向订单状态#未定义
+2020-07-28 00:36:48,439 [INFO]: #  DATA:'未定义'
+2020-07-28 00:36:48,439 [INFO]: #  REAL:'未定义'
+2020-07-28 00:36:48,440 [INFO]: #  --- success ---
+2020-07-28 00:36:48,640 [INFO]: #  Run the Step: 7|意向订单|CLICK|意向订单-sel预交日期
+2020-07-28 00:36:49,374 [INFO]: #  --- success ---
+2020-07-28 00:36:49,575 [INFO]: #  Run the Step: 8|意向订单|CLICK|意向订单-val预交日期
+2020-07-28 00:36:50,306 [INFO]: #  --- success ---
+2020-07-28 00:36:50,506 [INFO]: #  Run the Step: 9|意向订单|CLICK|意向订单-sel客户名称
+2020-07-28 00:36:51,169 [INFO]: #  --- success ---
+2020-07-28 00:36:51,370 [INFO]: #  Run the Step: 10|意向订单|CLICK|意向订单-val客户名称-美的
+2020-07-28 00:36:52,090 [INFO]: #  --- success ---
+2020-07-28 00:36:52,291 [INFO]: #  Run the Step: 11|意向订单|CLICK|意向订单-sel业务部门
+2020-07-28 00:36:52,997 [INFO]: #  --- success ---
+2020-07-28 00:36:53,198 [INFO]: #  Run the Step: 12|意向订单|CLICK|意向订单-val业务部门-办公室
+2020-07-28 00:36:53,915 [INFO]: #  --- success ---
+2020-07-28 00:36:54,116 [INFO]: #  Run the Step: 13|意向订单|CLICK|意向订单-sel业务人员
+2020-07-28 00:36:54,793 [INFO]: #  --- success ---
+2020-07-28 00:36:54,994 [INFO]: #  Run the Step: 14|意向订单|CLICK|意向订单-val业务人员-田丰
+2020-07-28 00:36:55,713 [INFO]: #  --- success ---
+2020-07-28 00:36:55,914 [INFO]: #  Run the Step: 15|意向订单|CLICK|意向订单-btn订单明细-添加
+2020-07-28 00:36:56,657 [INFO]: #  --- success ---
+2020-07-28 00:36:56,857 [INFO]: #  Run the Step: 16|意向订单|CLICK|意向订单-sel物料编码
+2020-07-28 00:36:57,534 [INFO]: #  --- success ---
+2020-07-28 00:36:57,734 [INFO]: #  Run the Step: 17|意向订单|INPUT|意向订单-inp选择物料
+2020-07-28 00:36:58,379 [INFO]: #  --- success ---
+2020-07-28 00:36:58,579 [INFO]: #  Run the Step: 18|意向订单|CLICK|意向订单-val物料编码-风扇罩-K33A0042-W1N-PP-不要求-NW-054
+2020-07-28 00:36:59,429 [INFO]: #  --- success ---
+2020-07-28 00:36:59,630 [INFO]: #  Run the Step: 19|意向订单|INPUT|意向订单-inp数量
+2020-07-28 00:37:00,456 [INFO]: #  --- success ---
+2020-07-28 00:37:00,657 [INFO]: #  Run the Step: 20|意向订单|CHECK|意向订单-sel订单明细-交货地点
+2020-07-28 00:37:00,750 [INFO]: #  DATA:'B2成品货位'
+2020-07-28 00:37:00,750 [INFO]: #  REAL:'B2成品货位'
+2020-07-28 00:37:00,750 [INFO]: #  --- success ---
+2020-07-28 00:37:00,951 [INFO]: #  Run the Step: 21|意向订单|INPUT|意向订单-inp备注
+2020-07-28 00:37:01,965 [INFO]: #  --- success ---
+2020-07-28 00:37:02,166 [INFO]: #  --- success ---
+2020-07-28 00:37:02,366 [INFO]: #  Run the Step: 43|意向订单|CLICK|通用-btn直接提交
+2020-07-28 00:37:03,010 [INFO]: #  --- success ---
+2020-07-28 00:37:03,211 [INFO]: #  Run the Step: 44|意向订单|CLICK|通用-btn直接提交-确定
+2020-07-28 00:37:03,963 [INFO]: #  --- success ---
+2020-07-28 00:37:04,163 [INFO]: #  Run the Step: 45|意向订单|CLICK|通用-btn审核
+2020-07-28 00:37:06,342 [INFO]: #  --- success ---
+2020-07-28 00:37:06,543 [INFO]: #  Run the Step: 46|意向订单|CLICK|通用-sel审核-不通过
+2020-07-28 00:37:17,237 [INFO]: #  --- success ---
+2020-07-28 00:37:17,438 [INFO]: #  Run the Step: 47|意向订单|CLICK|通用-btn审核-确定
+2020-07-28 00:37:18,201 [INFO]: #  --- success ---
+2020-07-28 00:37:18,402 [INFO]: #  Run the Step: 48|意向订单|CHECK|意向订单-lab意向订单状态#不通过
+2020-07-28 00:37:19,566 [INFO]: #  DATA:'不通过'
+2020-07-28 00:37:19,566 [INFO]: #  REAL:'不通过'
+2020-07-28 00:37:19,567 [INFO]: #  --- success ---
+2020-07-28 00:37:19,767 [INFO]: #  Run the Step: 49|意向订单|CLICK|通用-btn返回列表
+2020-07-28 00:37:20,839 [INFO]: #  --- success ---
+2020-07-28 00:37:21,040 [INFO]: #  Run the Step: 50|意向订单|CLICK|通用-tab不通过
+2020-07-28 00:37:21,882 [INFO]: #  --- success ---
+2020-07-28 00:37:22,082 [INFO]: #  Run the Step: 51|意向订单|CLICK|通用-val单号
+2020-07-28 00:37:22,770 [INFO]: #  --- success ---
+2020-07-28 00:37:22,971 [INFO]: #  Run the Step: 52|意向订单|INPUT|通用-inp搜索
+2020-07-28 00:37:24,241 [INFO]: #  --- success ---
+2020-07-28 00:37:24,441 [INFO]: #  Run the Step: 53|意向订单|CLICK|通用-btn搜索
+2020-07-28 00:37:25,175 [INFO]: #  --- success ---
+2020-07-28 00:37:25,376 [INFO]: #  Run the Step: 54|意向订单|CLICK|通用-tab不通过
+2020-07-28 00:37:26,084 [INFO]: #  --- success ---
+2020-07-28 00:37:26,284 [INFO]: #  Run the Step: 55|意向订单|CLICK|通用-btn查看订单
+2020-07-28 00:37:27,082 [INFO]: #  --- success ---
+2020-07-28 00:37:27,283 [INFO]: #  Run the Step: 56|意向订单|CHECK|意向订单-lab意向订单状态#不通过
+2020-07-28 00:37:28,067 [INFO]: #  DATA:'不通过'
+2020-07-28 00:37:28,068 [INFO]: #  REAL:'不通过'
+2020-07-28 00:37:28,068 [INFO]: #  --- success ---
+2020-07-28 00:37:28,269 [INFO]: #  Run the Step: 57|意向订单|CLICK|通用-btn返回列表
+2020-07-28 00:37:29,111 [INFO]: #  --- success ---
+2020-07-28 00:37:29,311 [INFO]: #  Run the Step: 58|用例片段|EXECUTE|CQ_001
+2020-07-28 00:37:29,313 [INFO]: #  >>> Run the TestCase: CQ_001|新增意向订单
+2020-07-28 00:37:29,314 [INFO]: #  Run the Step: 1|意向订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-28 00:37:30,022 [INFO]: #  --- success ---
+2020-07-28 00:37:30,224 [INFO]: #  Run the Step: 2|意向订单|CLICK|通用-左侧栏二级菜单#需求订单
+2020-07-28 00:37:30,848 [INFO]: #  --- success ---
+2020-07-28 00:37:31,049 [INFO]: #  Run the Step: 3|意向订单|CLICK|通用-左侧栏一级菜单#销售管理
+2020-07-28 00:37:31,714 [INFO]: #  --- success ---
+2020-07-28 00:37:31,915 [INFO]: #  Run the Step: 4|意向订单|CLICK|意向订单-tab意向订单
+2020-07-28 00:37:32,550 [INFO]: #  --- success ---
+2020-07-28 00:37:32,751 [INFO]: #  Run the Step: 5|意向订单|CLICK|意向订单-btn新增
+2020-07-28 00:37:33,614 [INFO]: #  --- success ---
+2020-07-28 00:37:33,815 [INFO]: #  Run the Step: 6|意向订单|CHECK|意向订单-lab意向订单状态#未定义
+2020-07-28 00:37:33,885 [INFO]: #  DATA:'未定义'
+2020-07-28 00:37:33,886 [INFO]: #  REAL:'未定义'
+2020-07-28 00:37:33,886 [INFO]: #  --- success ---
+2020-07-28 00:37:34,086 [INFO]: #  Run the Step: 7|意向订单|CLICK|意向订单-sel预交日期
+2020-07-28 00:37:34,797 [INFO]: #  --- success ---
+2020-07-28 00:37:34,997 [INFO]: #  Run the Step: 8|意向订单|CLICK|意向订单-val预交日期
+2020-07-28 00:37:35,689 [INFO]: #  --- success ---
+2020-07-28 00:37:35,890 [INFO]: #  Run the Step: 9|意向订单|CLICK|意向订单-sel客户名称
+2020-07-28 00:37:36,546 [INFO]: #  --- success ---
+2020-07-28 00:37:36,746 [INFO]: #  Run the Step: 10|意向订单|CLICK|意向订单-val客户名称-美的
+2020-07-28 00:37:37,440 [INFO]: #  --- success ---
+2020-07-28 00:37:37,641 [INFO]: #  Run the Step: 11|意向订单|CLICK|意向订单-sel业务部门
+2020-07-28 00:37:38,331 [INFO]: #  --- success ---
+2020-07-28 00:37:38,531 [INFO]: #  Run the Step: 12|意向订单|CLICK|意向订单-val业务部门-办公室
+2020-07-28 00:37:39,258 [INFO]: #  --- success ---
+2020-07-28 00:37:39,461 [INFO]: #  Run the Step: 13|意向订单|CLICK|意向订单-sel业务人员
+2020-07-28 00:37:40,117 [INFO]: #  --- success ---
+2020-07-28 00:37:40,318 [INFO]: #  Run the Step: 14|意向订单|CLICK|意向订单-val业务人员-田丰
+2020-07-28 00:37:41,027 [INFO]: #  --- success ---
+2020-07-28 00:37:41,228 [INFO]: #  Run the Step: 15|意向订单|CLICK|意向订单-btn订单明细-添加
+2020-07-28 00:37:42,017 [INFO]: #  --- success ---
+2020-07-28 00:37:42,219 [INFO]: #  Run the Step: 16|意向订单|CLICK|意向订单-sel物料编码
+2020-07-28 00:37:42,911 [INFO]: #  --- success ---
+2020-07-28 00:37:43,112 [INFO]: #  Run the Step: 17|意向订单|INPUT|意向订单-inp选择物料
+2020-07-28 00:37:43,752 [INFO]: #  --- success ---
+2020-07-28 00:37:43,954 [INFO]: #  Run the Step: 18|意向订单|CLICK|意向订单-val物料编码-风扇罩-K33A0042-W1N-PP-不要求-NW-054
+2020-07-28 00:37:44,815 [INFO]: #  --- success ---
+2020-07-28 00:37:45,017 [INFO]: #  Run the Step: 19|意向订单|INPUT|意向订单-inp数量
+2020-07-28 00:37:45,787 [INFO]: #  --- success ---
+2020-07-28 00:37:45,987 [INFO]: #  Run the Step: 20|意向订单|CHECK|意向订单-sel订单明细-交货地点
+2020-07-28 00:37:46,057 [INFO]: #  DATA:'B2成品货位'
+2020-07-28 00:37:46,058 [INFO]: #  REAL:'B2成品货位'
+2020-07-28 00:37:46,060 [INFO]: #  --- success ---
+2020-07-28 00:37:46,261 [INFO]: #  Run the Step: 21|意向订单|INPUT|意向订单-inp备注
+2020-07-28 00:37:47,642 [INFO]: #  --- success ---
+2020-07-28 00:37:47,842 [INFO]: #  --- success ---
+2020-07-28 00:37:48,042 [INFO]: #  Run the Step: 59|意向订单|CLICK|通用-btn直接提交
+2020-07-28 00:37:48,707 [INFO]: #  --- success ---
+2020-07-28 00:37:48,908 [INFO]: #  Run the Step: 60|意向订单|CLICK|通用-btn直接提交-确定
+2020-07-28 00:37:49,657 [INFO]: #  --- success ---
+2020-07-28 00:37:49,857 [INFO]: #  Run the Step: 61|意向订单|CLICK|通用-btn审核
+2020-07-28 00:37:51,712 [INFO]: #  --- success ---
+2020-07-28 00:37:51,912 [INFO]: #  Run the Step: 62|意向订单|CLICK|通用-sel审核-通过
+2020-07-28 00:38:03,044 [INFO]: #  --- success ---
+2020-07-28 00:38:03,246 [INFO]: #  Run the Step: 63|意向订单|CLICK|通用-btn审核-确定
+2020-07-28 00:38:03,976 [INFO]: #  --- success ---
+2020-07-28 00:38:04,177 [INFO]: #  Run the Step: 64|意向订单|CHECK|意向订单-lab意向订单状态#已审核
+2020-07-28 00:38:05,331 [INFO]: #  DATA:'已审核'
+2020-07-28 00:38:05,332 [INFO]: #  REAL:'已审核'
+2020-07-28 00:38:05,332 [INFO]: #  --- success ---
+2020-07-28 00:38:05,533 [INFO]: #  Run the Step: 65|意向订单|CLICK|通用-btn返回列表
+2020-07-28 00:38:06,514 [INFO]: #  --- success ---
+2020-07-28 00:38:06,715 [INFO]: #  Run the Step: 66|意向订单|CLICK|通用-tab已审核
+2020-07-28 00:38:07,526 [INFO]: #  --- success ---
+2020-07-28 00:38:07,727 [INFO]: #  Run the Step: 67|意向订单|CLICK|通用-val单号
+2020-07-28 00:38:08,417 [INFO]: #  --- success ---
+2020-07-28 00:38:08,617 [INFO]: #  Run the Step: 68|意向订单|INPUT|通用-inp搜索
+2020-07-28 00:38:10,261 [INFO]: #  --- success ---
+2020-07-28 00:38:10,461 [INFO]: #  Run the Step: 69|意向订单|CLICK|通用-btn搜索
+2020-07-28 00:38:11,267 [INFO]: #  --- success ---
+2020-07-28 00:38:11,467 [INFO]: #  Run the Step: 70|意向订单|CLICK|通用-tab已审核
+2020-07-28 00:38:12,178 [INFO]: #  --- success ---
+2020-07-28 00:38:12,378 [INFO]: #  Run the Step: 67|意向订单|CLICK|通用-tab已审核-查看
+2020-07-28 00:38:13,149 [INFO]: #  --- success ---
+2020-07-28 00:38:13,349 [INFO]: #  Run the Step: 68|意向订单|CLICK|通用-btn关闭
+2020-07-28 00:38:14,800 [INFO]: #  --- success ---
+2020-07-28 00:38:15,000 [INFO]: #  Run the Step: 69|意向订单|CLICK|通用-btn关闭-确定
+2020-07-28 00:38:15,720 [INFO]: #  --- success ---
+2020-07-28 00:38:15,921 [INFO]: #  Run the Step: 70|意向订单|CHECK|意向订单-lab意向订单状态#已关闭
+2020-07-28 00:38:16,960 [INFO]: #  DATA:'已关闭'
+2020-07-28 00:38:16,960 [INFO]: #  REAL:'已关闭'
+2020-07-28 00:38:16,961 [INFO]: #  --- success ---
+2020-07-28 00:38:17,161 [INFO]: #  Run the Step: 71|意向订单|CLICK|通用-btn返回列表
+2020-07-28 00:38:18,053 [INFO]: #  --- success ---
+2020-07-28 00:38:18,254 [INFO]: #  Run the Step: 72|意向订单|CLICK|通用-tab已关闭
+2020-07-28 00:38:19,076 [INFO]: #  --- success ---
+2020-07-28 00:38:19,276 [INFO]: #  Run the Step: 73|意向订单|CLICK|通用-val单号
+2020-07-28 00:38:19,940 [INFO]: #  --- success ---
+2020-07-28 00:38:20,140 [INFO]: #  Run the Step: 74|意向订单|INPUT|通用-inp搜索
+2020-07-28 00:38:21,673 [INFO]: #  --- success ---
+2020-07-28 00:38:21,873 [INFO]: #  Run the Step: 75|意向订单|CLICK|通用-btn搜索
+2020-07-28 00:38:22,684 [INFO]: #  --- success ---
+2020-07-28 00:38:22,884 [INFO]: #  Run the Step: 76|意向订单|CLICK|通用-tab已关闭
+2020-07-28 00:38:23,608 [INFO]: #  --- success ---
+2020-07-28 00:38:23,808 [INFO]: #  Run the Step: 77|意向订单|CLICK|通用-btn查看订单
+2020-07-28 00:38:24,584 [INFO]: #  --- success ---
+2020-07-28 00:38:24,785 [INFO]: #  Run the Step: 78|意向订单|CHECK|意向订单-lab意向订单状态#已关闭
+2020-07-28 00:38:25,522 [INFO]: #  DATA:'已关闭'
+2020-07-28 00:38:25,522 [INFO]: #  REAL:'已关闭'
+2020-07-28 00:38:25,523 [INFO]: #  --- success ---
+2020-07-28 00:38:25,724 [INFO]: #  Run the Step: 79|意向订单|CLICK|通用-btn返回列表
+2020-07-28 00:38:26,553 [INFO]: #  --- success ---
+2020-07-28 00:38:28,991 [INFO]: #  --- Quit th Driver: Chrome

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="QtOut" hostname="qtout" timestamp="2020-08-20T08:06:41.619193" tests="5" failures="0" failures_detail="H:0 M:0 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="471.55997" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="3.161181"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="4.860278"/>
+		<testcase name="审核编辑" classname="AEQ_001" priority="M" time="59.030376"/>
+		<testcase name="删除出库订单" classname="DQ_001" priority="M" time="199.49441"/>
+		<testcase name="查看需求订单" classname="CH_001" priority="M" time="201.837543"/>
+	</testsuite>
+	<testsuite name="QtOut" hostname="qtint" timestamp="2020-08-20T08:14:35.477268" tests="5" failures="3" failures_detail="H:0 M:3 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="20.784018" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="3.452156"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="4.562208"/>
+		<testcase name="审核编辑" classname="AEQ_001" priority="M" time="3.668209">
+			<failure type="Failure" message=""/>
+		</testcase>
+		<testcase name="删除入库订单" classname="DQ_001" priority="M" time="3.030174">
+			<failure type="Failure" message=""/>
+		</testcase>
+		<testcase name="查看需求订单" classname="CH_001" priority="M" time="2.914166">
+			<failure type="Failure" message=""/>
+		</testcase>
+	</testsuite>
+</testsuites>

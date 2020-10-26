@@ -1,0 +1,43 @@
+2020-07-29 06:37:08,559 [INFO]: #  From Excel import testsuite success
+2020-07-29 06:37:10,905 [INFO]: #  --------------------------------------------------
+2020-07-29 06:37:10,905 [INFO]: #  >>> Run the TestCase: HOME_001|打开云塑ERP
+2020-07-29 06:37:10,915 [INFO]: #  Run the Step: 1|通用|OPEN|通用-首页链接
+2020-07-29 06:37:16,206 [ERROR]: #  *** save the screenshot is failure ***
+Traceback (most recent call last):
+  File "daitest\testcase.py", line 137, in run
+  File "daitest\keywords\web.py", line 68, in open
+  File "daitest\windows.py", line 88, in open
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 711, in current_window_handle
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+  File "site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "daitest\testcase.py", line 227, in run
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+  File "site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+
+2020-07-29 06:37:16,209 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "daitest\testcase.py", line 137, in run
+  File "daitest\keywords\web.py", line 68, in open
+  File "daitest\windows.py", line 88, in open
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 711, in current_window_handle
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+  File "site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+
+2020-07-29 06:37:16,214 [WARNING]: #  Run the testcase: HOME_001|打开云塑ERP Failure, BASE is not success. Break the AutoTest

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Roll" hostname="roll" timestamp="2020-07-22T11:37:09.421581" tests="5" failures="3" failures_detail="H:0 M:3 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="128.732363" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="7.298418"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="4.942282"/>
+		<testcase name="审核编辑" classname="AEQ_001" priority="M" time="79.699559">
+			<failure type="Failure" message="step-18|CLICK|通用-tab已审核-查看: HTTPConnectionPool(host='127.0.0.1', port=55494): Max retries exceeded with url: /session/5e56dc74dc9915c9321092e0f1b6e45a/element/f6282023-7997-4799-84f2-88f40d79d037/click (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0834B3D0&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))"/>
+		</testcase>
+		<testcase name="删除需求订单" classname="DQ_001" priority="M" time="17.045975">
+			<failure type="Failure" message=""/>
+		</testcase>
+		<testcase name="查看需求订单" classname="CH_001" priority="M" time="17.065976">
+			<failure type="Failure" message=""/>
+		</testcase>
+	</testsuite>
+</testsuites>

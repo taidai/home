@@ -1,0 +1,114 @@
+2020-08-04 21:58:50,738 [INFO]: #  From Excel import testsuite success
+2020-08-04 21:58:53,363 [INFO]: #  --------------------------------------------------
+2020-08-04 21:58:53,363 [INFO]: #  >>> Run the TestCase: HOME_001|打开云塑ERP
+2020-08-04 21:58:53,363 [INFO]: #  Run the Step: 1|通用|OPEN|通用-首页链接
+2020-08-04 21:58:55,991 [INFO]: #  --- success ---
+2020-08-04 21:58:56,192 [INFO]: #  Run the Step: 2|通用|CHECK|通用-页面title
+2020-08-04 21:58:56,197 [INFO]: #  DATA:'云塑 企业资源计划管理系统'
+2020-08-04 21:58:56,216 [INFO]: #  REAL:'云塑 企业资源计划管理系统'
+2020-08-04 21:58:56,232 [INFO]: #  --- success ---
+2020-08-04 21:58:56,438 [INFO]: #  --------------------------------------------------
+2020-08-04 21:58:56,439 [INFO]: #  >>> Run the TestCase: Login_001|登录
+2020-08-04 21:58:56,441 [INFO]: #  Run the Step: 1|登录页面|INPUT|登录页面-账号输入框
+2020-08-04 21:58:57,258 [INFO]: #  --- success ---
+2020-08-04 21:58:57,463 [INFO]: #  Run the Step: 2|登录页面|INPUT|登录页面-密码输入框
+2020-08-04 21:58:58,388 [INFO]: #  --- success ---
+2020-08-04 21:58:58,591 [INFO]: #  Run the Step: 3|登录页面|CLICK|登录页面-确定按钮
+2020-08-04 21:58:59,257 [INFO]: #  --- success ---
+2020-08-04 21:58:59,457 [INFO]: #  Run the Step: 4|登录页面|CHECK|通用-页面加载校验
+2020-08-04 21:59:01,035 [INFO]: #  DATA:'欢迎进入 云塑企业资源计划管理系统'
+2020-08-04 21:59:01,036 [INFO]: #  REAL:'欢迎进入 云塑企业资源计划管理系统'
+2020-08-04 21:59:01,037 [INFO]: #  --- success ---
+2020-08-04 21:59:01,237 [INFO]: #  ==================================================
+2020-08-04 21:59:01,241 [INFO]: #  ...No SETUP testcase need to run...
+2020-08-04 21:59:01,243 [INFO]: #  --------------------------------------------------
+2020-08-04 21:59:01,244 [INFO]: #  >>> Run the TestCase: CQ_001|编辑
+2020-08-04 21:59:01,247 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_003
+2020-08-04 21:59:01,252 [INFO]: #  >>> Run the TestCase: CQ_003|新增主生产计划
+2020-08-04 21:59:01,253 [INFO]: #  Run the Step: 1|登录页面|CLICK|通用-左侧栏一级菜单#计划管理
+2020-08-04 21:59:01,951 [INFO]: #  --- success ---
+2020-08-04 21:59:02,151 [INFO]: #  Run the Step: 2|登录页面|CLICK|通用-左侧栏二级菜单#主生产计划
+2020-08-04 21:59:03,164 [INFO]: #  --- success ---
+2020-08-04 21:59:03,364 [INFO]: #  Run the Step: 3|登录页面|CLICK|通用-左侧栏一级菜单#计划管理
+2020-08-04 21:59:04,043 [INFO]: #  --- success ---
+2020-08-04 21:59:04,244 [INFO]: #  Run the Step: 4|主生产计划|CLICK|主生产计划-btn新增
+2020-08-04 21:59:05,139 [INFO]: #  --- success ---
+2020-08-04 21:59:05,340 [INFO]: #  Run the Step: 5|主生产计划|CHECK|主生产计划-lab状态#未定义
+2020-08-04 21:59:05,425 [INFO]: #  DATA:'未定义'
+2020-08-04 21:59:05,425 [INFO]: #  REAL:'未定义'
+2020-08-04 21:59:05,426 [INFO]: #  --- success ---
+2020-08-04 21:59:05,627 [INFO]: #  Run the Step: 6|主生产计划|CLICK|主生产计划-sel计划时间范围
+2020-08-04 21:59:06,355 [INFO]: #  --- success ---
+2020-08-04 21:59:06,555 [INFO]: #  Run the Step: 7|主生产计划|INPUT|主生产计划-val开始时间
+2020-08-04 21:59:07,364 [INFO]: #  --- success ---
+2020-08-04 21:59:07,565 [INFO]: #  Run the Step: 8|主生产计划|INPUT|主生产计划-val结束时间
+2020-08-04 21:59:08,382 [INFO]: #  --- success ---
+2020-08-04 21:59:08,584 [INFO]: #  Run the Step: 9|主生产计划|CLICK|主生产计划-sel计划部门
+2020-08-04 21:59:09,360 [INFO]: #  --- success ---
+2020-08-04 21:59:09,561 [INFO]: #  Run the Step: 10|主生产计划|CLICK|主生产计划-val计划部门-办公室
+2020-08-04 21:59:10,276 [INFO]: #  --- success ---
+2020-08-04 21:59:10,477 [INFO]: #  Run the Step: 11|主生产计划|CLICK|主生产计划-sel计划人员
+2020-08-04 21:59:11,150 [INFO]: #  --- success ---
+2020-08-04 21:59:11,352 [INFO]: #  Run the Step: 12|主生产计划|CLICK|主生产计划-val计划人员-周文杰
+2020-08-04 21:59:12,076 [INFO]: #  --- success ---
+2020-08-04 21:59:12,278 [INFO]: #  Run the Step: 13|主生产计划|CLICK|主生产计划-btn从需求订单中选择物料
+2020-08-04 21:59:13,117 [INFO]: #  --- success ---
+2020-08-04 21:59:13,318 [INFO]: #  Run the Step: 14|主生产计划|CLICK|主生产计划-btn多选1
+2020-08-04 21:59:24,163 [INFO]: #  --- success ---
+2020-08-04 21:59:24,364 [INFO]: #  Run the Step: 15|主生产计划|CLICK|主生产计划-btn多选2
+2020-08-04 21:59:35,282 [INFO]: #  --- success ---
+2020-08-04 21:59:35,484 [INFO]: #  Run the Step: 16|主生产计划|CLICK|主生产计划-btn选择需求订单-确定
+2020-08-04 21:59:36,419 [INFO]: #  --- success ---
+2020-08-04 21:59:36,621 [INFO]: #  Run the Step: 17|主生产计划|CLICK|主生产计划-sel库存透视1
+2020-08-04 21:59:37,467 [INFO]: #  --- success ---
+2020-08-04 21:59:37,669 [INFO]: #  Run the Step: 18|主生产计划|CLICK|主生产计划-val库存透视1-注塑成品合格库位(合格 / 0)
+2020-08-04 21:59:38,703 [INFO]: #  --- success ---
+2020-08-04 21:59:38,904 [INFO]: #  Run the Step: 19|主生产计划|CLICK|主生产计划-sel库存透视1
+2020-08-04 21:59:39,571 [INFO]: #  --- success ---
+2020-08-04 21:59:39,773 [INFO]: #  Run the Step: 20|主生产计划|CHECK|主生产计划-val净需求量#5000.000
+2020-08-04 21:59:39,874 [INFO]: #  DATA:'5000.000'
+2020-08-04 21:59:39,875 [INFO]: #  REAL:'5000.000'
+2020-08-04 21:59:39,875 [INFO]: #  --- success ---
+2020-08-04 21:59:40,076 [INFO]: #  Run the Step: 21|主生产计划|CLICK|主生产计划-selBOM配方1
+2020-08-04 21:59:41,094 [INFO]: #  --- success ---
+2020-08-04 21:59:41,295 [INFO]: #  Run the Step: 22|主生产计划|CLICK|主生产计划-btnBOM配方-确定
+2020-08-04 21:59:42,294 [INFO]: #  --- success ---
+2020-08-04 21:59:42,495 [INFO]: #  Run the Step: 23|主生产计划|CLICK|主生产计划-sel库存透视2
+2020-08-04 21:59:43,256 [INFO]: #  --- success ---
+2020-08-04 21:59:43,457 [INFO]: #  Run the Step: 24|主生产计划|CLICK|主生产计划-val库存透视2-B2成品待处理库位(待处理 / 0)
+2020-08-04 21:59:44,433 [INFO]: #  --- success ---
+2020-08-04 21:59:44,634 [INFO]: #  Run the Step: 25|主生产计划|CHECK|主生产计划-val净需求量2#1000.000
+2020-08-04 21:59:44,731 [INFO]: #  DATA:'1000.000'
+2020-08-04 21:59:44,732 [INFO]: #  REAL:'1000.000'
+2020-08-04 21:59:44,732 [INFO]: #  --- success ---
+2020-08-04 21:59:44,933 [INFO]: #  Run the Step: 26|主生产计划|CLICK|主生产计划-selBOM配方2
+2020-08-04 21:59:45,923 [INFO]: #  --- success ---
+2020-08-04 21:59:46,124 [INFO]: #  Run the Step: 27|主生产计划|CLICK|主生产计划-btnBOM配方-确定
+2020-08-04 21:59:46,989 [INFO]: #  --- success ---
+2020-08-04 21:59:47,191 [INFO]: #  --- success ---
+2020-08-04 21:59:47,393 [INFO]: #  Run the Step: 2|主生产计划|CLICK|通用-btn直接提交
+2020-08-04 21:59:48,061 [INFO]: #  --- success ---
+2020-08-04 21:59:48,262 [INFO]: #  Run the Step: 3|主生产计划|CLICK|通用-btn直接提交-确定
+2020-08-04 21:59:49,071 [INFO]: #  --- success ---
+2020-08-04 21:59:49,272 [INFO]: #  Run the Step: 4|主生产计划|CHECK|主生产计划-lab状态#已提交
+2020-08-04 21:59:49,765 [INFO]: #  DATA:'已提交'
+2020-08-04 21:59:49,765 [INFO]: #  REAL:'已提交'
+2020-08-04 21:59:49,766 [INFO]: #  --- success ---
+2020-08-04 21:59:49,967 [INFO]: #  Run the Step: 5|主生产计划|CLICK|通用-btn审核
+2020-08-04 21:59:50,778 [INFO]: #  --- success ---
+2020-08-04 21:59:50,979 [INFO]: #  Run the Step: 6|主生产计划|CLICK|通用-sel审核-不通过
+2020-08-04 22:00:01,996 [INFO]: #  --- success ---
+2020-08-04 22:00:02,198 [INFO]: #  Run the Step: 7|主生产计划|CLICK|通用-id#check_confirm
+2020-08-04 22:00:02,709 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "daitest\testcase.py", line 137, in run
+  File "daitest\keywords\web.py", line 178, in click
+  File "site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+  File "site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+  File "site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span data-v-085808f6="" id="check_confirm">...</span> is not clickable at point (1142, 420). Other element would receive the click: <button type="button" class="ant-btn ant-btn-primary ant-btn-two-chinese-chars">...</button>
+  (Session info: chrome=84.0.4147.105)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2020-08-04 22:00:04,908 [INFO]: #  --- Quit th Driver: Chrome

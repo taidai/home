@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Qtout" hostname="qtint" timestamp="2020-08-20T17:21:27.588936" tests="5" failures="3" failures_detail="H:0 M:3 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="20.334163" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="2.96117"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="4.747271"/>
+		<testcase name="审核编辑" classname="AEQ_001" priority="M" time="3.595206">
+			<failure type="Failure" message=""/>
+		</testcase>
+		<testcase name="删除入库订单" classname="DQ_001" priority="M" time="3.044174">
+			<failure type="Failure" message=""/>
+		</testcase>
+		<testcase name="查看需求订单" classname="CH_001" priority="M" time="2.921167">
+			<failure type="Failure" message=""/>
+		</testcase>
+	</testsuite>
+	<testsuite name="Qtout" hostname="qtout" timestamp="2020-08-20T17:21:50.243232" tests="5" failures="3" failures_detail="H:0 M:3 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="62.278562" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="3.133179"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="4.641265"/>
+		<testcase name="审核编辑" classname="AEQ_001" priority="M" time="51.013918">
+			<failure type="Failure" message="step-4|CHECK|其他出库-lab出库状态#已提交: Locating the element:其他出库-lab出库状态#已提交 is Failure: Timeout"/>
+		</testcase>
+		<testcase name="删除出库订单" classname="DQ_001" priority="M" time="0.500029">
+			<failure type="Failure" message=""/>
+		</testcase>
+		<testcase name="查看需求订单" classname="CH_001" priority="M" time="0.452026">
+			<failure type="Failure" message=""/>
+		</testcase>
+	</testsuite>
+</testsuites>

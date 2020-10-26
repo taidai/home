@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Roll" hostname="roll" timestamp="2020-07-22T11:40:04.675605" tests="5" failures="3" failures_detail="H:0 M:3 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="150.115586" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="9.321533"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="5.497315"/>
+		<testcase name="审核编辑" classname="AEQ_001" priority="M" time="82.955744">
+			<failure type="Failure" message="step-17|CLICK|通用-btn关闭确定: Message: element not interactable
+  (Session info: chrome=84.0.4147.89)
+"/>
+		</testcase>
+		<testcase name="删除需求订单" classname="DQ_001" priority="M" time="21.458228">
+			<failure type="Failure" message=""/>
+		</testcase>
+		<testcase name="查看需求订单" classname="CH_001" priority="M" time="28.237615">
+			<failure type="Failure" message=""/>
+		</testcase>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="OsM" hostname="osm" timestamp="2020-06-28T16:17:46.509181" tests="1" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="62.827431" skipped="0" disabled="0">
+		<testcase name="新增工单" classname="CreateOrder_001" priority="M" time="60.21933">
+			<failure type="Failure" message="step-7|CLICK|委外工单-sel委外工序: Locating the element:委外工单-sel委外工序 is Failure: Timeout"/>
+		</testcase>
+	</testsuite>
+</testsuites>

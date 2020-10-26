@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="OsM" hostname="osm" timestamp="2020-07-09T09:36:41.366903" tests="4" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="98.219495" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="17.021951"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="5.765785"/>
+		<testcase name="新增委外工单" classname="CreateOs_001" priority="M" time="51.137921"/>
+		<testcase name="新增发料单" classname="CreateIssue_001" priority="M" time="21.633236">
+			<failure type="Failure" message="step-16|INPUT|发料单-备注: object of type 'NoneType' has no len()"/>
+		</testcase>
+	</testsuite>
+</testsuites>

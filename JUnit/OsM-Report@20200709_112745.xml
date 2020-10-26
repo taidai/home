@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="OsM" hostname="osm" timestamp="2020-07-09T11:27:45.553773" tests="4" failures="0" failures_detail="H:0 M:0 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="99.206551" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="17.32046"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="4.98724"/>
+		<testcase name="新增委外工单" classname="CreateOs_001" priority="M" time="40.352307"/>
+		<testcase name="新增发料单" classname="CreateIssue_001" priority="M" time="33.909437"/>
+	</testsuite>
+</testsuites>

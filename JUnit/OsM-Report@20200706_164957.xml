@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="OsM" hostname="osm" timestamp="2020-07-06T16:49:57.556331" tests="4" failures="2" failures_detail="H:0 M:2 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="49.489361" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="14.908326"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="8.803464"/>
+		<testcase name="" classname="SNIPPET_001" priority="M" time="18.04937">
+			<failure type="Failure" message=""/>
+		</testcase>
+		<testcase name="新增发料单" classname="CreateIssue_001" priority="M" time="5.050606">
+			<failure type="Failure" message="step-1|CLICK|通用-左侧栏一级菜单#委外管理: Locating the element:通用-左侧栏一级菜单#委外管理 is Failure: Timeout"/>
+		</testcase>
+	</testsuite>
+</testsuites>

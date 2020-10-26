@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="OsM" hostname="osm" timestamp="2020-07-08T15:32:40.062206" tests="4" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="108.362553" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="13.871763"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="7.792899"/>
+		<testcase name="新增委外工单" classname="CreateOs_001" priority="M" time="39.743271"/>
+		<testcase name="新增发料单" classname="CreateIssue_001" priority="M" time="44.249529">
+			<failure type="Failure" message="step-15|CLICK|发料单-val委外工单: Message: element not interactable
+  (Session info: chrome=83.0.4103.116)
+"/>
+		</testcase>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="OsM" hostname="osm" timestamp="2020-07-09T10:11:39.586136" tests="5" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="114.292414" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="17.189453"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="4.938239"/>
+		<testcase name="新增委外工单" classname="CreateOs_001" priority="M" time="40.454312"/>
+		<testcase name="新增发料单" classname="CreateIssue_001" priority="M" time="41.405366"/>
+		<testcase name="检查点" classname="CheckIssue_001" priority="M" time="7.529431">
+			<failure type="Failure" message="step-5|CLICK|搜索: Locating the element:搜索 is Failure, this element is not define"/>
+		</testcase>
+	</testsuite>
+</testsuites>

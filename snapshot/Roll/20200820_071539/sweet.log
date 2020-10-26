@@ -1,0 +1,24 @@
+2020-08-20 07:15:40,108 [INFO]: #  From Excel import testsuite success
+2020-08-20 07:15:40,111 [ERROR]: #  *** Init global object failure ***
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\common\service.py", line 72, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 1307, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest2\daitest\autotest.py", line 105, in run
+    g.set_driver()
+  File "D:\daitest\daitest2\daitest\globals.py", line 98, in set_driver
+    self.driver = webdriver.Chrome(options=options)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+    self.service.start()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\common\service.py", line 81, in start
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+

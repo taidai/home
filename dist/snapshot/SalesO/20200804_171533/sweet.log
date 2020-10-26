@@ -1,0 +1,17 @@
+2020-08-04 17:15:45,492 [INFO]: #  From Excel import testsuite success
+2020-08-04 17:15:45,502 [ERROR]: #  *** Init global object failure ***
+Traceback (most recent call last):
+  File "site-packages\selenium\webdriver\common\service.py", line 72, in start
+  File "subprocess.py", line 854, in __init__
+  File "subprocess.py", line 1307, in _execute_child
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "daitest\autotest.py", line 105, in run
+  File "daitest\globals.py", line 98, in set_driver
+  File "site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+  File "site-packages\selenium\webdriver\common\service.py", line 81, in start
+selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+

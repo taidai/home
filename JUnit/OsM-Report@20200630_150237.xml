@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="OsM" hostname="osm" timestamp="2020-06-30T15:02:37.610469" tests="4" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="111.794276" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="16.711261"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="9.230136"/>
+		<testcase name="新增委外工单" classname="CreateOs_001" priority="M" time="35.979576"/>
+		<testcase name="新增发料单" classname="CreateIssue_001" priority="M" time="47.295267">
+			<failure type="Failure" message="step-18|CLICK|发料单-校验已录入: Locating the element:发料单-校验已录入 is Failure: Timeout"/>
+		</testcase>
+	</testsuite>
+</testsuites>

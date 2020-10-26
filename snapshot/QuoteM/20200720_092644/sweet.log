@@ -1,0 +1,134 @@
+2020-07-20 09:26:44,740 [INFO]: #  From Excel import testsuite success
+2020-07-20 09:26:47,268 [INFO]: #  --------------------------------------------------
+2020-07-20 09:26:47,268 [INFO]: #  >>> Run the TestCase: HOME_001|打开云塑ERP
+2020-07-20 09:26:47,269 [INFO]: #  Run the Step: 1|通用|OPEN|通用-首页链接
+2020-07-20 09:26:53,666 [INFO]: #  --- success ---
+2020-07-20 09:26:53,867 [INFO]: #  Run the Step: 2|通用|CHECK|通用-页面title
+2020-07-20 09:26:53,868 [INFO]: #  DATA:'云塑 企业资源计划管理系统'
+2020-07-20 09:26:53,881 [INFO]: #  REAL:'云塑 企业资源计划管理系统'
+2020-07-20 09:26:53,897 [INFO]: #  --- success ---
+2020-07-20 09:26:54,101 [INFO]: #  --------------------------------------------------
+2020-07-20 09:26:54,101 [INFO]: #  >>> Run the TestCase: Login_001|登录
+2020-07-20 09:26:54,101 [INFO]: #  Run the Step: 1|登录页面|INPUT|登录页面-账号输入框
+2020-07-20 09:26:54,987 [INFO]: #  --- success ---
+2020-07-20 09:26:55,187 [INFO]: #  Run the Step: 2|登录页面|INPUT|登录页面-密码输入框
+2020-07-20 09:26:56,167 [INFO]: #  --- success ---
+2020-07-20 09:26:56,367 [INFO]: #  Run the Step: 3|登录页面|CLICK|登录页面-确定按钮
+2020-07-20 09:26:57,117 [INFO]: #  --- success ---
+2020-07-20 09:26:57,317 [INFO]: #  Run the Step: 4|登录页面|CHECK|通用-页面加载校验
+2020-07-20 09:26:59,056 [INFO]: #  DATA:'欢迎进入 云塑企业资源计划管理系统'
+2020-07-20 09:26:59,057 [INFO]: #  REAL:'欢迎进入 云塑企业资源计划管理系统'
+2020-07-20 09:26:59,058 [INFO]: #  --- success ---
+2020-07-20 09:26:59,258 [INFO]: #  ==================================================
+2020-07-20 09:26:59,258 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-20 09:26:59,259 [INFO]: #  --------------------------------------------------
+2020-07-20 09:26:59,259 [INFO]: #  >>> Run the TestCase: VQ_001|查看附件
+2020-07-20 09:26:59,259 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-07-20 09:26:59,263 [INFO]: #  >>> Run the TestCase: CQ_001|新增报价单
+2020-07-20 09:26:59,264 [INFO]: #  Run the Step: 1|报价管理|CLICK|报价管理-btn侧边栏报价管理
+2020-07-20 09:27:00,288 [INFO]: #  --- success ---
+2020-07-20 09:27:00,488 [INFO]: #  Run the Step: 2|报价管理|CLICK|报价管理-btn新增
+2020-07-20 09:27:01,570 [INFO]: #  --- success ---
+2020-07-20 09:27:01,770 [INFO]: #  Run the Step: 3|报价管理|CHECK|报价管理-lab报价状态
+2020-07-20 09:27:28,194 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 32, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 37, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\testcase.py", line 137, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\keywords\web.py", line 83, in check
+    element_location = locating_element(element)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 40, in locating_element
+    raise Exception('Locating the element:%s is Failure: Timeout' % element)
+Exception: Locating the element:报价管理-lab报价状态 is Failure: Timeout
+2020-07-20 09:27:28,197 [INFO]: #  ==================================================
+2020-07-20 09:27:28,197 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-20 09:27:28,197 [INFO]: #  --------------------------------------------------
+2020-07-20 09:27:28,198 [INFO]: #  >>> Run the TestCase: AEQ_001|审核编辑
+2020-07-20 09:27:28,198 [INFO]: #  Run the Step: 1|报价管理|CLICK|报价管理-btn审核
+2020-07-20 09:27:54,640 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 32, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 37, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\testcase.py", line 137, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\keywords\web.py", line 175, in click
+    element_location = locating_element(element, 'CLICK')
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 40, in locating_element
+    raise Exception('Locating the element:%s is Failure: Timeout' % element)
+Exception: Locating the element:报价管理-btn审核 is Failure: Timeout
+2020-07-20 09:27:54,642 [INFO]: #  ==================================================
+2020-07-20 09:27:54,642 [INFO]: #  ...No SETUP testcase need to run...
+2020-07-20 09:27:54,643 [INFO]: #  --------------------------------------------------
+2020-07-20 09:27:54,643 [INFO]: #  >>> Run the TestCase: DQ_001|删除报价单
+2020-07-20 09:27:54,644 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|CQ_001
+2020-07-20 09:27:54,648 [INFO]: #  >>> Run the TestCase: CQ_001|新增报价单
+2020-07-20 09:27:54,648 [INFO]: #  Run the Step: 1|报价管理|CLICK|报价管理-btn侧边栏报价管理
+2020-07-20 09:27:55,332 [INFO]: #  --- success ---
+2020-07-20 09:27:55,533 [INFO]: #  Run the Step: 2|报价管理|CLICK|报价管理-btn新增
+2020-07-20 09:28:22,080 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 32, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 37, in locating_element
+    el_location = wait.until(EC.presence_of_element_located(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\testcase.py", line 137, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\keywords\web.py", line 175, in click
+    element_location = locating_element(element, 'CLICK')
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\locator.py", line 40, in locating_element
+    raise Exception('Locating the element:%s is Failure: Timeout' % element)
+Exception: Locating the element:报价管理-btn新增 is Failure: Timeout
+2020-07-20 09:28:24,263 [INFO]: #  --- Quit th Driver: Chrome

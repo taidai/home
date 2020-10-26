@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="QuoteM" hostname="quotem" timestamp="2020-07-20T20:36:15.425986" tests="5" failures="3" failures_detail="H:0 M:3 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="80.642612" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="7.804446"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="6.364364"/>
+		<testcase name="查看附件" classname="VQ_001" priority="M" time="9.874565">
+			<failure type="Failure" message=""/>
+		</testcase>
+		<testcase name="审核编辑" classname="AEQ_001" priority="M" time="26.520517">
+			<failure type="Failure" message="step-1|CLICK|报价管理-btn审核: Locating the element:报价管理-btn审核 is Failure: Timeout"/>
+		</testcase>
+		<testcase name="删除报价单" classname="DQ_001" priority="M" time="27.267559">
+			<failure type="Failure" message=""/>
+		</testcase>
+	</testsuite>
+</testsuites>

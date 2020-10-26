@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="IntentionO" hostname="intentiono" timestamp="2020-07-27T15:54:26.430776" tests="5" failures="3" failures_detail="H:0 M:3 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="108.526554" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="10.080552"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="5.487257"/>
+		<testcase name="审核编辑" classname="AEQ_001" priority="M" time="41.400368">
+			<failure type="Failure" message="step-12|CHECK|toast修改成功提醒#: Locating the element:toast修改成功提醒# is Failure, this element is not define"/>
+		</testcase>
+		<testcase name="删除需求订单" classname="DQ_001" priority="M" time="31.89579">
+			<failure type="Failure" message=""/>
+		</testcase>
+		<testcase name="查看需求订单" classname="CH_001" priority="M" time="17.064448">
+			<failure type="Failure" message=""/>
+		</testcase>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="OsM" hostname="osm" timestamp="2020-07-09T14:52:03.188950" tests="5" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="113.820886" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="19.23757"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="5.287258"/>
+		<testcase name="新增委外工单" classname="CreateOs_001" priority="M" time="40.452311"/>
+		<testcase name="新增发料单" classname="CreateIssue_001" priority="M" time="33.580419"/>
+		<testcase name="检查点" classname="CheckIssue_001" priority="M" time="12.650724">
+			<failure type="Failure" message="step-9|CHECK|委外工单-面板注塑件计划发料数: Check Failure, DATA:'&lt;plan_mb&gt;', REAL:'5050.000'"/>
+		</testcase>
+	</testsuite>
+</testsuites>

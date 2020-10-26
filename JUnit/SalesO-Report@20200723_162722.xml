@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="SalesO" hostname="saleso" timestamp="2020-07-23T16:27:23.245965" tests="5" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="510.537201" skipped="0" disabled="0">
+		<testcase name="打开云塑ERP" classname="HOME_001" priority="H" time="8.970513"/>
+		<testcase name="登录" classname="Login_001" priority="M" time="5.682325"/>
+		<testcase name="审核编辑" classname="AEQ_002" priority="M" time="77.782449"/>
+		<testcase name="删除销售订单" classname="DQ_001" priority="M" time="240.977783"/>
+		<testcase name="查看销售订单" classname="CH_001" priority="M" time="174.31097">
+			<failure type="Failure" message="step-51|CLICK|通用-val单号: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.89)
+"/>
+		</testcase>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+2020-07-28 00:30:48,933 [INFO]: #  From Excel import testsuite success
+2020-07-28 00:30:51,509 [INFO]: #  --------------------------------------------------
+2020-07-28 00:30:51,510 [INFO]: #  >>> Run the TestCase: HOME_001|打开云塑ERP
+2020-07-28 00:30:51,510 [INFO]: #  Run the Step: 1|通用|OPEN|通用-首页链接
+2020-07-28 00:32:21,916 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\testcase.py", line 137, in run
+    element = getattr(web, step['keyword'].lower())(step)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\sweetest\keywords\web.py", line 67, in open
+    g.driver.get(value)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 76.802
+  (Session info: chrome=84.0.4147.89)
+
+2020-07-28 00:32:21,919 [WARNING]: #  Run the testcase: HOME_001|打开云塑ERP Failure, BASE is not success. Break the AutoTest
+2020-07-28 00:32:24,201 [INFO]: #  --- Quit th Driver: Chrome

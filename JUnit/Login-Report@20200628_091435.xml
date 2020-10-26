@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Login" hostname="login" timestamp="2020-06-28T09:14:35.933010" tests="0" failures="0" failures_detail="H:0 M:0 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="2.681071" skipped="0" disabled="0"/>
+</testsuites>
