@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taidai.github.io</id>
     <title>代编程</title>
-    <updated>2020-10-27T06:46:13.001Z</updated>
+    <updated>2020-10-27T07:27:46.772Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taidai.github.io"/>
     <link rel="self" href="https://taidai.github.io/atom.xml"/>
@@ -10,13 +10,6 @@
     <logo>https://taidai.github.io/images/avatar.png</logo>
     <icon>https://taidai.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 代编程</rights>
-    <entry>
-        <title type="html"><![CDATA[Typora+PicGo+github图床]]></title>
-        <id>https://taidai.github.io/post/hasQc3diO/</id>
-        <link href="https://taidai.github.io/post/hasQc3diO/">
-        </link>
-        <updated>2020-10-27T06:42:56.000Z</updated>
-    </entry>
     <entry>
         <title type="html"><![CDATA[python 开发小知识 【代编程】]]></title>
         <id>https://taidai.github.io/post/pythonxzj/</id>
