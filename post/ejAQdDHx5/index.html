@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://taidai.github.io/favicon.ico?v=1603801401345">
+<link rel="shortcut icon" href="https://taidai.github.io/favicon.ico?v=1603874840942">
 <link rel="stylesheet" href="https://taidai.github.io/styles/main.css">
 
 
@@ -27,19 +27,16 @@
     <meta name="description" content="
 @ xw
 
+1、取绝对值/复数的模
+2、all:判断所有元素是否为真
+3、any:判断是否至少有一元素为真
 
-取绝对值/复数的模
-all:判断所有元素是否为真
-any:判断是否至少有一元素为真
-
-
-
-调用对象的repr()方法，获得该方法的返回值
+4、调用对象的repr()方法，获得该方法的返回值
 
 
 
-进制转换（十转二/十转八/十转十六）
-判断测试对象是真是假
+5、进制转换（十转二/十转八/十转十六）
+6、判断测试对象是真是假
 
 ..." />
     <meta name="keywords" content="" />
@@ -51,7 +48,7 @@ any:判断是否至少有一元素为真
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://taidai.github.io">
-        <img src="https://taidai.github.io/images/avatar.png?v=1603801401345" class="site-logo">
+        <img src="https://taidai.github.io/images/avatar.png?v=1603874840942" class="site-logo">
         <h1 class="site-title">代编程</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -124,20 +121,53 @@ any:判断是否至少有一元素为真
               <blockquote>
 <p>@ xw</p>
 </blockquote>
-<blockquote>
-<p>取绝对值/复数的模</p>
-<p>all:判断所有元素是否为真</p>
-<p>any:判断是否至少有一元素为真</p>
+<h5 id="1-取绝对值复数的模">1、取绝对值/复数的模</h5>
+<h5 id="2-all判断所有元素是否为真">2、all:判断所有元素是否为真</h5>
+<h5 id="3-any判断是否至少有一元素为真">3、any:判断是否至少有一元素为真</h5>
 <figure data-type="image" tabindex="1"><img src="https://pic-1254276075.cos.ap-guangzhou.myqcloud.com/typora/image-20201027201936178.png" alt="image-20201027201936178" loading="lazy"></figure>
-</blockquote>
+<h5 id="4-调用对象的repr方法获得该方法的返回值">4、调用对象的repr()方法，获得该方法的返回值</h5>
 <blockquote>
-<p>调用对象的repr()方法，获得该方法的返回值</p>
 <figure data-type="image" tabindex="2"><img src="https://pic-1254276075.cos.ap-guangzhou.myqcloud.com/typora/image-20201027201950625.png" alt="image-20201027201950625" loading="lazy"></figure>
 </blockquote>
+<h5 id="5-进制转换十转二十转八十转十六">5、进制转换（十转二/十转八/十转十六）</h5>
+<h5 id="6-判断测试对象是真是假">6、判断测试对象是真是假</h5>
 <blockquote>
-<p>进制转换（十转二/十转八/十转十六）</p>
-<p>判断测试对象是真是假<img src="https://pic-1254276075.cos.ap-guangzhou.myqcloud.com/typora/image-20201027202002212.png" alt="image-20201027202002212" loading="lazy"></p>
+<figure data-type="image" tabindex="3"><img src="https://pic-1254276075.cos.ap-guangzhou.myqcloud.com/typora/image-20201027202002212.png" alt="image-20201027202002212" loading="lazy"></figure>
 </blockquote>
+<h5 id="7-将一个字符串转换成字节">7、 将一个字符串转换成字节</h5>
+<pre><code class="language-python">s = &quot;apple&quot;
+bytes(s,encoding= 'utf-8')   
+</code></pre>
+<h5 id="8-将字符类型-数值类型等转换为字符串类型">8、将字符类型、数值类型等转换为字符串类型</h5>
+<pre><code class="language-python">i = 100
+str(i)
+</code></pre>
+<h5 id="9-判断对象是否可被调用">9、判断对象是否可被调用</h5>
+<pre><code class="language-python">callable(str)
+callable(int)
+callable(xiaoming)&gt;&gt;False
+</code></pre>
+<h5 id="10-若想让xiaoming能被调用xiaoming需要重写student类的__call__方法">10、若想让xiaoming能被调用xiaoming()，需要重写student类的__<strong>call</strong>__方法</h5>
+<pre><code class="language-python">class student():
+    
+   	def __init__(self,id,name):
+        self.id = id 
+       	self.name = name
+
+    def __repr__(self):
+       	return 'id ='+self.id +',name = '+self.name
+
+   	def __call__(self):
+      	print('I can be called')
+       	print(f'my namw is {self.name}')
+
+t = student('001','xiaoming')
+t()
+</code></pre>
+<h5 id="11-十转ascii-ascii转十">11、十转ASCII、ASCII转十</h5>
+<pre><code class="language-python">chr(65)
+ord('A')
+</code></pre>
 
             </div>
             
