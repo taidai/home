@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Python 使用 pandas 或  xlrd 操作 Excel  | 代编程</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://taidai.github.io/favicon.ico?v=1603943100618">
+<link rel="stylesheet" href="https://taidai.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="一、pandas
+1、准备
+
+
+
+pip install pandas
+
+
+pip install xlrd
+
+
+import pandas as pd
+import numpy as np
+
+
+
+
+2、读取Excel文件的两种方式
+
+
+默..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://taidai.github.io">
+        <img src="https://taidai.github.io/images/avatar.png?v=1603943100618" class="site-logo">
+        <h1 class="site-title">代编程</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            全部
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            分类
+          </a>
+        
+      
+        
+          <a href="/math" class="site-nav">
+            数学
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://taidai.github.io/" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      学会了，给出去，知识本不属于我。
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://taidai.github.io" target="_blank"> 代编程</a> | <a class="rss" href="https://taidai.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Python 使用 pandas 或  xlrd 操作 Excel </h2>
+            <div class="post-date">2020-10-29</div>
+            
+            <div class="post-content" v-pre>
+              <h2 id="一-pandas">一、pandas</h2>
+<h3 id="1-准备">1、准备</h3>
+<figure data-type="image" tabindex="1"><img src="https://pic-1254276075.cos.ap-guangzhou.myqcloud.com/typora/image-20200609160338825.png" alt="image-20200609160338825" loading="lazy"></figure>
+<ol>
+<li>
+<p>pip install pandas</p>
+</li>
+<li>
+<p>pip install xlrd</p>
+</li>
+<li>
+<pre><code>import pandas as pd
+import numpy as np
+</code></pre>
+</li>
+</ol>
+<h2 id=""></h2>
+<h3 id="2-读取excel文件的两种方式">2、读取Excel文件的两种方式</h3>
+<ol>
+<li>
+<p>默认</p>
+<figure data-type="image" tabindex="2"><img src="https://pic-1254276075.cos.ap-guangzhou.myqcloud.com/typora/image-20201029113944639.png" alt="image-20201029113944639" loading="lazy"></figure>
+</li>
+<li>
+<p>指定表名</p>
+<figure data-type="image" tabindex="3"><img src="https://pic-1254276075.cos.ap-guangzhou.myqcloud.com/typora/image-20200609160315743.png" alt="image-20200609160315743" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://pic-1254276075.cos.ap-guangzhou.myqcloud.com/typora/image-20200609160324836.png" alt="image-20200609160324836" loading="lazy"></figure>
+</li>
+</ol>
+<h3 id="3-行列操作">3、<strong>行列操作</strong></h3>
+<ol>
+<li>
+<figure data-type="image" tabindex="5"><img src="https://pic-1254276075.cos.ap-guangzhou.myqcloud.com/typora/image-20200609160446753.png" alt="image-20200609160446753" loading="lazy"></figure>
+</li>
+<li>
+<figure data-type="image" tabindex="6"><img src="https://pic-1254276075.cos.ap-guangzhou.myqcloud.com/typora/image-20200609160505817.png" alt="image-20200609160505817" loading="lazy"></figure>
+</li>
+<li>
+<figure data-type="image" tabindex="7"><img src="https://pic-1254276075.cos.ap-guangzhou.myqcloud.com/typora/image-20200609160528803.png" alt="image-20200609160528803" loading="lazy"></figure>
+</li>
+<li>
+<figure data-type="image" tabindex="8"><img src="https://pic-1254276075.cos.ap-guangzhou.myqcloud.com/typora/image-20200609160545067.png" alt="image-20200609160545067" loading="lazy"></figure>
+</li>
+</ol>
+<h3 id="4-excel转成字典">4、Excel转成字典</h3>
+<figure data-type="image" tabindex="9"><img src="https://pic-1254276075.cos.ap-guangzhou.myqcloud.com/typora/image-20200609160711259.png" alt="image-20200609160711259" loading="lazy"></figure>
+<h3 id="5-删除nan值">5、删除nan值</h3>
+<pre><code class="language-python">* &gt;&gt;&gt; import pandas as pd
+&gt;&gt;&gt; df = pd.read_excel(r'D:/myExcel/1.xlsx')
+&gt;&gt;&gt; df
+     name  Chinese  Chinese.1     id
+0     bob     12.0         12  123.0
+1  millor      NaN         32  124.0
+2   jiken     89.0         89    NaN
+3   jiken     89.0         89  125.0
+# 默认axis=0即删除包含NaN值的行
+&gt;&gt;&gt; df.dropna()
+    name  Chinese  Chinese.1     id
+0    bob     12.0         12  123.0
+3  jiken     89.0         89  125.0
+# axis=1 即删除包含NaN值的列
+&gt;&gt;&gt; df.dropna(axis=1)
+     name  Chinese.1
+0     bob         12
+1  millor         32
+2   jiken         89
+</code></pre>
+<h3 id="6-read_excel参数">6、read_excel()参数</h3>
+<p>1、io，Excel的存储路径</p>
+<p>2、sheet_name，要读取的工作表名称</p>
+<p>3、header， 用哪一行作列名</p>
+<p>4、names， 自定义最终的列名</p>
+<p>5、index_col， 用作索引的列<br>
+6、usecols，需要读取哪些列</p>
+<p>7、squeeze，当数据仅包含一列</p>
+<p>8、converters ，强制规定列数据类型</p>
+<p>9、skiprows，跳过特定行<br>
+10、nrows ，需要读取的行数</p>
+<p>11、skipfooter ， 跳过末尾n行</p>
+<h2 id="二-xlrd">二、xlrd</h2>
+<pre><code class="language-python">import xlrd
+#打开一个Excel文件
+data = xlrd.open_workbook('Excel.xls')
+#获取其中所有的工作表
+print (data.sheet_names())
+#打开第一个工作表
+table = data.sheets()[0]
+#获取第一个工作表的行数
+print (table.nrows)
+</code></pre>
+<h3 id="1-获取一个工作表">1、获取一个工作表</h3>
+<pre><code class="language-python">table = data.sheets()[0]          #通过索引顺序获取
+table = data.sheet_by_index(0)    #通过索引顺序获取
+table = data.sheet_by_name('Sheet1')   #通过名称获取	
+</code></pre>
+<h3 id="2-获取行数">2、获取行数</h3>
+<pre><code class="language-python">rows_num = table.nrows
+</code></pre>
+<h3 id="3-获取列数">3、获取列数</h3>
+<pre><code class="language-python">cols_num = table.ncols
+</code></pre>
+<h3 id="4-获取整行或者整列的内容">4、<strong>获取整行或者整列的内容</strong></h3>
+<pre><code class="language-python">rows_value = table.row_values(2)
+#['微软', 'python工程师2', '2@2.com']
+cols_value = table.col_values(2)
+#['对方邮箱', '1@1.com', '2@2.com', '3@3.com']
+</code></pre>
+<h3 id="5-循环读取list的数据">5、<strong>循环读取list的数据</strong></h3>
+<pre><code class="language-python">for i in range(table.nrows):
+    print (table.row_values(i))
+</code></pre>
+<h3 id="6-也可以获取某个单元格的内容">6、也可以获取某个单元格的内容</h3>
+<pre><code class="language-python">#使用单元格定位
+cell_A1 = table.cell(0,0).value
+cell_A2 = table.cell(0,1).value
+#使用行/列索引
+cell_B1 = table.row(0)[1].value
+cell_B2 = table.col(1)[1].value	
+</code></pre>
+<h3 id="7-获取绝对路径">7、获取绝对路径</h3>
+<pre><code class="language-python">#当然我们也可以获得当前文件夹的绝对路径，如下：
+
+    import os
+    path1=os.path.abspath('.')   #表示当前所处的文件夹的绝对路径
+    path2=os.path.abspath('..')  #表示当前所处的文件夹上一级文件夹的绝对路径
+</code></pre>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://taidai.github.io/post/ejAQdDHx5/">
+                  <h3 class="post-title">
+                    python 最佳实践
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '4c2ae33198343099841d',
+        clientSecret: 'efba699884619c5b9ade62b73d9ca4a01074276f',
+        repo: 'taidai.github.io',
+        owner: 'taidai',
+        admin: ['taidai'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
