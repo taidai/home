@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="TestAPI" hostname="testapi" timestamp="2020-11-02T20:37:51.662214" tests="42" failures="2" failures_detail="H:0 M:2 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="146.463377" skipped="0" disabled="0">
+		<testcase name="主页面" classname="main_002" priority="M" time="2.686153"/>
+		<testcase name="销售订单" classname="sale_001" priority="M" time="6.613379"/>
+		<testcase name="客户及供应商基础信息" classname="kg_001" priority="M" time="2.822161"/>
+		<testcase name="BOM主表" classname="bom" priority="M" time="2.335134"/>
+		<testcase name="物料基础信息" classname="wl" priority="M" time="6.198354"/>
+		<testcase name="基础参数设置" classname="basic" priority="M" time="2.584148"/>
+		<testcase name="附件子表" classname="fjzb" priority="M" time="1.481085"/>
+		<testcase name="「委外」-发料主表" classname="ww-flzb" priority="M" time="3.571204"/>
+		<testcase name="「委外」-委外订单" classname="ww-wwdd" priority="M" time="3.439197"/>
+		<testcase name="「委外」-委外缴库" classname="ww-wwjk" priority="M" time="3.220184"/>
+		<testcase name="订单交期评估" classname="ddjqpg" priority="M" time="3.273187"/>
+		<testcase name="「物料需求计划」-主信息表" classname="wlxqjh" priority="M" time="0.762044"/>
+		<testcase name="「计划工单」-主信息表" classname="jhgd-zxxb" priority="M" time="3.781216"/>
+		<testcase name="「计划」-销售发货计划主表" classname="jh-xsfhjhzb" priority="M" time="3.406195"/>
+		<testcase name="采购管理-「请购单」请购单主表" classname="cggl-qgdzb" priority="M" time="4.421253"/>
+		<testcase name="采购管理-「采购单」采购单主表" classname="cggl-cgdzb" priority="M" time="2.845162"/>
+		<testcase name="报价单主信息表" classname="bjdzxxb" priority="M" time="1.402081">
+			<failure type="Failure" message="step-6|GET|报价单主信息表-导出excel: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="价格政策" classname="jgzc" priority="M" time="5.221298"/>
+		<testcase name="销售滚动订单信息" classname="xsgdddxx" priority="M" time="3.984228"/>
+		<testcase name="「业务」-测试" classname="yw-cs" priority="M" time="0.652037">
+			<failure type="Failure" message="step-3|GET|「业务」-测试-getStatusCode-异常测试: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="【对账】应收流水" classname="dz-ysls" priority="M" time="1.55909"/>
+		<testcase name="仓库" classname="ck" priority="M" time="5.292302"/>
+		<testcase name="仓库管理-「盘点」" classname="ckgl-pd" priority="M" time="3.816219"/>
+		<testcase name="仓库管理-「入库」其他" classname="ckgl-rk" priority="M" time="3.889222"/>
+		<testcase name="仓库管理-「出库」其他" classname="ckgl-ck" priority="M" time="3.789217"/>
+		<testcase name="仓库管理-「调拨入库」调拨入库主表" classname="ckgl-dbrkzb" priority="M" time="3.913224"/>
+		<testcase name="仓库管理-「调拨出库」调拨出库主表" classname="ckgl-dbckzb" priority="M" time="4.271244"/>
+		<testcase name="仓库管理-「入库」委外入库" classname="ckgl-wwrk" priority="M" time="4.089234"/>
+		<testcase name="仓库管理-「出库」委外出库" classname="wkgl-wwck" priority="M" time="5.035288"/>
+		<testcase name="仓库管理-「销售出库」" classname="ckgl-xsck" priority="M" time="4.071233"/>
+		<testcase name="仓库管理-仓储汇总" classname="ckgl-cchz" priority="M" time="4.774273"/>
+		<testcase name="仓库管理-「入库」生产入库主表" classname="ckgl-scrkzb" priority="M" time="3.714212"/>
+		<testcase name="仓库管理-「出库」生产出库" classname="ckgl-scck" priority="M" time="3.332191"/>
+		<testcase name="仓库管理-「采购入库」采购入库主表" classname="ckgl-cgrkzb" priority="M" time="3.113178"/>
+		<testcase name="「生产」-注塑工单主表" classname="sc-zsgdzb" priority="M" time="3.689211"/>
+		<testcase name="「生产」-其他工序工单主表" classname="sc-qtgxgdzb" priority="M" time="2.80216"/>
+		<testcase name="「生产」-混料工单主表" classname="sc-hlgdzb" priority="M" time="2.867164"/>
+		<testcase name="「生产」-领料单主表" classname="sc-lldzb" priority="M" time="2.955169"/>
+		<testcase name="派工单" classname="pgd" priority="M" time="8.835506"/>
+		<testcase name="「生产」-缴库单主表" classname="sc-jkdzb" priority="M" time="3.659209"/>
+		<testcase name="自动提醒-基础设置" classname="zdtx-jcsz" priority="M" time="0.616035"/>
+		<testcase name="看起来像是被弃用的接口" classname="bak" priority="M" time="1.647094"/>
+	</testsuite>
+</testsuites>

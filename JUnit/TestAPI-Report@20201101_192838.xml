@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="TestAPI" hostname="testapi" timestamp="2020-11-01T19:28:39.334724" tests="6" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="62.829593" skipped="0" disabled="0">
+		<testcase name="主页面" classname="main_001" priority="M" time="0.443026"/>
+		<testcase name="销售订单" classname="sale_001" priority="M" time="7.34242"/>
+		<testcase name="客户及供应商基础信息" classname="kg_001" priority="M" time="3.294188"/>
+		<testcase name="BOM主表" classname="bom" priority="M" time="2.854163"/>
+		<testcase name="物料基础信息" classname="wl" priority="M" time="7.179411"/>
+		<testcase name="基础参数设置" classname="basic" priority="M" time="41.685384">
+			<failure type="Failure" message="step-6|GET|报价单主信息表-导出excel: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,32 @@
+2020-11-01 16:52:21,231 [INFO]: #  From Excel import testsuite success
+2020-11-01 16:52:21,245 [INFO]: #  ==================================================
+2020-11-01 16:52:21,246 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-01 16:52:21,246 [INFO]: #  --------------------------------------------------
+2020-11-01 16:52:21,246 [INFO]: #  >>> Run the TestCase: sale_001|销售订单
+2020-11-01 16:52:21,246 [INFO]: #  Run the Step: 1|SaleOrder|POST|SaleOrder-post登录
+2020-11-01 16:52:21,247 [INFO]: #  URL: https://erp.cloudsu.net/yuns/yuns/sys/login
+2020-11-01 16:52:21,448 [INFO]: #  BODY: b'{"captcha": "", "checkKey": "", "password": "yuns123", "username": "yuns"}'
+2020-11-01 16:52:21,448 [INFO]: #  status_code: 500
+2020-11-01 16:52:21,448 [INFO]: #  response json: {'timestamp': '2020-11-01 16:52:22', 'status': 500, 'error': 'Internal Server Error', 'message': 'Token失效，请重新登录', 'path': '/yuns/yuns/sys/login'}
+2020-11-01 16:52:21,449 [INFO]: #  json var: {}
+2020-11-01 16:52:21,450 [INFO]: #  --- success ---
+2020-11-01 16:52:21,650 [INFO]: #  Run the Step: 2|SaleOrder|GET|SaleOrder-get分页列表
+2020-11-01 16:52:21,651 [INFO]: #  URL: https://erp.cloudsu.net/yuns/yunsSalesOder/oderMes/list
+2020-11-01 16:52:21,696 [INFO]: #  status_code: 500
+2020-11-01 16:52:21,711 [INFO]: #  response json: {'timestamp': '2020-11-01 16:52:22', 'status': 500, 'error': 'Internal Server Error', 'message': 'Token失效，请重新登录', 'path': '/yuns/yunsSalesOder/oderMes/list'}
+2020-11-01 16:52:21,711 [INFO]: #  json var: {}
+2020-11-01 16:52:21,711 [INFO]: #  --- success ---
+2020-11-01 16:52:21,912 [INFO]: #  Run the Step: 3|SaleOrder|POST|SaleOrder-post提交销售订单
+2020-11-01 16:52:21,913 [INFO]: #  URL: https://erp.cloudsu.net/yuns/yunsSalesOder/oderMes/push
+2020-11-01 16:52:21,969 [INFO]: #  BODY: b'{}'
+2020-11-01 16:52:21,969 [INFO]: #  status_code: 500
+2020-11-01 16:52:21,970 [INFO]: #  response json: {'timestamp': '2020-11-01 16:52:23', 'status': 500, 'error': 'Internal Server Error', 'message': 'Token失效，请重新登录', 'path': '/yuns/yunsSalesOder/oderMes/push'}
+2020-11-01 16:52:21,970 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 42, in post
+    request('post', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 184, in request
+    raise Exception(f'status_code | EXPECTED:{repr(expected["status_code"])}, REAL:{repr(response["status_code"])}')
+Exception: status_code | EXPECTED:'200', REAL:500

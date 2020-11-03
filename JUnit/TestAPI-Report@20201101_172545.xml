@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="TestAPI" hostname="testapi" timestamp="2020-11-01T17:25:45.572469" tests="2" failures="2" failures_detail="H:0 M:2 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="0.020001" skipped="0" disabled="0">
+		<testcase name="主页面" classname="main_001" priority="M" time="0.008">
+			<failure type="Failure" message="step-1|POST|通用-post登录: Invalid URL 'sys/login': No schema supplied. Perhaps you meant http://sys/login?"/>
+		</testcase>
+		<testcase name="销售订单" classname="sale_001" priority="M" time="0.005001">
+			<failure type="Failure" message="step-1|GET|销售订单信息-get分页列表: Invalid URL 'yunsSalesOder/oderMes/list': No schema supplied. Perhaps you meant http://yunsSalesOder/oderMes/list?"/>
+		</testcase>
+	</testsuite>
+</testsuites>

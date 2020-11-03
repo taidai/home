@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Echo" hostname="echo" timestamp="2020-10-26T18:59:45.998935" tests="2" failures="2" failures_detail="H:0 M:2 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="0.091004" skipped="0" disabled="0">
+		<testcase name="Echo get" classname="echo_001" priority="M" time="0.01">
+			<failure type="Failure" message="step-1|GET|Echo-GET分页列表: name 'true' is not defined"/>
+		</testcase>
+		<testcase name="Echo post" classname="echo_002" priority="M" time="0.071004">
+			<failure type="Failure" message="step-1|POST|Echo-post请求: status_code | EXPECTED:'200', REAL:405"/>
+		</testcase>
+	</testsuite>
+</testsuites>

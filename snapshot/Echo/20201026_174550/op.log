@@ -1,0 +1,37 @@
+2020-10-26 17:45:50,401 [INFO]: #  From Excel import testsuite success
+2020-10-26 17:45:50,403 [INFO]: #  ==================================================
+2020-10-26 17:45:50,403 [INFO]: #  ...No SETUP testcase need to run...
+2020-10-26 17:45:50,404 [INFO]: #  --------------------------------------------------
+2020-10-26 17:45:50,404 [INFO]: #  >>> Run the TestCase: echo_001|Echo get
+2020-10-26 17:45:50,405 [INFO]: #  Run the Step: 1|Echo|GET|Echo-GET分页列表
+2020-10-26 17:45:50,407 [INFO]: #  URL: https://erptest2.cloudsu.net/yuns/yunsSalesOder/oderMes/list
+2020-10-26 17:45:50,472 [INFO]: #  PARAMS: {'foo1': 'bar1', 'foo2': 'bar2'}
+2020-10-26 17:45:50,476 [INFO]: #  status_code: 500
+2020-10-26 17:45:50,477 [INFO]: #  response json: {'timestamp': '2020-10-26 17:45:51', 'status': 500, 'error': 'Internal Server Error', 'message': 'Token失效，请重新登录', 'path': '/yuns/yunsSalesOder/oderMes/list'}
+2020-10-26 17:45:50,479 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 38, in get
+    request('get', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 184, in request
+    raise Exception(f'status_code | EXPECTED:{repr(expected["status_code"])}, REAL:{repr(response["status_code"])}')
+Exception: status_code | EXPECTED:'200', REAL:500
+2020-10-26 17:45:50,480 [INFO]: #  ==================================================
+2020-10-26 17:45:50,481 [INFO]: #  ...No SETUP testcase need to run...
+2020-10-26 17:45:50,481 [INFO]: #  --------------------------------------------------
+2020-10-26 17:45:50,481 [INFO]: #  >>> Run the TestCase: echo_002|Echo post
+2020-10-26 17:45:50,482 [INFO]: #  Run the Step: 1|Echo|POST|Echo-post请求
+2020-10-26 17:45:50,483 [INFO]: #  URL: https://erptest2.cloudsu.net/post
+2020-10-26 17:45:50,496 [INFO]: #  BODY: b'{"foo1": "bar1", "foo2": "bar2"}'
+2020-10-26 17:45:50,497 [INFO]: #  status_code: 405
+2020-10-26 17:45:50,498 [INFO]: #  response text: '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'
+2020-10-26 17:45:50,498 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 42, in post
+    request('post', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 184, in request
+    raise Exception(f'status_code | EXPECTED:{repr(expected["status_code"])}, REAL:{repr(response["status_code"])}')
+Exception: status_code | EXPECTED:'200', REAL:405

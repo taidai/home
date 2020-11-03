@@ -1,0 +1,43 @@
+2020-10-28 21:31:27,098 [INFO]: #  From Excel import testsuite success
+2020-10-28 21:31:27,099 [INFO]: #  ==================================================
+2020-10-28 21:31:27,099 [INFO]: #  ...No SETUP testcase need to run...
+2020-10-28 21:31:27,100 [INFO]: #  --------------------------------------------------
+2020-10-28 21:31:27,100 [INFO]: #  >>> Run the TestCase: echo_001|Echo get
+2020-10-28 21:31:27,100 [INFO]: #  Run the Step: 1|Echo|POST|Echo-post登录
+2020-10-28 21:31:27,102 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\utility.py", line 438, in json2dict
+    d = json.loads(s)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 2 column 18 (char 19)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\utility.py", line 441, in json2dict
+    d = eval(s)
+  File "<string>", line 2
+    "captcha": ""
+                ^
+SyntaxError: unexpected EOF while parsing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 42, in post
+    request('post', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 84, in request
+    _data['json'] = json2dict(data.pop('json', '{}'))
+  File "D:\daitest\daitest_coding\daitest\utility.py", line 445, in json2dict
+    d = eval(s)
+  File "<string>", line 2
+    "captcha": ""
+                ^
+SyntaxError: unexpected EOF while parsing

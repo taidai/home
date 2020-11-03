@@ -1,0 +1,34 @@
+2020-10-26 18:57:50,421 [INFO]: #  From Excel import testsuite success
+2020-10-26 18:57:50,421 [INFO]: #  ==================================================
+2020-10-26 18:57:50,421 [INFO]: #  ...No SETUP testcase need to run...
+2020-10-26 18:57:50,421 [INFO]: #  --------------------------------------------------
+2020-10-26 18:57:50,421 [INFO]: #  >>> Run the TestCase: echo_001|Echo get
+2020-10-26 18:57:50,421 [INFO]: #  Run the Step: 1|Echo|GET|Echo-GET分页列表
+2020-10-26 18:57:50,421 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 38, in get
+    request('get', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 116, in request
+    http.r.headers.update(eval(http.headers_get))
+  File "<string>", line 1, in <module>
+NameError: name 'true' is not defined
+2020-10-26 18:57:50,431 [INFO]: #  ==================================================
+2020-10-26 18:57:50,431 [INFO]: #  ...No SETUP testcase need to run...
+2020-10-26 18:57:50,431 [INFO]: #  --------------------------------------------------
+2020-10-26 18:57:50,431 [INFO]: #  >>> Run the TestCase: echo_002|Echo post
+2020-10-26 18:57:50,431 [INFO]: #  Run the Step: 1|Echo|POST|Echo-post请求
+2020-10-26 18:57:50,431 [INFO]: #  URL: https://erptest2.cloudsu.net/post
+2020-10-26 18:57:50,500 [INFO]: #  BODY: b'{"foo1": "bar1", "foo2": "bar2"}'
+2020-10-26 18:57:50,500 [INFO]: #  status_code: 405
+2020-10-26 18:57:50,501 [INFO]: #  response text: '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'
+2020-10-26 18:57:50,502 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 42, in post
+    request('post', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 184, in request
+    raise Exception(f'status_code | EXPECTED:{repr(expected["status_code"])}, REAL:{repr(response["status_code"])}')
+Exception: status_code | EXPECTED:'200', REAL:405

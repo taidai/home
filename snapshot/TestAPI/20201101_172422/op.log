@@ -1,0 +1,37 @@
+2020-11-01 17:24:22,645 [INFO]: #  From Excel import testsuite success
+2020-11-01 17:24:22,646 [INFO]: #  ==================================================
+2020-11-01 17:24:22,647 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-01 17:24:22,650 [INFO]: #  --------------------------------------------------
+2020-11-01 17:24:22,650 [INFO]: #  >>> Run the TestCase: main_001|主页面
+2020-11-01 17:24:22,651 [INFO]: #  Run the Step: 1|主页|POST|主页-post登录
+2020-11-01 17:24:22,652 [INFO]: #  URL: https://erp.cloudsu.net/yuns/sys/login
+2020-11-01 17:24:22,878 [INFO]: #  BODY: b'{"captcha": "", "checkKey": "", "password": "yuns123", "username": "yuns"}'
+2020-11-01 17:24:22,880 [INFO]: #  status_code: 200
+2020-11-01 17:24:22,880 [INFO]: #  response json: {'success': True, 'message': '登录成功', 'code': 200, 'result': {'multi_depart': 0, 'userInfo': {'id': '1275317290853855233', 'username': 'yuns', 'realname': '云塑管理员', 'avatar': None, 'birthday': None, 'sex': None, 'email': None, 'phone': None, 'orgCode': None, 'status': 1, 'delFlag': '0', 'workNo': 'admin01', 'post': None, 'telephone': None, 'createBy': 'admin', 'createTime': '2020-06-23 14:38:31', 'updateBy': 'yuns', 'updateTime': '2020-08-21 17:42:22', 'activitiSync': '1'}, 'departs': [], 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDQyNjU4NjQsInVzZXJuYW1lIjoieXVucyJ9.u1ADeG1-XzLJABa32E5vUwATVDqlHj_n9emJefcfsfU'}, 'list': None, 'totalRow': 0, 'statusCount': None, 'timestamp': 1604222664034}
+2020-11-01 17:24:22,884 [INFO]: #  json var: {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDQyNjU4NjQsInVzZXJuYW1lIjoieXVucyJ9.u1ADeG1-XzLJABa32E5vUwATVDqlHj_n9emJefcfsfU'}
+2020-11-01 17:24:22,885 [INFO]: #  --- success ---
+2020-11-01 17:24:23,085 [INFO]: #  ==================================================
+2020-11-01 17:24:23,101 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-01 17:24:23,102 [INFO]: #  --------------------------------------------------
+2020-11-01 17:24:23,102 [INFO]: #  >>> Run the TestCase: sale_001|销售订单
+2020-11-01 17:24:23,103 [INFO]: #  Run the Step: 1|销售订单信息|GET|销售订单信息-get分页列表
+2020-11-01 17:24:23,105 [INFO]: #  URL: yunsSalesOder/oderMes/list
+2020-11-01 17:24:23,105 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 38, in get
+    request('get', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 135, in request
+    r = getattr(http.r, kw)(http.baseurl + url,
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 543, in get
+    return self.request('GET', url, **kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 516, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 449, in prepare_request
+    p.prepare(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\models.py", line 314, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\models.py", line 388, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'yunsSalesOder/oderMes/list': No schema supplied. Perhaps you meant http://yunsSalesOder/oderMes/list?

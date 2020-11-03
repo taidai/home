@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="TestAPI" hostname="testapi" timestamp="2020-11-01T19:32:09.404739" tests="6" failures="5" failures_detail="H:0 M:5 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="1.40808" skipped="0" disabled="0">
+		<testcase name="主页面" classname="main_001" priority="M" time="0.389023"/>
+		<testcase name="销售订单" classname="sale_001" priority="M" time="0.388022">
+			<failure type="Failure" message="step-2|POST|销售订单信息-post提交销售订单: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="客户及供应商基础信息" classname="kg_001" priority="M" time="0.158009">
+			<failure type="Failure" message="step-1|GET|客户及供应商基础信息-获取客供信息数组【供应商，客户，客户/供应商】: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="BOM主表" classname="bom" priority="M" time="0.190011">
+			<failure type="Failure" message="step-1|POST|BOM主表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="物料基础信息" classname="wl" priority="M" time="0.136007">
+			<failure type="Failure" message="step-1|POST|物料基础信息-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="基础参数设置" classname="basic" priority="M" time="0.122007">
+			<failure type="Failure" message="step-1|PUT|基础参数设置-编辑编号规则: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+	</testsuite>
+</testsuites>

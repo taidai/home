@@ -1,0 +1,107 @@
+2020-11-01 19:31:42,098 [INFO]: #  From Excel import testsuite success
+2020-11-01 19:31:42,111 [INFO]: #  ==================================================
+2020-11-01 19:31:42,111 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-01 19:31:42,112 [INFO]: #  --------------------------------------------------
+2020-11-01 19:31:42,112 [INFO]: #  >>> Run the TestCase: main_001|主页面
+2020-11-01 19:31:42,112 [INFO]: #  Run the Step: 1|通用|POST|通用-post登录
+2020-11-01 19:31:42,113 [INFO]: #  URL: https://erptest2.cloudsu.net/yuns/sys/login
+2020-11-01 19:31:42,289 [INFO]: #  BODY: b'{"captcha": "", "checkKey": "", "password": "yuns123", "username": "yuns"}'
+2020-11-01 19:31:42,289 [INFO]: #  status_code: 200
+2020-11-01 19:31:42,290 [INFO]: #  response json: {'success': True, 'message': '登录成功', 'code': 200, 'result': {'multi_depart': 0, 'userInfo': {'id': 'ba6b4d41030e4ce8bbd36e4a9ec3534e', 'username': 'yuns', 'realname': '云塑管理员', 'avatar': 'user/20190817/admin_1566031664128.png', 'birthday': None, 'sex': None, 'email': None, 'phone': None, 'orgCode': None, 'status': 1, 'delFlag': '0', 'workNo': None, 'post': None, 'telephone': None, 'createBy': 'jeecg', 'createTime': '2019-03-18 09:03:00', 'updateBy': 'jeecg', 'updateTime': '2019-10-10 10:14:09', 'activitiSync': None}, 'departs': [], 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDQyNzM1MDMsInVzZXJuYW1lIjoieXVucyJ9.en_ETDaYfhFmbLuiajBfmJreYfQciZ594hBe4XHSJtE'}, 'list': None, 'totalRow': 0, 'statusCount': None, 'timestamp': 1604230303796}
+2020-11-01 19:31:42,290 [INFO]: #  json var: {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDQyNzM1MDMsInVzZXJuYW1lIjoieXVucyJ9.en_ETDaYfhFmbLuiajBfmJreYfQciZ594hBe4XHSJtE'}
+2020-11-01 19:31:42,291 [INFO]: #  --- success ---
+2020-11-01 19:31:42,491 [INFO]: #  ==================================================
+2020-11-01 19:31:42,491 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-01 19:31:42,492 [INFO]: #  --------------------------------------------------
+2020-11-01 19:31:42,492 [INFO]: #  >>> Run the TestCase: sale_001|销售订单
+2020-11-01 19:31:42,492 [INFO]: #  Run the Step: 1|销售订单信息|GET|销售订单信息-get分页列表
+2020-11-01 19:31:42,494 [INFO]: #  URL: https://erp.cloudsu.net/yuns/yunsSalesOder/oderMes/list
+2020-11-01 19:31:42,628 [INFO]: #  status_code: 500
+2020-11-01 19:31:42,628 [INFO]: #  response json: {'timestamp': '2020-11-01 19:31:44', 'status': 500, 'error': 'Internal Server Error', 'message': 'Token失效，请重新登录', 'path': '/yuns/yunsSalesOder/oderMes/list'}
+2020-11-01 19:31:42,629 [INFO]: #  json var: {}
+2020-11-01 19:31:42,629 [INFO]: #  --- success ---
+2020-11-01 19:31:42,829 [INFO]: #  Run the Step: 2|销售订单信息|POST|销售订单信息-post提交销售订单
+2020-11-01 19:31:42,847 [INFO]: #  URL: https://erp.cloudsu.net/yuns/yunsSalesOder/oderMes/push
+2020-11-01 19:31:42,890 [INFO]: #  BODY: b'{}'
+2020-11-01 19:31:42,891 [INFO]: #  status_code: 500
+2020-11-01 19:31:42,892 [INFO]: #  response json: {'timestamp': '2020-11-01 19:31:44', 'status': 500, 'error': 'Internal Server Error', 'message': 'Token失效，请重新登录', 'path': '/yuns/yunsSalesOder/oderMes/push'}
+2020-11-01 19:31:42,899 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 42, in post
+    request('post', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 184, in request
+    raise Exception(f'status_code | EXPECTED:{repr(expected["status_code"])}, REAL:{repr(response["status_code"])}')
+Exception: status_code | EXPECTED:'200', REAL:500
+2020-11-01 19:31:42,901 [INFO]: #  ==================================================
+2020-11-01 19:31:42,901 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-01 19:31:42,902 [INFO]: #  --------------------------------------------------
+2020-11-01 19:31:42,902 [INFO]: #  >>> Run the TestCase: kg_001|客户及供应商基础信息
+2020-11-01 19:31:42,902 [INFO]: #  Run the Step: 1|客户及供应商基础信息|GET|客户及供应商基础信息-获取客供信息数组【供应商，客户，客户/供应商】
+2020-11-01 19:31:42,904 [INFO]: #  URL: https://erp.cloudsu.net/yuns/yunsBasic/customMes/getMesArray
+2020-11-01 19:31:43,033 [INFO]: #  status_code: 500
+2020-11-01 19:31:43,034 [INFO]: #  response json: {'timestamp': '2020-11-01 19:31:44', 'status': 500, 'error': 'Internal Server Error', 'message': 'Token失效，请重新登录', 'path': '/yuns/yunsBasic/customMes/getMesArray'}
+2020-11-01 19:31:43,034 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 38, in get
+    request('get', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 184, in request
+    raise Exception(f'status_code | EXPECTED:{repr(expected["status_code"])}, REAL:{repr(response["status_code"])}')
+Exception: status_code | EXPECTED:'200', REAL:500
+2020-11-01 19:31:43,035 [INFO]: #  ==================================================
+2020-11-01 19:31:43,035 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-01 19:31:43,035 [INFO]: #  --------------------------------------------------
+2020-11-01 19:31:43,036 [INFO]: #  >>> Run the TestCase: bom|BOM主表
+2020-11-01 19:31:43,036 [INFO]: #  Run the Step: 1|BOM主表|POST|BOM主表-添加
+2020-11-01 19:31:43,037 [INFO]: #  URL: https://erp.cloudsu.net/yuns/yunsBasicBOM/tbpbaMes/add
+2020-11-01 19:31:43,140 [INFO]: #  BODY: b'{}'
+2020-11-01 19:31:43,140 [INFO]: #  status_code: 500
+2020-11-01 19:31:43,141 [INFO]: #  response json: {'timestamp': '2020-11-01 19:31:44', 'status': 500, 'error': 'Internal Server Error', 'message': 'Token失效，请重新登录', 'path': '/yuns/yunsBasicBOM/tbpbaMes/add'}
+2020-11-01 19:31:43,141 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 42, in post
+    request('post', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 184, in request
+    raise Exception(f'status_code | EXPECTED:{repr(expected["status_code"])}, REAL:{repr(response["status_code"])}')
+Exception: status_code | EXPECTED:'200', REAL:500
+2020-11-01 19:31:43,142 [INFO]: #  ==================================================
+2020-11-01 19:31:43,143 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-01 19:31:43,143 [INFO]: #  --------------------------------------------------
+2020-11-01 19:31:43,143 [INFO]: #  >>> Run the TestCase: wl|物料基础信息
+2020-11-01 19:31:43,143 [INFO]: #  Run the Step: 1|物料基础信息|POST|物料基础信息-添加
+2020-11-01 19:31:43,144 [INFO]: #  URL: https://erp.cloudsu.net/yuns/yunsBasicMaterialPlus/tbpma/add
+2020-11-01 19:31:43,270 [INFO]: #  BODY: b'{}'
+2020-11-01 19:31:43,270 [INFO]: #  status_code: 500
+2020-11-01 19:31:43,270 [INFO]: #  response json: {'timestamp': '2020-11-01 19:31:44', 'status': 500, 'error': 'Internal Server Error', 'message': 'Token失效，请重新登录', 'path': '/yuns/yunsBasicMaterialPlus/tbpma/add'}
+2020-11-01 19:31:43,271 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 42, in post
+    request('post', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 184, in request
+    raise Exception(f'status_code | EXPECTED:{repr(expected["status_code"])}, REAL:{repr(response["status_code"])}')
+Exception: status_code | EXPECTED:'200', REAL:500
+2020-11-01 19:31:43,272 [INFO]: #  ==================================================
+2020-11-01 19:31:43,272 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-01 19:31:43,272 [INFO]: #  --------------------------------------------------
+2020-11-01 19:31:43,272 [INFO]: #  >>> Run the TestCase: basic|基础参数设置
+2020-11-01 19:31:43,273 [INFO]: #  Run the Step: 1|基础参数设置|PUT|基础参数设置-编辑编号规则
+2020-11-01 19:31:43,274 [INFO]: #  URL: https://erp.cloudsu.net/yuns/yunsBasicRule/numberRule/editRule
+2020-11-01 19:31:43,376 [INFO]: #  BODY: None
+2020-11-01 19:31:43,377 [INFO]: #  status_code: 500
+2020-11-01 19:31:43,377 [INFO]: #  response json: {'timestamp': '2020-11-01 19:31:44', 'status': 500, 'error': 'Internal Server Error', 'message': 'Token失效，请重新登录', 'path': '/yuns/yunsBasicRule/numberRule/editRule'}
+2020-11-01 19:31:43,378 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 46, in put
+    request('put', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 184, in request
+    raise Exception(f'status_code | EXPECTED:{repr(expected["status_code"])}, REAL:{repr(response["status_code"])}')
+Exception: status_code | EXPECTED:'200', REAL:500

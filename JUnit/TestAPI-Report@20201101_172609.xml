@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="TestAPI" hostname="testapi" timestamp="2020-11-01T17:26:10.213878" tests="2" failures="1" failures_detail="H:0 M:1 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="0.427024" skipped="0" disabled="0">
+		<testcase name="主页面" classname="main_001" priority="M" time="0.420024"/>
+		<testcase name="销售订单" classname="sale_001" priority="M" time="0.006">
+			<failure type="Failure" message="step-1|GET|销售订单信息-get分页列表: Invalid URL 'yunsSalesOder/oderMes/list': No schema supplied. Perhaps you meant http://yunsSalesOder/oderMes/list?"/>
+		</testcase>
+	</testsuite>
+</testsuites>

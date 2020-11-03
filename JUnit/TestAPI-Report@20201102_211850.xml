@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="TestAPI" hostname="testapi" timestamp="2020-11-02T21:20:59.518730" tests="3" failures="0" failures_detail="H:0 M:0 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="12.318704" skipped="0" disabled="0">
+		<testcase name="主页面" classname="main_002" priority="M" time="3.089177"/>
+		<testcase name="销售订单" classname="sale_001" priority="M" time="6.081348"/>
+		<testcase name="客户及供应商基础信息" classname="kg_001" priority="M" time="3.143179"/>
+	</testsuite>
+</testsuites>

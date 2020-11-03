@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="TestAPI" hostname="testapi" timestamp="2020-11-02T17:37:36.625132" tests="41" failures="41" failures_detail="H:0 M:41 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="3.399195" skipped="0" disabled="0">
+		<testcase name="销售订单" classname="sale_001" priority="M" time="0.370021">
+			<failure type="Failure" message="step-2|POST|销售订单信息-post提交销售订单: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="客户及供应商基础信息" classname="kg_001" priority="M" time="0.062004">
+			<failure type="Failure" message="step-1|GET|客户及供应商基础信息-获取客供信息数组【供应商，客户，客户/供应商】: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="BOM主表" classname="bom" priority="M" time="0.083005">
+			<failure type="Failure" message="step-1|POST|BOM主表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="物料基础信息" classname="wl" priority="M" time="0.071004">
+			<failure type="Failure" message="step-1|POST|物料基础信息-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="基础参数设置" classname="basic" priority="M" time="0.070004">
+			<failure type="Failure" message="step-1|PUT|基础参数设置-编辑编号规则: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="附件子表" classname="fjzb" priority="M" time="0.072004">
+			<failure type="Failure" message="step-1|POST|附件子表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="「委外」-发料主表" classname="ww-flzb" priority="M" time="0.076004">
+			<failure type="Failure" message="step-1|POST|「委外」-发料主表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="「委外」-委外订单" classname="ww-wwdd" priority="M" time="0.062004">
+			<failure type="Failure" message="step-1|POST|「委外」-委外订单-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="「委外」-委外缴库" classname="ww-wwjk" priority="M" time="0.074004">
+			<failure type="Failure" message="step-1|POST|「委外」-委外缴库-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="订单交期评估" classname="ddjqpg" priority="M" time="0.068004">
+			<failure type="Failure" message="step-1|GET|订单交期评估-分析维度-设备假接口: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="「物料需求计划」-主信息表" classname="wlxqjh" priority="M" time="0.079004">
+			<failure type="Failure" message="step-1|POST|「物料需求计划」-主信息表-「计算条件变化」=》变化后的MRP计算结果: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="「计划工单」-主信息表" classname="jhgd-zxxb" priority="M" time="0.104006">
+			<failure type="Failure" message="step-1|POST|「计划工单」-主信息表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="「计划」-销售发货计划主表" classname="jh-xsfhjhzb" priority="M" time="0.108007">
+			<failure type="Failure" message="step-1|GET|「计划」-销售发货计划主表-【用于销售发货计划】订单信息查询: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="采购管理-「请购单」请购单主表" classname="cggl-qgdzb" priority="M" time="0.110006">
+			<failure type="Failure" message="step-1|POST|采购管理-「请购单」请购单主表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="采购管理-「采购单」采购单主表" classname="cggl-cgdzb" priority="M" time="0.082005">
+			<failure type="Failure" message="step-1|POST|采购管理-「采购单」采购单主表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="报价单主信息表" classname="bjdzxxb" priority="M" time="0.124007">
+			<failure type="Failure" message="step-1|POST|报价单主信息表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="价格政策" classname="jgzc" priority="M" time="0.113006">
+			<failure type="Failure" message="step-1|GET|价格政策-Secondmateriel-销售管理模块物料二次封装透视窗口: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="销售滚动订单信息" classname="xsgdddxx" priority="M" time="0.159009">
+			<failure type="Failure" message="step-1|POST|销售滚动订单信息-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="「业务」-测试" classname="yw-cs" priority="M" time="0.117007">
+			<failure type="Failure" message="step-1|GET|「业务」-测试-所有清除缓存: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="【对账】应收流水" classname="dz-ysls" priority="M" time="0.061003">
+			<failure type="Failure" message="step-1|POST|【对账】应收流水-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="仓库" classname="ck" priority="M" time="0.076005">
+			<failure type="Failure" message="step-1|POST|仓库-添加编辑「货位」: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="仓库管理-「盘点」" classname="ckgl-pd" priority="M" time="0.077004">
+			<failure type="Failure" message="step-1|GET|仓库管理-「盘点」-WHElseCheck-盘点库存调整「查看」: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="仓库管理-「入库」其他" classname="ckgl-rk" priority="M" time="0.084005">
+			<failure type="Failure" message="step-1|POST|仓库管理-「入库」其他-添加【入库】: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="仓库管理-「出库」其他" classname="ckgl-ck" priority="M" time="0.084005">
+			<failure type="Failure" message="step-1|POST|仓库管理-「出库」其他-新增单据: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="仓库管理-「调拨入库」调拨入库主表" classname="ckgl-dbrkzb" priority="M" time="0.061003">
+			<failure type="Failure" message="step-1|POST|仓库管理-「调拨入库」调拨入库主表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="仓库管理-「调拨出库」调拨出库主表" classname="ckgl-dbckzb" priority="M" time="0.050003">
+			<failure type="Failure" message="step-1|POST|仓库管理-「调拨出库」调拨出库主表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="仓库管理-「入库」委外入库" classname="ckgl-wwrk" priority="M" time="0.048003">
+			<failure type="Failure" message="step-1|POST|仓库管理-「入库」委外入库-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="仓库管理-「出库」委外出库" classname="wkgl-wwck" priority="M" time="0.066004">
+			<failure type="Failure" message="step-1|POST|仓库管理-「出库」委外出库-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="仓库管理-「销售出库」" classname="ckgl-xsck" priority="M" time="0.064003">
+			<failure type="Failure" message="step-1|POST|仓库管理-「销售出库」-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="仓库管理-仓储汇总" classname="ckgl-cchz" priority="M" time="0.061004">
+			<failure type="Failure" message="step-1|DELETE|仓库管理-仓储汇总-通过id删除: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="仓库管理-「入库」生产入库主表" classname="ckgl-scrkzb" priority="M" time="0.064003">
+			<failure type="Failure" message="step-1|POST|仓库管理-「入库」生产入库主表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="仓库管理-「出库」生产出库" classname="ckgl-scck" priority="M" time="0.060004">
+			<failure type="Failure" message="step-1|POST|仓库管理-「出库」生产出库-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="仓库管理-「采购入库」采购入库主表" classname="ckgl-cgrkzb" priority="M" time="0.060003">
+			<failure type="Failure" message="step-1|POST|仓库管理-「采购入库」采购入库主表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="「生产」-注塑工单主表" classname="sc-zsgdzb" priority="M" time="0.050003">
+			<failure type="Failure" message="step-1|POST|「生产」-注塑工单主表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="「生产」-其他工序工单主表" classname="sc-qtgxgdzb" priority="M" time="0.050003">
+			<failure type="Failure" message="step-1|POST|「生产」-其他工序工单主表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="「生产」-混料工单主表" classname="sc-hlgdzb" priority="M" time="0.053003">
+			<failure type="Failure" message="step-1|POST|「生产」-混料工单主表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="「生产」-领料单主表" classname="sc-lldzb" priority="M" time="0.055003">
+			<failure type="Failure" message="step-1|POST|「生产」-领料单主表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="派工单" classname="pgd" priority="M" time="0.069004">
+			<failure type="Failure" message="step-1|POST|派工单-【快捷操作】（生产前）派工单的生成,派工，返回对应信息: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="「生产」-缴库单主表" classname="sc-jkdzb" priority="M" time="0.056003">
+			<failure type="Failure" message="step-1|POST|「生产」-缴库单主表-添加: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="自动提醒-基础设置" classname="zdtx-jcsz" priority="M" time="0.054003">
+			<failure type="Failure" message="step-1|GET|自动提醒-基础设置-selectAnnonSet-查找到期通知相关设置: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="看起来像是被弃用的接口" classname="bak" priority="M" time="0.071005">
+			<failure type="Failure" message="step-1|GET|看起来像是被弃用的接口-selectByDepartAPeo-「领料部门」+「领料人员」=》领料单: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+	</testsuite>
+</testsuites>

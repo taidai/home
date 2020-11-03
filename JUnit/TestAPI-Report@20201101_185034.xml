@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="TestAPI" hostname="testapi" timestamp="2020-11-01T18:50:34.738552" tests="5" failures="5" failures_detail="H:0 M:5 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="11.35265" skipped="0" disabled="0">
+		<testcase name="主页面" classname="main_001" priority="M" time="2.27413">
+			<failure type="Failure" message="step-1|POST|通用-post登录: HTTPSConnectionPool(host='erp.cloudsu.net', port=443): Max retries exceeded with url: /yuns/sys/login (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))"/>
+		</testcase>
+		<testcase name="销售订单" classname="sale_001" priority="M" time="2.26013">
+			<failure type="Failure" message="step-1|GET|销售订单信息-get分页列表: HTTPSConnectionPool(host='erp.cloudsu.net', port=443): Max retries exceeded with url: /yuns/yunsSalesOder/oderMes/list (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))"/>
+		</testcase>
+		<testcase name="客户及供应商基础信息" classname="kg_001" priority="M" time="2.27713">
+			<failure type="Failure" message="step-1|GET|客户及供应商基础信息-获取客供信息数组【供应商，客户，客户/供应商】: HTTPSConnectionPool(host='erp.cloudsu.net', port=443): Max retries exceeded with url: /yuns/yunsBasic/customMes/getMesArray (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))"/>
+		</testcase>
+		<testcase name="BOM主表" classname="bom" priority="M" time="2.261129">
+			<failure type="Failure" message="step-1|POST|BOM主表-添加: HTTPSConnectionPool(host='erp.cloudsu.net', port=443): Max retries exceeded with url: /yuns/yunsBasicBOM/tbpbaMes/add (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))"/>
+		</testcase>
+		<testcase name="物料基础信息" classname="wl" priority="M" time="2.26013">
+			<failure type="Failure" message="step-1|POST|物料基础信息-添加: HTTPSConnectionPool(host='erp.cloudsu.net', port=443): Max retries exceeded with url: /yuns/yunsBasicMaterialPlus/tbpma/add (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))"/>
+		</testcase>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,39 @@
+2020-10-26 17:44:07,992 [INFO]: #  From Excel import testsuite success
+2020-10-26 17:44:07,993 [INFO]: #  ==================================================
+2020-10-26 17:44:07,993 [INFO]: #  ...No SETUP testcase need to run...
+2020-10-26 17:44:07,994 [INFO]: #  --------------------------------------------------
+2020-10-26 17:44:07,994 [INFO]: #  >>> Run the TestCase: echo_001|Echo get
+2020-10-26 17:44:07,995 [INFO]: #  Page:Echo element:分页列表查询
+2020-10-26 17:44:07,995 [INFO]: #  Run the Step: 1|Echo|GET|分页列表查询
+2020-10-26 17:44:07,997 [INFO]: #  URL: https://postman-echo.com/分页列表查询
+2020-10-26 17:44:09,264 [INFO]: #  PARAMS: {'foo1': 'bar1', 'foo2': 'bar2'}
+2020-10-26 17:44:09,265 [INFO]: #  status_code: 404
+2020-10-26 17:44:09,265 [INFO]: #  response text: ''
+2020-10-26 17:44:09,266 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 38, in get
+    request('get', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 184, in request
+    raise Exception(f'status_code | EXPECTED:{repr(expected["status_code"])}, REAL:{repr(response["status_code"])}')
+Exception: status_code | EXPECTED:'200', REAL:404
+2020-10-26 17:44:09,267 [INFO]: #  ==================================================
+2020-10-26 17:44:09,268 [INFO]: #  ...No SETUP testcase need to run...
+2020-10-26 17:44:09,268 [INFO]: #  --------------------------------------------------
+2020-10-26 17:44:09,269 [INFO]: #  >>> Run the TestCase: echo_002|Echo post
+2020-10-26 17:44:09,269 [INFO]: #  Run the Step: 1|Echo|POST|Echo-post请求
+2020-10-26 17:44:09,270 [INFO]: #  URL: https://postman-echo.com/post
+2020-10-26 17:44:09,571 [INFO]: #  BODY: b'{"foo1": "bar1", "foo2": "bar2"}'
+2020-10-26 17:44:09,572 [INFO]: #  status_code: 200
+2020-10-26 17:44:09,572 [INFO]: #  response json: {'args': {}, 'data': {'foo1': 'bar1', 'foo2': 'bar2'}, 'files': {}, 'form': {}, 'headers': {'x-forwarded-proto': 'https', 'x-forwarded-port': '443', 'host': 'postman-echo.com', 'x-amzn-trace-id': 'Root=1-5f969a6a-7311b2760ba484ba2910297f', 'content-length': '32', 'user-agent': 'python-requests/2.24.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'content-type': 'application/json', 'cookie': 'sails.sid=s%3ArYkkyKfCgGHmxtfEK-CV8JzOlgkgaKqJ.Jl1M%2BKYNPctiB%2B4K8DQZJAJq3C5m3dKeokONLkSzdGU; user=xiaoming'}, 'json': {'foo1': 'bar1', 'foo2': 'bar2'}, 'url': 'https://postman-echo.com/post'}
+2020-10-26 17:44:09,573 [INFO]: #  json check result: {'code': 0, 'result': {}, 'var': {}, 'none': []}
+2020-10-26 17:44:09,573 [INFO]: #  json var: {'foo2': 'bar2'}
+2020-10-26 17:44:09,574 [INFO]: #  --- success ---
+2020-10-26 17:44:09,775 [INFO]: #  Run the Step: 2|Echo|POST|Echo-post请求
+2020-10-26 17:44:09,776 [INFO]: #  URL: https://postman-echo.com/post
+2020-10-26 17:44:10,311 [INFO]: #  BODY: b'{"foo1": "bar1", "foo2": "bar2"}'
+2020-10-26 17:44:10,312 [INFO]: #  status_code: 200
+2020-10-26 17:44:10,313 [INFO]: #  response json: {'args': {}, 'data': {'foo1': 'bar1', 'foo2': 'bar2'}, 'files': {}, 'form': {}, 'headers': {'x-forwarded-proto': 'https', 'x-forwarded-port': '443', 'host': 'postman-echo.com', 'x-amzn-trace-id': 'Root=1-5f969a6a-2eb43a6026b156fb46673bab', 'content-length': '32', 'user-agent': 'python-requests/2.24.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'content-type': 'application/json', 'cookie': 'sails.sid=s%3ARUbVo1rR621ykbNYR6y9Up9tVavV2biM.Ly31laICozJcP105ZFtr5Ba6aA0jZwJAssj5R847NGM'}, 'json': {'foo1': 'bar1', 'foo2': 'bar2'}, 'url': 'https://postman-echo.com/post'}
+2020-10-26 17:44:10,313 [INFO]: #  json check result: {'code': 0, 'result': {}, 'var': {}, 'none': []}
+2020-10-26 17:44:10,314 [INFO]: #  --- success ---

@@ -1,0 +1,39 @@
+2020-10-26 16:57:21,976 [INFO]: #  From Excel import testsuite success
+2020-10-26 16:57:21,976 [INFO]: #  ==================================================
+2020-10-26 16:57:21,976 [INFO]: #  ...No SETUP testcase need to run...
+2020-10-26 16:57:21,976 [INFO]: #  --------------------------------------------------
+2020-10-26 16:57:21,976 [INFO]: #  >>> Run the TestCase: echo_001|Echo get
+2020-10-26 16:57:21,976 [INFO]: #  Run the Step: 1|Echo|GET|Echo-get请求
+2020-10-26 16:57:21,976 [INFO]: #  URL: https://postman-echo.com/get
+2020-10-26 16:57:24,261 [INFO]: #  PARAMS: {'foo1': 'bar1', 'foo2': 'bar2'}
+2020-10-26 16:57:24,261 [INFO]: #  status_code: 200
+2020-10-26 16:57:24,261 [INFO]: #  response json: {'args': {'foo1': 'bar1', 'foo2': 'bar2'}, 'headers': {'x-forwarded-proto': 'https', 'x-forwarded-port': '443', 'host': 'postman-echo.com', 'x-amzn-trace-id': 'Root=1-5f968f74-0e2784b628064f1c454c5d50', 'user-agent': 'python-requests/2.24.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'content-type': 'application/x-www-form-urlencoded', 'cookie': 'user=test'}, 'url': 'https://postman-echo.com/get?foo1=bar1&foo2=bar2'}
+2020-10-26 16:57:24,261 [INFO]: #  json check result: {'code': 0, 'result': {}, 'var': {}, 'none': []}
+2020-10-26 16:57:24,261 [INFO]: #  cookies var: {'sails': None}
+2020-10-26 16:57:24,261 [INFO]: #  json var: {'foo1': 'bar1'}
+2020-10-26 16:57:24,261 [INFO]: #  --- success ---
+2020-10-26 16:57:24,461 [INFO]: #  Run the Step: 2|Echo|GET|Echo-get请求#bar1#bar2
+2020-10-26 16:57:24,461 [INFO]: #  URL: https://postman-echo.com/get?foo1=bar1&foo2=bar2
+2020-10-26 16:57:24,766 [INFO]: #  status_code: 200
+2020-10-26 16:57:24,766 [INFO]: #  response json: {'args': {'foo1': 'bar1', 'foo2': 'bar2'}, 'headers': {'x-forwarded-proto': 'https', 'x-forwarded-port': '443', 'host': 'postman-echo.com', 'x-amzn-trace-id': 'Root=1-5f968f75-2e73069b1ead4edd6a8c9bad', 'user-agent': 'python-requests/2.24.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'content-type': 'application/x-www-form-urlencoded', 'cookie': 'sails.sid=s%3AR4d5YQRo3ndB4MfNjoevmIKzCkNdgBN2.F49SqOfkT1CDCGwRottwzV4BgXzIqNOG0fUpYgJm%2F8E'}, 'url': 'https://postman-echo.com/get?foo1=bar1&foo2=bar2'}
+2020-10-26 16:57:24,766 [INFO]: #  json check result: {'code': 0, 'result': {}, 'var': {}, 'none': []}
+2020-10-26 16:57:24,766 [INFO]: #  --- success ---
+2020-10-26 16:57:24,974 [INFO]: #  ==================================================
+2020-10-26 16:57:24,974 [INFO]: #  ...No SETUP testcase need to run...
+2020-10-26 16:57:24,974 [INFO]: #  --------------------------------------------------
+2020-10-26 16:57:24,974 [INFO]: #  >>> Run the TestCase: echo_002|Echo post
+2020-10-26 16:57:24,974 [INFO]: #  Run the Step: 1|Echo|POST|Echo-post请求
+2020-10-26 16:57:24,974 [INFO]: #  URL: https://postman-echo.com/post
+2020-10-26 16:57:25,536 [INFO]: #  BODY: b'{"foo1": "bar1", "foo2": "bar2"}'
+2020-10-26 16:57:25,537 [INFO]: #  status_code: 200
+2020-10-26 16:57:25,538 [INFO]: #  response json: {'args': {}, 'data': {'foo1': 'bar1', 'foo2': 'bar2'}, 'files': {}, 'form': {}, 'headers': {'x-forwarded-proto': 'https', 'x-forwarded-port': '443', 'host': 'postman-echo.com', 'x-amzn-trace-id': 'Root=1-5f968f76-2ff1693d2a71c9c16ed81955', 'content-length': '32', 'user-agent': 'python-requests/2.24.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'content-type': 'application/json', 'cookie': 'sails.sid=s%3AR4d5YQRo3ndB4MfNjoevmIKzCkNdgBN2.F49SqOfkT1CDCGwRottwzV4BgXzIqNOG0fUpYgJm%2F8E; user=xiaoming'}, 'json': {'foo1': 'bar1', 'foo2': 'bar2'}, 'url': 'https://postman-echo.com/post'}
+2020-10-26 16:57:25,543 [INFO]: #  json check result: {'code': 0, 'result': {}, 'var': {}, 'none': []}
+2020-10-26 16:57:25,544 [INFO]: #  json var: {'foo2': 'bar2'}
+2020-10-26 16:57:25,546 [INFO]: #  --- success ---
+2020-10-26 16:57:25,759 [INFO]: #  Run the Step: 2|Echo|POST|Echo-post请求
+2020-10-26 16:57:25,759 [INFO]: #  URL: https://postman-echo.com/post
+2020-10-26 16:57:26,324 [INFO]: #  BODY: b'{"foo1": "bar1", "foo2": "bar2"}'
+2020-10-26 16:57:26,324 [INFO]: #  status_code: 200
+2020-10-26 16:57:26,324 [INFO]: #  response json: {'args': {}, 'data': {'foo1': 'bar1', 'foo2': 'bar2'}, 'files': {}, 'form': {}, 'headers': {'x-forwarded-proto': 'https', 'x-forwarded-port': '443', 'host': 'postman-echo.com', 'x-amzn-trace-id': 'Root=1-5f968f76-509c38e2640758b315344b94', 'content-length': '32', 'user-agent': 'python-requests/2.24.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'content-type': 'application/json', 'cookie': 'sails.sid=s%3Aoz61iq2lwrpR-RE7-GCFtGALKax72CBT.%2By5uXlXanJH1ccYcPT2ZVa2kk2NSmHe28zAEhI%2FrMOM'}, 'json': {'foo1': 'bar1', 'foo2': 'bar2'}, 'url': 'https://postman-echo.com/post'}
+2020-10-26 16:57:26,324 [INFO]: #  json check result: {'code': 0, 'result': {}, 'var': {}, 'none': []}
+2020-10-26 16:57:26,324 [INFO]: #  --- success ---

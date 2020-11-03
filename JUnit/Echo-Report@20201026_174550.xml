@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Echo" hostname="echo" timestamp="2020-10-26T17:45:50.401914" tests="2" failures="2" failures_detail="H:0 M:2 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="0.098005" skipped="0" disabled="0">
+		<testcase name="Echo get" classname="echo_001" priority="M" time="0.078004">
+			<failure type="Failure" message="step-1|GET|Echo-GET分页列表: status_code | EXPECTED:'200', REAL:500"/>
+		</testcase>
+		<testcase name="Echo post" classname="echo_002" priority="M" time="0.019001">
+			<failure type="Failure" message="step-1|POST|Echo-post请求: status_code | EXPECTED:'200', REAL:405"/>
+		</testcase>
+	</testsuite>
+</testsuites>

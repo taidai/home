@@ -1,0 +1,7 @@
+2020-11-02 20:28:37,425 [ERROR]: #  *** From Excel import testsuite failure ***
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\autotest.py", line 94, in run
+    testsuite = testsuite_format(data)
+  File "D:\daitest\daitest_coding\daitest\data.py", line 60, in testsuite_format
+    step['no'] = str(int(d['step']))
+ValueError: invalid literal for int() with base 10: 'a'

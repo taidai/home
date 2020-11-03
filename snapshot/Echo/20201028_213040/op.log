@@ -1,0 +1,7 @@
+2020-10-28 21:30:40,347 [ERROR]: #  *** From Excel import testsuite failure ***
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\autotest.py", line 94, in run
+    testsuite = testsuite_format(data)
+  File "D:\daitest\daitest_coding\daitest\data.py", line 71, in testsuite_format
+    testcase['steps'].append(step)
+KeyError: 'steps'

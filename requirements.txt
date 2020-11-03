@@ -1,0 +1,14 @@
+selenium == 3.11.0
+xlrd == 1.1.0
+xlsxwrter == 1.0.4
+requests == 2.18.1
+injson == 0.1.2
+idna == 2.6
+urllib3 ==1.22
+chardet == 3.1.0
+certifi == 2017.4.7
+injson
+arrow
+aiofiles == 0.5.0
+fastapi  
+python-multipart

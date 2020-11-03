@@ -1,0 +1,25 @@
+2020-10-29 15:58:09,695 [INFO]: #  From Excel import testsuite success
+2020-10-29 15:58:09,696 [INFO]: #  ==================================================
+2020-10-29 15:58:09,697 [INFO]: #  ...No SETUP testcase need to run...
+2020-10-29 15:58:09,697 [INFO]: #  --------------------------------------------------
+2020-10-29 15:58:09,698 [INFO]: #  >>> Run the TestCase: echo_001|Echo get
+2020-10-29 15:58:09,698 [INFO]: #  Run the Step: 2|Echo|GET|Echo-GET分页列表
+2020-10-29 15:58:09,701 [INFO]: #  URL: https://erp.cloudsu.net/yuns/yunsSalesOder/oderMes/list
+2020-10-29 15:58:09,759 [INFO]: #  status_code: 500
+2020-10-29 15:58:09,763 [INFO]: #  response json: {'timestamp': '2020-10-29 15:58:19', 'status': 500, 'error': 'Internal Server Error', 'message': 'Token失效，请重新登录', 'path': '/yuns/yunsSalesOder/oderMes/list'}
+2020-10-29 15:58:09,765 [INFO]: #  json var: {}
+2020-10-29 15:58:09,766 [INFO]: #  --- success ---
+2020-10-29 15:58:09,966 [INFO]: #  Run the Step: 3|Echo|POST|Echo-post提交销售订单
+2020-10-29 15:58:09,968 [INFO]: #  URL: https://erp.cloudsu.net/yuns/yunsSalesOder/oderMes/push
+2020-10-29 15:58:09,983 [INFO]: #  BODY: b'{}'
+2020-10-29 15:58:09,983 [INFO]: #  status_code: 500
+2020-10-29 15:58:09,984 [INFO]: #  response json: {'timestamp': '2020-10-29 15:58:19', 'status': 500, 'error': 'Internal Server Error', 'message': 'Token失效，请重新登录', 'path': '/yuns/yunsSalesOder/oderMes/push'}
+2020-10-29 15:58:09,984 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 42, in post
+    request('post', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 184, in request
+    raise Exception(f'status_code | EXPECTED:{repr(expected["status_code"])}, REAL:{repr(response["status_code"])}')
+Exception: status_code | EXPECTED:'200', REAL:500

@@ -1,0 +1,16 @@
+2020-10-28 21:32:27,800 [INFO]: #  From Excel import testsuite success
+2020-10-28 21:32:27,801 [INFO]: #  ==================================================
+2020-10-28 21:32:27,801 [INFO]: #  ...No SETUP testcase need to run...
+2020-10-28 21:32:27,802 [INFO]: #  --------------------------------------------------
+2020-10-28 21:32:27,802 [INFO]: #  >>> Run the TestCase: echo_001|Echo get
+2020-10-28 21:32:27,802 [INFO]: #  Run the Step: 1|Echo|POST|Echo-post登录
+2020-10-28 21:32:27,804 [INFO]: #  URL: https://erptest2.cloudsu.net/yuns/sys/login
+2020-10-28 21:32:28,247 [INFO]: #  BODY: b'{"captcha": "", "checkKey": "", "password": "yuns123", "username": "yuns"}'
+2020-10-28 21:32:28,247 [INFO]: #  status_code: 200
+2020-10-28 21:32:28,248 [INFO]: #  response json: {'success': True, 'message': '登录成功', 'code': 200, 'result': {'multi_depart': 0, 'userInfo': {'id': 'ba6b4d41030e4ce8bbd36e4a9ec3534e', 'username': 'yuns', 'realname': '云塑管理员', 'avatar': 'user/20190817/admin_1566031664128.png', 'birthday': None, 'sex': None, 'email': None, 'phone': None, 'orgCode': None, 'status': 1, 'delFlag': '0', 'workNo': None, 'post': None, 'telephone': None, 'createBy': 'jeecg', 'createTime': '2019-03-18 09:03:00', 'updateBy': 'jeecg', 'updateTime': '2019-10-10 10:14:09', 'activitiSync': None}, 'departs': [], 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDM5MzUxNTQsInVzZXJuYW1lIjoieXVucyJ9.76SDQlPSL-HiMEGZO-6vGkU36qxkmuK0XK1dgGDq9yw'}, 'list': None, 'totalRow': 0, 'statusCount': None, 'timestamp': 1603891954697}
+2020-10-28 21:32:28,250 [INFO]: #  --- success ---
+2020-10-28 21:32:28,450 [INFO]: #  Run the Step: 2|Echo|GET|Echo-GET分页列表
+2020-10-28 21:32:28,451 [INFO]: #  URL: https://erptest2.cloudsu.net/yuns/yunsSalesOder/oderMes/list
+2020-10-28 21:32:28,472 [INFO]: #  status_code: 500
+2020-10-28 21:32:28,472 [INFO]: #  response json: {'timestamp': '2020-10-28 21:32:35', 'status': 500, 'error': 'Internal Server Error', 'message': 'Token失效，请重新登录', 'path': '/yuns/yunsSalesOder/oderMes/list'}
+2020-10-28 21:32:28,474 [INFO]: #  --- success ---

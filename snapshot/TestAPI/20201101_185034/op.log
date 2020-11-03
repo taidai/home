@@ -1,0 +1,266 @@
+2020-11-01 18:50:34,741 [INFO]: #  From Excel import testsuite success
+2020-11-01 18:50:34,758 [INFO]: #  ==================================================
+2020-11-01 18:50:34,758 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-01 18:50:34,758 [INFO]: #  --------------------------------------------------
+2020-11-01 18:50:34,759 [INFO]: #  >>> Run the TestCase: main_001|主页面
+2020-11-01 18:50:34,759 [INFO]: #  Run the Step: 1|通用|POST|通用-post登录
+2020-11-01 18:50:34,760 [INFO]: #  URL: https://erp.cloudsu.net/yuns/sys/login
+2020-11-01 18:50:37,019 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 667, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 932, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 362, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\ssl_.py", line 384, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='erp.cloudsu.net', port=443): Max retries exceeded with url: /yuns/sys/login (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 42, in post
+    request('post', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 141, in request
+    r = getattr(http.r, kw)(http.baseurl + url,
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 578, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='erp.cloudsu.net', port=443): Max retries exceeded with url: /yuns/sys/login (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+2020-11-01 18:50:37,032 [INFO]: #  ==================================================
+2020-11-01 18:50:37,032 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-01 18:50:37,033 [INFO]: #  --------------------------------------------------
+2020-11-01 18:50:37,033 [INFO]: #  >>> Run the TestCase: sale_001|销售订单
+2020-11-01 18:50:37,033 [INFO]: #  Run the Step: 1|销售订单信息|GET|销售订单信息-get分页列表
+2020-11-01 18:50:37,034 [INFO]: #  URL: https://erp.cloudsu.net/yuns/yunsSalesOder/oderMes/list
+2020-11-01 18:50:39,288 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 667, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 932, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 362, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\ssl_.py", line 384, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='erp.cloudsu.net', port=443): Max retries exceeded with url: /yuns/yunsSalesOder/oderMes/list (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 38, in get
+    request('get', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 135, in request
+    r = getattr(http.r, kw)(http.baseurl + url,
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 543, in get
+    return self.request('GET', url, **kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='erp.cloudsu.net', port=443): Max retries exceeded with url: /yuns/yunsSalesOder/oderMes/list (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+2020-11-01 18:50:39,292 [INFO]: #  ==================================================
+2020-11-01 18:50:39,292 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-01 18:50:39,292 [INFO]: #  --------------------------------------------------
+2020-11-01 18:50:39,293 [INFO]: #  >>> Run the TestCase: kg_001|客户及供应商基础信息
+2020-11-01 18:50:39,293 [INFO]: #  Run the Step: 1|客户及供应商基础信息|GET|客户及供应商基础信息-获取客供信息数组【供应商，客户，客户/供应商】
+2020-11-01 18:50:39,294 [INFO]: #  URL: https://erp.cloudsu.net/yuns/yunsBasic/customMes/getMesArray
+2020-11-01 18:50:41,548 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 667, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 932, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 362, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\ssl_.py", line 384, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='erp.cloudsu.net', port=443): Max retries exceeded with url: /yuns/yunsBasic/customMes/getMesArray (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 38, in get
+    request('get', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 135, in request
+    r = getattr(http.r, kw)(http.baseurl + url,
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 543, in get
+    return self.request('GET', url, **kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='erp.cloudsu.net', port=443): Max retries exceeded with url: /yuns/yunsBasic/customMes/getMesArray (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+2020-11-01 18:50:41,569 [INFO]: #  ==================================================
+2020-11-01 18:50:41,569 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-01 18:50:41,570 [INFO]: #  --------------------------------------------------
+2020-11-01 18:50:41,570 [INFO]: #  >>> Run the TestCase: bom|BOM主表
+2020-11-01 18:50:41,571 [INFO]: #  Run the Step: 1|BOM主表|POST|BOM主表-添加
+2020-11-01 18:50:41,572 [INFO]: #  URL: https://erp.cloudsu.net/yuns/yunsBasicBOM/tbpbaMes/add
+2020-11-01 18:50:43,827 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 667, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 932, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 362, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\ssl_.py", line 384, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='erp.cloudsu.net', port=443): Max retries exceeded with url: /yuns/yunsBasicBOM/tbpbaMes/add (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 42, in post
+    request('post', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 141, in request
+    r = getattr(http.r, kw)(http.baseurl + url,
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 578, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='erp.cloudsu.net', port=443): Max retries exceeded with url: /yuns/yunsBasicBOM/tbpbaMes/add (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+2020-11-01 18:50:43,831 [INFO]: #  ==================================================
+2020-11-01 18:50:43,831 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-01 18:50:43,832 [INFO]: #  --------------------------------------------------
+2020-11-01 18:50:43,832 [INFO]: #  >>> Run the TestCase: wl|物料基础信息
+2020-11-01 18:50:43,832 [INFO]: #  Run the Step: 1|物料基础信息|POST|物料基础信息-添加
+2020-11-01 18:50:43,833 [INFO]: #  URL: https://erp.cloudsu.net/yuns/yunsBasicMaterialPlus/tbpma/add
+2020-11-01 18:50:46,088 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 667, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 932, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connection.py", line 362, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\ssl_.py", line 384, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='erp.cloudsu.net', port=443): Max retries exceeded with url: /yuns/yunsBasicMaterialPlus/tbpma/add (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 42, in post
+    request('post', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 141, in request
+    r = getattr(http.r, kw)(http.baseurl + url,
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 578, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='erp.cloudsu.net', port=443): Max retries exceeded with url: /yuns/yunsBasicMaterialPlus/tbpma/add (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))

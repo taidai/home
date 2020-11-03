@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite name="Echo" hostname="echo" timestamp="2020-10-26T17:45:16.267863" tests="2" failures="2" failures_detail="H:0 M:2 L:0" errors="0" errors_detail="H:0 M:0 L:0" time="0.097006" skipped="0" disabled="0">
+		<testcase name="Echo get" classname="echo_001" priority="M" time="0.077004">
+			<failure type="Failure" message="step-1|GET|分页列表查询: json | EXPECTED:{'args': {'foo1': 'bar1', 'foo2': 'bar2'}}, REAL:{}, RESULT: {'code': 1, 'result': {'/args': {'code': 3, 'sv': {'foo1': 'bar1', 'foo2': 'bar2'}, 'pp': None, 'pv': None}}, 'var': {}, 'none': []}"/>
+		</testcase>
+		<testcase name="Echo post" classname="echo_002" priority="M" time="0.019002">
+			<failure type="Failure" message="step-1|POST|Echo-post请求: status_code | EXPECTED:'200', REAL:405"/>
+		</testcase>
+	</testsuite>
+</testsuites>

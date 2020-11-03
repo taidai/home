@@ -4,10 +4,10 @@ import sys
 
 # 项目名称，和测试用例、页面元素表文件名称中的项目名称必须一致
 # 此处项目名称更准确的表述应该是：测试计划名称。
-plan_name = 'Echo'
+plan_name = 'Api'
 
 # 单 sheet 页面模式
-sheet_name = 'echo'
+sheet_name = 'api'
 
 # sheet 页面匹配模式，仅支持结尾带*
 #sheet_name = 'TestCase*'

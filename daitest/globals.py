@@ -55,7 +55,6 @@ class Global:
             elif self.browserName.lower() == 'firefox':
                 profile = webdriver.FirefoxProfile()
                 profile.accept_untrusted_certs = True
-
                 options = webdriver.FirefoxOptions()
                 # 如果配置了 headless 模式
                 if self.headless:
@@ -64,7 +63,6 @@ class Global:
                     options.add_argument('--disable-gpu')
                     options.add_argument("--no-sandbox")
                     options.add_argument('window-size=1920x1080')
-
                 if self.executable_path:
                     self.driver = webdriver.Firefox(
                         firefox_profile=profile, firefox_options=options, executable_path=self.executable_path)

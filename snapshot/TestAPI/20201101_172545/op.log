@@ -1,0 +1,51 @@
+2020-11-01 17:25:45,572 [INFO]: #  From Excel import testsuite success
+2020-11-01 17:25:45,579 [INFO]: #  ==================================================
+2020-11-01 17:25:45,580 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-01 17:25:45,580 [INFO]: #  --------------------------------------------------
+2020-11-01 17:25:45,581 [INFO]: #  >>> Run the TestCase: main_001|主页面
+2020-11-01 17:25:45,581 [INFO]: #  Run the Step: 1|主页|POST|通用-post登录
+2020-11-01 17:25:45,582 [INFO]: #  URL: sys/login
+2020-11-01 17:25:45,585 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 42, in post
+    request('post', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 141, in request
+    r = getattr(http.r, kw)(http.baseurl + url,
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 578, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 516, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 449, in prepare_request
+    p.prepare(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\models.py", line 314, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\models.py", line 388, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'sys/login': No schema supplied. Perhaps you meant http://sys/login?
+2020-11-01 17:25:45,587 [INFO]: #  ==================================================
+2020-11-01 17:25:45,588 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-01 17:25:45,588 [INFO]: #  --------------------------------------------------
+2020-11-01 17:25:45,588 [INFO]: #  >>> Run the TestCase: sale_001|销售订单
+2020-11-01 17:25:45,589 [INFO]: #  Run the Step: 1|销售订单信息|GET|销售订单信息-get分页列表
+2020-11-01 17:25:45,590 [INFO]: #  URL: yunsSalesOder/oderMes/list
+2020-11-01 17:25:45,591 [ERROR]: #  +++ failure +++
+Traceback (most recent call last):
+  File "D:\daitest\daitest_coding\daitest\testcase.py", line 180, in run
+    getattr(http, step['keyword'].lower())(step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 38, in get
+    request('get', step)
+  File "D:\daitest\daitest_coding\daitest\keywords\http.py", line 135, in request
+    r = getattr(http.r, kw)(http.baseurl + url,
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 543, in get
+    return self.request('GET', url, **kwargs)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 516, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\sessions.py", line 449, in prepare_request
+    p.prepare(
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\models.py", line 314, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\archmage\AppData\Local\Programs\Python\Python38\lib\site-packages\requests\models.py", line 388, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'yunsSalesOder/oderMes/list': No schema supplied. Perhaps you meant http://yunsSalesOder/oderMes/list?

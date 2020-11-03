@@ -1,0 +1,54 @@
+2020-11-02 20:35:37,374 [INFO]: #  From Excel import testsuite success
+2020-11-02 20:35:37,386 [INFO]: #  ==================================================
+2020-11-02 20:35:37,386 [INFO]: #  ...No SETUP testcase need to run...
+2020-11-02 20:35:37,387 [INFO]: #  --------------------------------------------------
+2020-11-02 20:35:37,387 [INFO]: #  >>> Run the TestCase: main_002|主页面
+2020-11-02 20:35:37,388 [INFO]: #  Run the Step: 1|用例片段|EXECUTE|main_001*10
+2020-11-02 20:35:37,389 [INFO]: #  >>> Run the TestCase: main_001|主页面
+2020-11-02 20:35:37,389 [INFO]: #  Run the Step: 1|通用|POST|通用-post登录
+2020-11-02 20:35:37,391 [INFO]: #  URL: https://erp.cloudsu.net/yuns/sys/login
+2020-11-02 20:35:37,460 [INFO]: #  BODY: b'{"captcha": "", "checkKey": "", "password": "yuns123", "username": "yuns"}'
+2020-11-02 20:35:37,462 [INFO]: #  status_code: 200
+2020-11-02 20:35:37,463 [INFO]: #  response json: {'success': True, 'message': '登录成功', 'code': 200, 'result': {'multi_depart': 0, 'userInfo': {'id': '1275317290853855233', 'username': 'yuns', 'realname': '云塑管理员', 'avatar': None, 'birthday': None, 'sex': None, 'email': None, 'phone': None, 'orgCode': None, 'status': 1, 'delFlag': '0', 'workNo': 'admin01', 'post': None, 'telephone': None, 'createBy': 'admin', 'createTime': '2020-06-23 14:38:31', 'updateBy': 'yuns', 'updateTime': '2020-08-21 17:42:22', 'activitiSync': '1'}, 'departs': [], 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDQzNjM3MzksInVzZXJuYW1lIjoieXVucyJ9.PRASN5EaRjDEpx4gv465MzyEgGNfTIKZsbLt_EJ5fd4'}, 'list': None, 'totalRow': 0, 'statusCount': None, 'timestamp': 1604320539577}
+2020-11-02 20:35:37,466 [INFO]: #  json var: {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDQzNjM3MzksInVzZXJuYW1lIjoieXVucyJ9.PRASN5EaRjDEpx4gv465MzyEgGNfTIKZsbLt_EJ5fd4'}
+2020-11-02 20:35:37,467 [INFO]: #  --- success ---
+2020-11-02 20:35:37,667 [INFO]: #  >>> Run the TestCase: main_001|主页面
+2020-11-02 20:35:37,667 [INFO]: #  Run the Step: 1|通用|POST|通用-post登录
+2020-11-02 20:35:37,668 [INFO]: #  URL: https://erp.cloudsu.net/yuns/sys/login
+2020-11-02 20:35:37,696 [INFO]: #  BODY: b'{"captcha": "", "checkKey": "", "password": "yuns123", "username": "yuns"}'
+2020-11-02 20:35:37,696 [INFO]: #  status_code: 200
+2020-11-02 20:35:37,698 [INFO]: #  response json: {'success': True, 'message': '登录成功', 'code': 200, 'result': {'multi_depart': 0, 'userInfo': {'id': '1275317290853855233', 'username': 'yuns', 'realname': '云塑管理员', 'avatar': None, 'birthday': None, 'sex': None, 'email': None, 'phone': None, 'orgCode': None, 'status': 1, 'delFlag': '0', 'workNo': 'admin01', 'post': None, 'telephone': None, 'createBy': 'admin', 'createTime': '2020-06-23 14:38:31', 'updateBy': 'yuns', 'updateTime': '2020-08-21 17:42:22', 'activitiSync': '1'}, 'departs': [], 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDQzNjM3MzksInVzZXJuYW1lIjoieXVucyJ9.PRASN5EaRjDEpx4gv465MzyEgGNfTIKZsbLt_EJ5fd4'}, 'list': None, 'totalRow': 0, 'statusCount': None, 'timestamp': 1604320539815}
+2020-11-02 20:35:37,699 [INFO]: #  json var: {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDQzNjM3MzksInVzZXJuYW1lIjoieXVucyJ9.PRASN5EaRjDEpx4gv465MzyEgGNfTIKZsbLt_EJ5fd4'}
+2020-11-02 20:35:37,699 [INFO]: #  --- success ---
+2020-11-02 20:35:37,900 [INFO]: #  >>> Run the TestCase: main_001|主页面
+2020-11-02 20:35:37,900 [INFO]: #  Run the Step: 1|通用|POST|通用-post登录
+2020-11-02 20:35:37,901 [INFO]: #  URL: https://erp.cloudsu.net/yuns/sys/login
+2020-11-02 20:35:37,930 [INFO]: #  BODY: b'{"captcha": "", "checkKey": "", "password": "yuns123", "username": "yuns"}'
+2020-11-02 20:35:37,930 [INFO]: #  status_code: 200
+2020-11-02 20:35:37,931 [INFO]: #  response json: {'success': True, 'message': '登录成功', 'code': 200, 'result': {'multi_depart': 0, 'userInfo': {'id': '1275317290853855233', 'username': 'yuns', 'realname': '云塑管理员', 'avatar': None, 'birthday': None, 'sex': None, 'email': None, 'phone': None, 'orgCode': None, 'status': 1, 'delFlag': '0', 'workNo': 'admin01', 'post': None, 'telephone': None, 'createBy': 'admin', 'createTime': '2020-06-23 14:38:31', 'updateBy': 'yuns', 'updateTime': '2020-08-21 17:42:22', 'activitiSync': '1'}, 'departs': [], 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDQzNjM3NDAsInVzZXJuYW1lIjoieXVucyJ9.kY6WHKqIBdud7r5EjGnE7lAQWLOmlMUlRPIj8rW2_0A'}, 'list': None, 'totalRow': 0, 'statusCount': None, 'timestamp': 1604320540048}
+2020-11-02 20:35:37,932 [INFO]: #  json var: {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDQzNjM3NDAsInVzZXJuYW1lIjoieXVucyJ9.kY6WHKqIBdud7r5EjGnE7lAQWLOmlMUlRPIj8rW2_0A'}
+2020-11-02 20:35:37,933 [INFO]: #  --- success ---
+2020-11-02 20:35:38,133 [INFO]: #  >>> Run the TestCase: main_001|主页面
+2020-11-02 20:35:38,133 [INFO]: #  Run the Step: 1|通用|POST|通用-post登录
+2020-11-02 20:35:38,134 [INFO]: #  URL: https://erp.cloudsu.net/yuns/sys/login
+2020-11-02 20:35:38,165 [INFO]: #  BODY: b'{"captcha": "", "checkKey": "", "password": "yuns123", "username": "yuns"}'
+2020-11-02 20:35:38,165 [INFO]: #  status_code: 200
+2020-11-02 20:35:38,166 [INFO]: #  response json: {'success': True, 'message': '登录成功', 'code': 200, 'result': {'multi_depart': 0, 'userInfo': {'id': '1275317290853855233', 'username': 'yuns', 'realname': '云塑管理员', 'avatar': None, 'birthday': None, 'sex': None, 'email': None, 'phone': None, 'orgCode': None, 'status': 1, 'delFlag': '0', 'workNo': 'admin01', 'post': None, 'telephone': None, 'createBy': 'admin', 'createTime': '2020-06-23 14:38:31', 'updateBy': 'yuns', 'updateTime': '2020-08-21 17:42:22', 'activitiSync': '1'}, 'departs': [], 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDQzNjM3NDAsInVzZXJuYW1lIjoieXVucyJ9.kY6WHKqIBdud7r5EjGnE7lAQWLOmlMUlRPIj8rW2_0A'}, 'list': None, 'totalRow': 0, 'statusCount': None, 'timestamp': 1604320540282}
+2020-11-02 20:35:38,167 [INFO]: #  json var: {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDQzNjM3NDAsInVzZXJuYW1lIjoieXVucyJ9.kY6WHKqIBdud7r5EjGnE7lAQWLOmlMUlRPIj8rW2_0A'}
+2020-11-02 20:35:38,167 [INFO]: #  --- success ---
+2020-11-02 20:35:38,368 [INFO]: #  >>> Run the TestCase: main_001|主页面
+2020-11-02 20:35:38,368 [INFO]: #  Run the Step: 1|通用|POST|通用-post登录
+2020-11-02 20:35:38,369 [INFO]: #  URL: https://erp.cloudsu.net/yuns/sys/login
+2020-11-02 20:35:38,403 [INFO]: #  BODY: b'{"captcha": "", "checkKey": "", "password": "yuns123", "username": "yuns"}'
+2020-11-02 20:35:38,404 [INFO]: #  status_code: 200
+2020-11-02 20:35:38,405 [INFO]: #  response json: {'success': True, 'message': '登录成功', 'code': 200, 'result': {'multi_depart': 0, 'userInfo': {'id': '1275317290853855233', 'username': 'yuns', 'realname': '云塑管理员', 'avatar': None, 'birthday': None, 'sex': None, 'email': None, 'phone': None, 'orgCode': None, 'status': 1, 'delFlag': '0', 'workNo': 'admin01', 'post': None, 'telephone': None, 'createBy': 'admin', 'createTime': '2020-06-23 14:38:31', 'updateBy': 'yuns', 'updateTime': '2020-08-21 17:42:22', 'activitiSync': '1'}, 'departs': [], 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDQzNjM3NDAsInVzZXJuYW1lIjoieXVucyJ9.kY6WHKqIBdud7r5EjGnE7lAQWLOmlMUlRPIj8rW2_0A'}, 'list': None, 'totalRow': 0, 'statusCount': None, 'timestamp': 1604320540518}
+2020-11-02 20:35:38,406 [INFO]: #  json var: {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDQzNjM3NDAsInVzZXJuYW1lIjoieXVucyJ9.kY6WHKqIBdud7r5EjGnE7lAQWLOmlMUlRPIj8rW2_0A'}
+2020-11-02 20:35:38,407 [INFO]: #  --- success ---
+2020-11-02 20:35:38,608 [INFO]: #  >>> Run the TestCase: main_001|主页面
+2020-11-02 20:35:38,609 [INFO]: #  Run the Step: 1|通用|POST|通用-post登录
+2020-11-02 20:35:38,610 [INFO]: #  URL: https://erp.cloudsu.net/yuns/sys/login
+2020-11-02 20:35:38,643 [INFO]: #  BODY: b'{"captcha": "", "checkKey": "", "password": "yuns123", "username": "yuns"}'
+2020-11-02 20:35:38,644 [INFO]: #  status_code: 200
+2020-11-02 20:35:38,645 [INFO]: #  response json: {'success': True, 'message': '登录成功', 'code': 200, 'result': {'multi_depart': 0, 'userInfo': {'id': '1275317290853855233', 'username': 'yuns', 'realname': '云塑管理员', 'avatar': None, 'birthday': None, 'sex': None, 'email': None, 'phone': None, 'orgCode': None, 'status': 1, 'delFlag': '0', 'workNo': 'admin01', 'post': None, 'telephone': None, 'createBy': 'admin', 'createTime': '2020-06-23 14:38:31', 'updateBy': 'yuns', 'updateTime': '2020-08-21 17:42:22', 'activitiSync': '1'}, 'departs': [], 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDQzNjM3NDAsInVzZXJuYW1lIjoieXVucyJ9.kY6WHKqIBdud7r5EjGnE7lAQWLOmlMUlRPIj8rW2_0A'}, 'list': None, 'totalRow': 0, 'statusCount': None, 'timestamp': 1604320540760}
+2020-11-02 20:35:38,646 [INFO]: #  json var: {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDQzNjM3NDAsInVzZXJuYW1lIjoieXVucyJ9.kY6WHKqIBdud7r5EjGnE7lAQWLOmlMUlRPIj8rW2_0A'}
+2020-11-02 20:35:38,646 [INFO]: #  --- success ---
